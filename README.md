@@ -7,6 +7,6 @@ Team members:
 	- Ekaterina Ruhlin		40000293	katiaruhlin@gmail.com
 	- Christina Nguyen		26330061	christina.phuong.thao.nguyen@hotmail.com
 	- Claudia Confalone		40001967	
-	- Emerald-Jayde Henao		40004358	
+	- Emerald-Jayde Henao		40004358	emeraldjayde@gmail.com
 	- Adam Galati			
 	- Loic Huss			40000298	huss.loic@gmail.com	
