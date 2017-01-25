@@ -8,5 +8,5 @@ Team members:
 	- Christina Nguyen		26330061
 	- Claudia Confalone		40001967
 	- Emerald-Jayde Henao	40004358
-	- Nathan Shummoogum		40004336
-	- Fatin Tazwar Hossain	26989594
+	- Adam Galati			
+	- Loic Huss				
