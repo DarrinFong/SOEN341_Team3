@@ -2,7 +2,7 @@
 
 ##_Team members:_
 
-	- Adam Galati					26944094	galati_etor@msn.com	
+	- Adam Galati					26944094	galati_ator@msn.com	
 	- Christina Phuong-Thao Nguyen	26330061	christina.thao.nguyen@hotmail.com
 	- Claudia Confalone				40001967	confaloneclaudia@gmail.com
 	- Darrin Fong 					27771959	darrinfong@gmail.com
