@@ -5,7 +5,7 @@ Team members:
 	- Darrin Fong 			27771959	darrinfong@gmail.com
 	- Joseph Fallu			27020058	
 	- Ekaterina Ruhlin		40000293	katiaruhlin@gmail.com
-	- Christina Nguyen		26330061	christina.phuong.thao.nguyen@gmail.com
+	- Christina Nguyen		26330061	christina.thao.nguyen@hotmail.com
 	- Claudia Confalone		40001967	confaloneclaudia@gmail.com
 	- Emerald-Jayde Henao		40004358	emeraldjayde@gmail.com
 	- Adam Galati			26944094	galati_etor@msn.com	
