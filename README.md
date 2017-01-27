@@ -1,7 +1,7 @@
 # SOEN341_Team3
-SOEN 341 Project file
 
-Team members:
+##_Team members:_
+
 	- Darrin Fong 			27771959	darrinfong@gmail.com
 	- Joseph Fallu			27020058	
 	- Ekaterina Ruhlin		40000293	katiaruhlin@gmail.com
