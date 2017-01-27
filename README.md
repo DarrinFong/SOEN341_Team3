@@ -9,6 +9,4 @@
 	- Claudia Confalone				40001967	confaloneclaudia@gmail.com
 	- Emerald-Jayde Henao			40004358	emeraldjayde@gmail.com
 	- Adam Galati					26944094	galati_etor@msn.com	
-	- Loic Huss						40000298	huss.loic@gmail.com	
-	- Adam Galati					26944094	galati_ator@msn.com	
-	- Loic Huss						40000298	huss.loic@gmail.com	
+	- Loic Huss						40000298	huss.loic@gmail.com
