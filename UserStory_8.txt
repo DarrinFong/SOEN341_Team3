@@ -1,0 +1,14 @@
+User Story #8
+  
+  As a user, I want to be able to create a save file so that I can save my progress.
+  
+Acceptance Criteria:
+
+  We are able to create a file to save the user's progress.
+  
+Assigned to:
+
+
+Status:
+
+Tasks:
