@@ -3,7 +3,7 @@ User Story #7
   As a user, I want my character to perform an attack/break action.
 
 Acceptance Criteria:
-  The character is attack.
+  The character is able to attack.
   If a breakable obstacle is in the attack's path, break it.
   
 Assigned to:
