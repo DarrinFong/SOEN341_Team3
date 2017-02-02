@@ -7,7 +7,11 @@ Acceptance Criteria:
   
 Assigned to:
 
+Status: To be started
 
-Status:
-
-Tasks:
+Tasks: 
+1.1 Code a landing page with a greeting message and prompt for input
+1.2 Code loading bar
+1.3 Code acceptance test
+1.4 Get it to pass acceptance test
+1.5 Documentation
