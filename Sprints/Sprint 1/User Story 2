@@ -12,4 +12,11 @@ Assigned to: Phuong-Thao
 
 Status:To be started
 
-Tasks: Create a menu bar displaying the different levels. 
+Tasks: 
+
+2.1 Create a menu bar displaying the different levels. 
+2.2 Code Lock all the levels except level 1.
+2.3 Code unlocking of levels
+2.4 Code acceptance test
+2.5 Get it to pass test
+2.6 Documentation
