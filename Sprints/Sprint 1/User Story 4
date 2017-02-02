@@ -5,8 +5,13 @@ User Story 4
 Acceptance Criteria:
   The character is able to move in a cardinal direction.
 
-Assigned to:
+Assigned to: Phuong-Thao
 
-Status:
+Status: To be started
 
-Tasks:
+Tasks: 
+4.1 Create a character. 
+4.2 Allow it to move in a cardinal direction.
+4.3 Code acceptance test 
+4.4 Get it to pass
+4.5 Documentation
