@@ -1,6 +1,6 @@
 User Story #8
   
-  As a user, I want to be able to create a save file so that I can save my progress.
+  As a application user, I want to be able to create a save file so that I can save my progress.
   
 Acceptance Criteria:
 
@@ -9,6 +9,10 @@ Acceptance Criteria:
 Assigned to:
 
 
-Status:
+Status: To be started
 
 Tasks:
+8.1 Code a save file
+8.2 Code acceptance test
+8.3 Get it to pass
+8.4 Documentation
