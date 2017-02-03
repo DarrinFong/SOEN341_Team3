@@ -1,6 +1,6 @@
 User Story 4
 
-  As a user, I want to be able to move my character any direction, such as up, down, left and right.
+  As a appliation user, I want to be able to move my character any direction, such as up, down, left and right.
 
 Acceptance Criteria:
   The character is able to move in a cardinal direction.
