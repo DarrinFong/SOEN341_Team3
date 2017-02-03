@@ -1,6 +1,6 @@
 User Story #10
   
-  As a user, I want to be able to load my save file so that I can have access to the levels I have completed.
+  As a appliation user, I want to be able to load my save file so that I can have access to the levels I have completed.
   
 Acceptance Criteria:
   We are able to load previously save files which allow the user to play accessible levels. 
