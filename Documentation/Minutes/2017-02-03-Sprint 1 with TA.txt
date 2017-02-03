@@ -1,0 +1,25 @@
+Change user stories so that the focus is on the TA (client)
+
+Can you describe the project
+
+Show me the task breakdown (names next to each task of what was done)
+
+Show minutes of previous meetings with atomized points to do for next meeting
+
+
+Next week:
+
+If you are using a database, it should be setup by next week
+
+You have to design an interface
+	Project has to be advanced
+
+Will you be storing information
+	Where are you saving the files
+	Type of container to store the files
+
+User stories that cover how you set up the environment
+
+Have a tag next to issues
+
+Set Up Travis CI

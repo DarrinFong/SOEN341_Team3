@@ -1,0 +1,20 @@
+Date: February 03, 2017
+
+START TIME: 13:25
+STOP TIME:
+
+ATTENDEES PRESENT: Darrin, Ekaterina, Adam, Emerauld, Loic, Christina Phuong-Thao, Joseph, Claudia.
+ATTENDEES ABSENT:
+OBSERVERS PRESENT:
+
+AGENDA:
+	Show the basics of unity
+
+
+Minutes
+	Adam: Shows the basic of Unity's functions and shows how the scripts in C# influence the behaviour of the interface.
+
+
+<<To-Do>>
+	Everyone: Learn the basics of unity by next week
+	Adam: Has to post the tutorials to the documentation section

@@ -1,5 +1,0 @@
-#User Stories - Claudia Confalone
-
--  As a user I would like to have a way to keep track of my progress when learning how to code from my own dashboard.
--  I would like to see what level I am currently at and which ones I have completed. 
--  i would also like to be able to have my own unique id and password.
