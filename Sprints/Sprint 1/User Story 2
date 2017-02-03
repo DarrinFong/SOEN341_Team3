@@ -8,9 +8,15 @@ Acceptance Criteria:
   User can replay passed levels.
   User do not have access to levels they have not yet unlocked.
   
-Assigned to:
+Assigned to: Phuong-Thao
 
+Status:To be started
 
-Status:
+Tasks: 
 
-Tasks:
+2.1 Create a menu bar displaying the different levels. 
+2.2 Code Lock all the levels except level 1.
+2.3 Code unlocking of levels
+2.4 Code acceptance test
+2.5 Get it to pass test
+2.6 Documentation
