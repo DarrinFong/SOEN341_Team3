@@ -1,6 +1,6 @@
 User Story #7
   
-  As a user, I want my character to perform an attack/break action.
+  As a application user, I want my character to perform an attack/break action.
 
 Acceptance Criteria:
   The character is able to attack.
