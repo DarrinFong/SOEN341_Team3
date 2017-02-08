@@ -1,0 +1,31 @@
+Members present: Adam, Claudia, Darrin, Emerald, Joseph, Loic, Phuong-Thao
+Members absent: Ekaterina
+
+Time: 1.5hours
+
+Discussed/Ideas
+
+  - Interface
+  - Set up Travis
+  - Tags
+  - Serializable/Save
+  - User Stories for envireonment
+  - Burndown chart
+  - Tasks
+  - Story points
+  - Create a sandbox after the tutorial
+  
+What was decided
+
+  - Split the team (game, testing/Travis, UI)
+      - Game: Adam, Darrin, Ekaterina
+      - Testing/Travis: Emerald, Phuong-Thao
+      - UI: Claudia, Joseph, Loic
+  
+Todo:
+
+  - Game: Start creating the game
+  - Testing/Travis: Understand Travis, Start code for test
+  - UI: Create menus (ex. Splash Screen/Level Select/Save and Create/Continue/Options)
+ 
+  
