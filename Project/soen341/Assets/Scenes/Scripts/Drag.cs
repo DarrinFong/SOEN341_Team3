@@ -29,14 +29,28 @@ public class Drag : MonoBehaviour, IPointerDownHandler,IDragHandler {
     {
         if (panelRectTransform == null)
             return;
+        Vector2 pointerPosition = ClampToWindow(data);
         Vector2 localPointerPosition;
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
                                     canvasRectTransform, 
-                                    data.position, 
+                                    pointerPosition, 
                                     data.pressEventCamera, 
                                     out localPointerPosition))
         {
             panelRectTransform.localPosition = localPointerPosition - pointerOffset;
         }
+    }
+    Vector2 ClampToWindow(PointerEventData data)
+    {
+        Vector2 rawPointerPosition = data.position;
+
+        Vector3[] canvasCorners = new Vector3[4];
+        canvasRectTransform.GetWorldCorners(canvasCorners);
+
+        float clampedX = Mathf.Clamp(rawPointerPosition.x, canvasCorners[0].x, canvasCorners[2].x);
+        float clampedY = Mathf.Clamp(rawPointerPosition.y, canvasCorners[0].y, canvasCorners[2].y);
+
+        Vector2 newPointerPosition = new Vector2(clampedX, clampedY);
+        return newPointerPosition;
     }
 }
