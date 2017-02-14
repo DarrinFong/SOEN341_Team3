@@ -1,0 +1,279 @@
+[33mcommit a5b79420346050311d6669ae68339a5085703722[m
+Author: Darrin Fong <darrinfong@gmail.com>
+Date:   Tue Feb 14 16:56:35 2017 -0500
+
+    -
+
+[33mcommit 9fbbb5a591ee39464b396348e26139f54d3be27a[m
+Merge: a33d467 24cd2e9
+Author: Darrin Fong <darrinfong@gmail.com>
+Date:   Mon Feb 13 12:57:36 2017 -0500
+
+    Merge branch '#1_created_avatar' of https://github.com/DarrinFong/SOEN341_Team3
+
+[33mcommit 24cd2e9d55cf321f406b61ff018d7fa2a9c4013d[m
+Author: Darrin Fong <darrinfong@gmail.com>
+Date:   Fri Feb 10 16:31:00 2017 -0500
+
+    late update for avatar and base scene
+
+[33mcommit a33d467ad8f406fa413bfa5bec390010e5ffc2ca[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 10 14:14:36 2017 -0500
+
+    Minutes with the TA
+
+[33mcommit efb0c0821aa8f5bf9150a0c595cfd617ac2d6d1d[m
+Author: Darrin Fong <darrinfong@gmail.com>
+Date:   Fri Feb 10 12:51:01 2017 -0500
+
+    added avatar and action plane
+
+[33mcommit 6cbb6979c3e729d079a7a1a9199e5ad0a3b2e649[m
+Author: Emerald-Jayde Henao <emeraldjayde@gmail.com>
+Date:   Fri Feb 10 12:50:48 2017 -0500
+
+    Update Time per Task
+
+[33mcommit 470e37e0fad8db674866163bab57a5d5ae11162b[m
+Author: Emerald-Jayde Henao <emeraldjayde@gmail.com>
+Date:   Fri Feb 10 12:50:13 2017 -0500
+
+    Excel sheet for Burndown Chart
+
+[33mcommit 028b41423f5a97cf73bc6722273417644d8874d1[m
+Author: Emerald-Jayde Henao <emeraldjayde@gmail.com>
+Date:   Fri Feb 10 12:49:22 2017 -0500
+
+    Create Time per Task
+
+[33mcommit d657f0a148a804c4599a2e99da2afb66aa6454d3[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 10 12:48:00 2017 -0500
+
+    Trello link
+
+[33mcommit 00c4f5e40a49757f272d0121271b3af8f16778cd[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 10 12:45:06 2017 -0500
+
+    Trello - Scrum Board
+
+[33mcommit b118b73907249feeb0be5db2edf667e74d9cf806[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 10 12:44:07 2017 -0500
+
+    create folder
+
+[33mcommit 353cac583fe715cfbea386ee9fff3a6586cb39d7[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Thu Feb 9 22:42:15 2017 -0500
+
+    trying out different code
+
+[33mcommit eead5a3d2795530570e4f7f08531df458dc8bc2f[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Thu Feb 9 22:39:30 2017 -0500
+
+    Specification to project
+
+[33mcommit 0956a0a1c45ede2076e76d86667486b4ab68694e[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Thu Feb 9 22:25:13 2017 -0500
+
+    More setting up for Travis
+
+[33mcommit 38d4b451ff128f56f1fec78da14d580f11a676d2[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Thu Feb 9 22:23:24 2017 -0500
+
+    setting up for Travis
+
+[33mcommit c7beb329244e05dad8615043df76cde915daa68d[m
+Author: Adam G <Adam G>
+Date:   Wed Feb 8 22:11:50 2017 -0500
+
+    updating to Unity version 5.5.1
+
+[33mcommit 3143a2c98a9cf0ba59b8b2587fbfe392491606fb[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Wed Feb 8 15:46:11 2017 -0500
+
+    minor change
+
+[33mcommit 40548240417d90a894608c94111dc85850e4ff28[m
+Merge: 67cb036 aa9b543
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Wed Feb 8 13:19:27 2017 -0500
+
+    Merge pull request #31 from DarrinFong/projbranch
+    
+    loading game environment, file setup and settings
+
+[33mcommit 67cb03621d7d700da44d9d58fda1c18487c35e94[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Wed Feb 8 11:02:52 2017 -0500
+
+    2017-02-08 minutes
+
+[33mcommit 958828f2ca32d6b076f4c8193bcec8e2ddd22dc7[m
+Author: Darrin Fong <darrinfong@gmail.com>
+Date:   Wed Feb 8 10:50:46 2017 -0500
+
+    added .travis.yml
+
+[33mcommit aa9b543023bd29b0a08ed9450aacc004331b2393[m
+Author: aagalati <galati_ator@msn.com>
+Date:   Wed Feb 8 10:38:25 2017 -0500
+
+    loading game environment, file setup and settings
+
+[33mcommit cf9500a75c785ea0f28bde7f03c9ab7b7827b07f[m
+Author: Darrin Fong <darrinfong@gmail.com>
+Date:   Wed Feb 8 10:26:26 2017 -0500
+
+    deleted duplicates
+
+[33mcommit 6956ac957bed3288b00f737311f147982fcb8077[m
+Merge: 64f3d16 3482c6c
+Author: Darrin Fong <darrinfong@gmail.com>
+Date:   Fri Feb 3 13:44:44 2017 -0500
+
+    merging christina-6
+
+[33mcommit 64f3d1612c78680f0313e5d673e5cd9a0f96823f[m
+Author: Darrin Fong <darrinfong@gmail.com>
+Date:   Fri Feb 3 13:37:24 2017 -0500
+
+    Added documentation section
+
+[33mcommit 80ade473108e799565350391ae02b7d838399c16[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 10:57:26 2017 -0500
+
+    specific
+
+[33mcommit 43e482a2eef8bc10c0b64f838cf9299c4526b00a[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 10:57:02 2017 -0500
+
+    specific
+
+[33mcommit 5c9c8c00f0c4f17b228afa9deca7d184533c4892[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 10:56:18 2017 -0500
+
+    specific
+
+[33mcommit 58f08b24f1ddc8fb72eed7bdef3ff4498cc5c915[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 10:55:54 2017 -0500
+
+    specific
+
+[33mcommit 419df2a435ecfdfea684befb0f533704f5f32e36[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 10:55:32 2017 -0500
+
+    specific
+
+[33mcommit 357cadb78153b8960dcda351e7f8007a92d2bf85[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 10:55:13 2017 -0500
+
+    specification
+
+[33mcommit cb62ed8dff362a2fcd44a71b2f9df7e0c93513e1[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 10:53:53 2017 -0500
+
+    specific
+
+[33mcommit d57a8500bfd1f08049fcb9ab8e068a57d80f0f80[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 10:53:29 2017 -0500
+
+    specific
+
+[33mcommit 8e0e53cf619c14689508b21aeacb5df7d0c5cb6b[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 10:52:53 2017 -0500
+
+    specific
+
+[33mcommit aca85260c395c6733dbf1172f3155d4a715ca136[m
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 10:51:23 2017 -0500
+
+    Tasks distribution
+
+[33mcommit 4e99cc2bb71d2807447c4e26d82fef8c10f7ff30[m
+Merge: 167bb63 e6ecc4d
+Author: Ekaterina Ruhlin <e_ruhlin@encs.concordia.ca>
+Date:   Fri Feb 3 09:18:24 2017 -0500
+
+    Merge pull request #28 from DarrinFong/aagalati-patch-1
+    
+    add tasks
+
+[33mcommit 167bb634f7ab7c7c19f695333f509bfa6c6c6b05[m
+Merge: 5f43ee6 54b0aaf
+Author: Ekaterina Ruhlin <e_ruhlin@encs.concordia.ca>
+Date:   Fri Feb 3 09:18:11 2017 -0500
+
+    Merge pull request #30 from DarrinFong/aagalati-patch-3
+    
+    Create .gitignore for unity
+
+[33mcommit 5f43ee679504abede07d50c09845a63b95416643[m
+Merge: b2bc7d0 b4ca898
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 09:14:18 2017 -0500
+
+    Merge pull request #29 from DarrinFong/aagalati-patch-2
+    
+    tasks
+
+[33mcommit 54b0aafeb7398ca7f9d0c64aacc43bb5094678c4[m
+Author: Adam Galati <galati_ator@msn.com>
+Date:   Fri Feb 3 09:13:39 2017 -0500
+
+    Create .gitignore
+
+[33mcommit b2bc7d09610a80b9f288406a57618e436071691c[m
+Merge: d470875 5430b50
+Author: Christina Nguyen <ChristinaThao@users.noreply.github.com>
+Date:   Fri Feb 3 09:12:45 2017 -0500
+
+    Merge pull request #13 from DarrinFong/katia
+    
+    Setup unity environment
+
+[33mcommit b4ca8981b9f7d4c7325804f486f1dfec79d24ec2[m
+Author: Adam Galati <galati_ator@msn.com>
+Date:   Fri Feb 3 09:10:58 2017 -0500
+
+    tasks
+
+[33mcommit e6ecc4d5e3a5bef366dee8c2d685c7951caa4da6[m
+Author: Adam Galati <galati_ator@msn.com>
+Date:   Fri Feb 3 09:09:52 2017 -0500
+
+    add tasks
+
+[33mcommit d4708752c4dc337a90d05d68befe9071b598a9ce[m
+Merge: 8bbb3a9 8fb822b
+Author: Emerald-Jayde Henao <emeraldjayde@gmail.com>
+Date:   Fri Feb 3 08:31:35 2017 -0500
+
+    Merge pull request #21 from DarrinFong/ChristinaThao-patch-3
+    
+    Minutes of thid meeting
+
+[33mcommit 8fb822bb35d658905e8ad6e845a6181be9ed84f8[m
+Author: LHuss <huss.loic@gmail.com>
+Date:   Fri Feb 3 08:30:49 2017 -0500
+
+    Completing minutes
+
+[33mcommit 8bbb3a9f83a
