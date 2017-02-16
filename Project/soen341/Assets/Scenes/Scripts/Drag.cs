@@ -17,7 +17,7 @@ public class Drag : MonoBehaviour, IPointerDownHandler,IDragHandler {
         if (canvas != null)
         {
             canvasRectTransform = canvas.transform as RectTransform;
-            panelRectTransform = transform as RectTransform;
+            panelRectTransform = transform.parent as RectTransform;
         }
     }
     public void OnPointerDown(PointerEventData data)
