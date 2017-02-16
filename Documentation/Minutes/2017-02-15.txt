@@ -1,10 +1,11 @@
 Members present Claudia, Darrin, Ekaterina, Emerald, Joseph, Loic, Phuong-Thao
 Members absent: Adam
 
-Duration:
+Duration: 1.5 hour
 
 Discussed:
 
+- Tasks completed and the ones in progress
 - Finalizing user stories and task breakdown (for future sprints)
 - Coding of the link between the animation and the code block
 
