@@ -45,7 +45,6 @@ namespace Assets.Tests
                 pivot = new Vector2(7.5f, 7.5f),
                 sizeDelta = new Vector2(2f, 2f)
             });
-            GivenPointerEventData();
         }
         #region GIVEN
         public void GivenCanvas()
