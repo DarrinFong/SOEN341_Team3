@@ -48,8 +48,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scenes\Scripts\Drag.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
      <Compile Include="Assets\Scenes\Scripts\SaveData.cs" />
      <Compile Include="Assets\Scenes\Scripts\SaveLoad.cs" />
+=======
+     <Compile Include="Assets\Scenes\Scripts\SceneChanger.cs" />
+>>>>>>> 7eb7e35d3d2da84ed7c835579b152b63102563b7
 =======
 >>>>>>> refs/remotes/origin/master
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
