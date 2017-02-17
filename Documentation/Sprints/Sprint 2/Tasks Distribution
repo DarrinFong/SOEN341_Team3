@@ -1,0 +1,27 @@
+Tasks
+
+Documentation
+- User Stories: Adam, Claudia, Darrin, Ekaterina, Emerald, Joseph. Loic and Phuong-Thao (Christina)
+- Tasks Distribution List: Loic and Phuong-Thao (Christina)
+- Records of Work Punch in Template: Ekaterina
+- Burndown Chart: Emerald and Phuong-Thao (Christina)
+- Scrum Board: Adam, Emerald and Phuong-Thao (Christina)
+
+UI
+- Splash Screen: Joseph
+- Main Menu: Joseph
+- Save/Load page: Claudia
+- Save function: Claudia
+- Added multiple save files and accounts names for the save/load page: Loic
+
+Game
+- Avatar and game board: Darrin
+- Avatar moving function: Darrin
+- Game window display: Ekaterina
+- Drag and drop: Ekaterina
+- Move right function: Ekaterina
+- Grid creation and collision mask: Adam
+
+Testing
+- Setting up Travis: Emerald, Loic and Phuong-Thao (Christina)
+  - Change to using a different way to perform continuous testing (Travis does not work properly with Unity3d)
