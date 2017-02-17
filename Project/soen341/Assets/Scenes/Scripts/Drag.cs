@@ -17,7 +17,7 @@ public class Drag : MonoBehaviour, IPointerDownHandler,IDragHandler {
         if (canvas != null)
         {
             canvasRectTransform = canvas.transform as RectTransform;
-            panelRectTransform = transform as RectTransform;
+            panelRectTransform = transform.parent as RectTransform;
         }
     }
     public void OnPointerDown(PointerEventData data)
@@ -39,6 +39,24 @@ public class Drag : MonoBehaviour, IPointerDownHandler,IDragHandler {
         {
             panelRectTransform.localPosition = localPointerPosition - pointerOffset;
         }
+    }
+    public void Update()
+    {
+        ClampToWindow();
+    }
+    public void ClampToWindow()
+    {
+
+        Vector3 pos = panelRectTransform.localPosition;
+
+        Vector3 minPosition = canvasRectTransform.rect.min - panelRectTransform.rect.min;
+        Vector3 maxPosition = canvasRectTransform.rect.max - panelRectTransform.rect.max;
+
+        pos.x = Mathf.Clamp(panelRectTransform.localPosition.x
+            , minPosition.x, maxPosition.x);
+        pos.y = Mathf.Clamp(panelRectTransform.localPosition.y
+            , minPosition.y, maxPosition.y);
+        panelRectTransform.localPosition = pos;
     }
     Vector2 ClampToWindow(PointerEventData data)
     {
