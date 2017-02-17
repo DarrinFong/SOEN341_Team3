@@ -3,11 +3,13 @@ using System.Collections.Generic;
 
 public class SimpleCharacterControl : MonoBehaviour {
 
-    private enum ControlMode
-    {
-        Tank,
-        Direct
-    }
+	// m_animator.SetTrigger("Jump");
+	// m_animator.SetTrigger("Land");
+
+	private enum ControlMode
+	{
+		Tank
+	}
 
     [SerializeField] private float m_moveSpeed = 2;
     [SerializeField] private float m_turnSpeed = 200;
@@ -15,7 +17,7 @@ public class SimpleCharacterControl : MonoBehaviour {
 	[SerializeField] private Animator m_animator;
     [SerializeField] private Rigidbody m_rigidBody;
 
-    [SerializeField] private ControlMode m_controlMode = ControlMode.Direct;
+    private ControlMode m_controlMode = ControlMode.Tank;
 
     private float m_currentV = 0;
     private float m_currentH = 0;
@@ -92,10 +94,6 @@ public class SimpleCharacterControl : MonoBehaviour {
 
         switch(m_controlMode)
         {
-            case ControlMode.Direct:
-                DirectUpdate();
-                break;
-
             case ControlMode.Tank:
                 TankUpdate();
                 break;
@@ -108,12 +106,17 @@ public class SimpleCharacterControl : MonoBehaviour {
         m_wasGrounded = m_isGrounded;
     }
 
+	public void right(){
+		transform.Rotate(0, 90, 0);
+		transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
+	}
+
     private void TankUpdate()
     {
         float v = Input.GetAxis("Vertical");
         float h = Input.GetAxis("Horizontal");
 
-        bool walk = Input.GetKey(KeyCode.LeftShift);
+        bool walk = true;
 
         if (v < 0) {
             if (walk) { v *= m_backwardsWalkScale; }
@@ -123,48 +126,13 @@ public class SimpleCharacterControl : MonoBehaviour {
             v *= m_walkScale;
         }
 
-        m_currentV = Mathf.Lerp(m_currentV, v, Time.deltaTime * m_interpolation);
-        m_currentH = Mathf.Lerp(m_currentH, h, Time.deltaTime * m_interpolation);
+        m_currentV = Mathf.Lerp(m_currentV, v, m_interpolation);
+        m_currentH = Mathf.Lerp(m_currentH, h, m_interpolation);
 
-        transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
-        transform.Rotate(0, m_currentH * m_turnSpeed * Time.deltaTime, 0);
+        //transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
+        //transform.Rotate(0, m_currentH * m_turnSpeed * Time.deltaTime, 0);
 
         m_animator.SetFloat("MoveSpeed", m_currentV);
-
-        JumpingAndLanding();
-    }
-
-    private void DirectUpdate()
-    {
-        float v = Input.GetAxis("Vertical");
-        float h = Input.GetAxis("Horizontal");
-
-        Transform camera = Camera.main.transform;
-
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            v *= m_walkScale;
-            h *= m_walkScale;
-        }
-
-        m_currentV = Mathf.Lerp(m_currentV, v, Time.deltaTime * m_interpolation);
-        m_currentH = Mathf.Lerp(m_currentH, h, Time.deltaTime * m_interpolation);
-
-        Vector3 direction = camera.forward * m_currentV + camera.right * m_currentH;
-
-        float directionLength = direction.magnitude;
-        direction.y = 0;
-        direction = direction.normalized * directionLength;
-
-        if(direction != Vector3.zero)
-        {
-            m_currentDirection = Vector3.Slerp(m_currentDirection, direction, Time.deltaTime * m_interpolation);
-
-            transform.rotation = Quaternion.LookRotation(m_currentDirection);
-            transform.position += m_currentDirection * m_moveSpeed * Time.deltaTime;
-
-            m_animator.SetFloat("MoveSpeed", direction.magnitude);
-        }
 
         JumpingAndLanding();
     }
