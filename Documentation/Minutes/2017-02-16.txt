@@ -1,0 +1,17 @@
+Members present Adam, Emerald,  Loic, Phuong-Thao
+Members absent: Claudia, Darrin, Ekaterina, Joseph,
+
+Duration: 1 hour
+
+Discussed:
+
+- Discussed and finalized burndown chart format
+- Adding backlog stories and backlog tasks for the Game team
+- Issues with TravisCI and Unity/C#
+	  -Travis does not support Unity and C#, we searched and discussed an alternative.
+
+
+To do:
+- Research more alternatives to TravisCI 
+- Implement alternative to TravisCI
+- Enter what has been done into the burndown chart as of today
