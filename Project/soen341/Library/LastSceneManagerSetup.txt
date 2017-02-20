@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/SaveLoadMenu.unity
-=======
-- path: Assets/Scenes/SplashScreen.unity
->>>>>>> 7eb7e35d3d2da84ed7c835579b152b63102563b7
+- path: Assets/Scenes/empty scene.unity
   isLoaded: 1
   isActive: 1
