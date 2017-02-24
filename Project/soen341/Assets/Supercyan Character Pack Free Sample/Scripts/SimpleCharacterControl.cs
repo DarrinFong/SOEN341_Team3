@@ -105,21 +105,53 @@ public class SimpleCharacterControl : MonoBehaviour {
         m_wasGrounded = m_isGrounded;
     }
 
-	public void right(){
-		transform.Rotate(0, 90, 0);
-		transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
+    public static char[] actionSequence = new char[100];
+    public static int actionPointer = 0;
+
+	public void right()
+    {
+        print("dickbutt right, pointer: " + actionPointer);
+        actionSequence[actionPointer] = 'r';
+        actionPointer++;
 	}
 
     public void forward()
     {
-        transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
+        print("dickbutt forward, pointer: " + actionPointer);
+        actionSequence[actionPointer] = 'f';
+        actionPointer++;
+    }
+
+    float v = 0;
+    float h = 0;
+
+    public void runCode()
+    {
+        for(int action = 0; action < actionPointer; action++)
+        {
+            var stopwatch = new System.Diagnostics.Stopwatch();
+            stopwatch.Start();
+            while (stopwatch.Elapsed < System.TimeSpan.FromSeconds(5))
+            {
+                switch (actionSequence[action])
+                {
+                    case 'f':
+                        v = 1.0f;
+                        break;
+                    case 'r':
+                        h = 1.0f;
+                        break;
+                    default:
+                        v = 0.0f;
+                        h = 0.0f;
+                }
+            }
+        }
+        print("end of actions");
     }
 
     private void TankUpdate()
-    {
-        float v = Input.GetAxis("Vertical");
-        float h = Input.GetAxis("Horizontal");
-
+    {   
         bool walk = true;
 
         if (v < 0) {
@@ -133,8 +165,8 @@ public class SimpleCharacterControl : MonoBehaviour {
         m_currentV = Mathf.Lerp(m_currentV, v, m_interpolation);
         m_currentH = Mathf.Lerp(m_currentH, h, m_interpolation);
 
-        //transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
-        //transform.Rotate(0, m_currentH * m_turnSpeed * Time.deltaTime, 0);
+        transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
+        transform.Rotate(0, m_currentH * m_turnSpeed * Time.deltaTime, 0);
 
         m_animator.SetFloat("MoveSpeed", m_currentV);
 

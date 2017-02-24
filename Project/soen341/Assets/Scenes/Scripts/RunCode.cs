@@ -16,5 +16,7 @@ public class RunCode : MonoBehaviour
     public void clicked()
     {
         print("run code");
+        SimpleCharacterControl sc = GameObject.FindObjectOfType<SimpleCharacterControl>();
+        sc.runCode();
     }
 }
