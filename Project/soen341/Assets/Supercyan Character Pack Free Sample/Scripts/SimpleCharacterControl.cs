@@ -88,7 +88,7 @@ public class SimpleCharacterControl : MonoBehaviour {
         }
         if (m_collisions.Count == 0) { m_isGrounded = false; }
     }
-
+    
 	void Update () {
         m_animator.SetBool("Grounded", m_isGrounded);
 
@@ -102,7 +102,6 @@ public class SimpleCharacterControl : MonoBehaviour {
                 Debug.LogError("Unsupported state");
                 break;
         }
-
         m_wasGrounded = m_isGrounded;
     }
 
@@ -110,6 +109,11 @@ public class SimpleCharacterControl : MonoBehaviour {
 		transform.Rotate(0, 90, 0);
 		transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
 	}
+
+    public void forward()
+    {
+        transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
+    }
 
     private void TankUpdate()
     {
