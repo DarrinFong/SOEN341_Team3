@@ -14,7 +14,9 @@ Discussed/Ideas
   - Tasks
   - Story points
   - Create a sandbox after the tutorial
-  
+  - Discussed and reviewed the game environment, functionalities
+  - Landing page, main menu implementation
+
 What was decided
 
   - Split the team (game, testing/Travis, UI)

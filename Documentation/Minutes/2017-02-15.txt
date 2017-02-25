@@ -8,6 +8,8 @@ Discussed:
 - Tasks completed and the ones in progress
 - Finalizing user stories and task breakdown (for future sprints)
 - Coding of the link between the animation and the code block
+- Disscuss and decide on implementation and UI of Drag and drop 
+- Disscussed Save page and save method implementation
 
 
 To do:
