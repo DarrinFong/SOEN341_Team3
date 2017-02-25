@@ -122,32 +122,53 @@ public class SimpleCharacterControl : MonoBehaviour {
         actionPointer++;
     }
 
+    public void runCode()
+    {
+        StartCoroutine(runActions(1));
+    }
+
     float v = 0;
     float h = 0;
 
-    public void runCode()
+    public System.Collections.IEnumerator runActions(int Whatever)
     {
-        for(int action = 0; action < actionPointer; action++)
+        Vector3 initialPosition = transform.position;
+        Vector3 initialRotation = transform.eulerAngles;
+        for (int action = 0; action < actionPointer; action++)
         {
-            var stopwatch = new System.Diagnostics.Stopwatch();
-            stopwatch.Start();
-            while (stopwatch.Elapsed < System.TimeSpan.FromSeconds(5))
+            Vector3 positionBeforeAction = transform.position;
+            Vector3 rotationBeforeAction = transform.eulerAngles;
+            switch (actionSequence[action])
             {
-                switch (actionSequence[action])
-                {
-                    case 'f':
-                        v = 1.0f;
-                        break;
-                    case 'r':
+                case 'f':
+                    while (System.Math.Abs(positionBeforeAction.x - transform.position.x) < 0.9889f && System.Math.Abs(positionBeforeAction.z - transform.position.z) < 0.9889f)
+                    {
+                        v = 1f;
+                        yield return new WaitForSeconds(0);
+                    }
+                    print("position - x: " + (float)(System.Math.Round(transform.position.x, 0) + 0.3) + ", y: " + (float)(System.Math.Round(transform.position.z, 0) + 0.3));
+                    transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)+0.3), 0, (float)(System.Math.Round(transform.position.z, 0)+0.3));
+                    break;
+                case 'r':
+                    while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y) < 89)
+                    {
                         h = 1.0f;
-                        break;
-                    default:
-                        v = 0.0f;
-                        h = 0.0f;
-                }
+                        yield return new WaitForSeconds(0);
+                    }
+                    print("angle: " + (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100));
+                    transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
+                    break;
+                default:
+                    h = 0.0f;
+                    v = 0.0f;
+                    break;
             }
+            v = 0.0f;
+            h = 0.0f;
         }
         print("end of actions");
+        transform.position = initialPosition;
+        transform.eulerAngles = initialRotation;
     }
 
     private void TankUpdate()
@@ -157,7 +178,8 @@ public class SimpleCharacterControl : MonoBehaviour {
         if (v < 0) {
             if (walk) { v *= m_backwardsWalkScale; }
             else { v *= m_backwardRunScale; }
-        } else if(walk)
+        }
+        else if(walk)
         {
             v *= m_walkScale;
         }
