@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scenes\Scripts\CharacterActions.cs" />
     <Compile Include="Assets\Scenes\Scripts\CharacterForward.cs" />
     <Compile Include="Assets\Scenes\Scripts\CharacterRight.cs" />
+    <Compile Include="Assets\Scenes\Scripts\ClearActions.cs" />
     <Compile Include="Assets\Scenes\Scripts\Drag.cs" />
     <Compile Include="Assets\Scenes\Scripts\RunCode.cs" />
     <Compile Include="Assets\Scenes\Scripts\SaveData.cs" />
