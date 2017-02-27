@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 
 public class SimpleCharacterControl : MonoBehaviour {
-
-	// m_animator.SetTrigger("Jump");
-	// m_animator.SetTrigger("Land");
-
+    
 	private enum ControlMode
 	{
 		Tank
@@ -35,6 +32,19 @@ public class SimpleCharacterControl : MonoBehaviour {
 
     private bool m_isGrounded;
     private List<Collider> m_collisions = new List<Collider>();
+    
+    float v = 0;
+    float h = 0;
+
+    public void setV(float newV)
+    {
+        v = newV;
+    }
+
+    public void setH(float newH)
+    {
+        h = newH;
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -105,75 +115,9 @@ public class SimpleCharacterControl : MonoBehaviour {
         m_wasGrounded = m_isGrounded;
     }
 
-    public static char[] actionSequence = new char[100];
-    public static int actionPointer = 0;
-
-	public void right()
-    {
-        print("dickbutt right, pointer: " + actionPointer);
-        actionSequence[actionPointer] = 'r';
-        actionPointer++;
-	}
-
-    public void forward()
-    {
-        print("dickbutt forward, pointer: " + actionPointer);
-        actionSequence[actionPointer] = 'f';
-        actionPointer++;
-    }
-
-    public void runCode()
-    {
-        StartCoroutine(runActions(1));
-    }
-
-    float v = 0;
-    float h = 0;
-
-    public System.Collections.IEnumerator runActions(int Whatever)
-    {
-        Vector3 initialPosition = transform.position;
-        Vector3 initialRotation = transform.eulerAngles;
-        for (int action = 0; action < actionPointer; action++)
-        {
-            Vector3 positionBeforeAction = transform.position;
-            Vector3 rotationBeforeAction = transform.eulerAngles;
-            switch (actionSequence[action])
-            {
-                case 'f':
-                    while (System.Math.Abs(positionBeforeAction.x - transform.position.x) < 0.9889f && System.Math.Abs(positionBeforeAction.z - transform.position.z) < 0.9889f)
-                    {
-                        v = 1f;
-                        yield return new WaitForSeconds(0);
-                    }
-                    print("position - x: " + (float)(System.Math.Round(transform.position.x, 0) + 0.3) + ", y: " + (float)(System.Math.Round(transform.position.z, 0) + 0.3));
-                    transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)+0.3), 0, (float)(System.Math.Round(transform.position.z, 0)+0.3));
-                    break;
-                case 'r':
-                    while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y) < 89)
-                    {
-                        h = 1.0f;
-                        yield return new WaitForSeconds(0);
-                    }
-                    print("angle: " + (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100));
-                    transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
-                    break;
-                default:
-                    h = 0.0f;
-                    v = 0.0f;
-                    break;
-            }
-            v = 0.0f;
-            h = 0.0f;
-        }
-        print("end of actions");
-        transform.position = initialPosition;
-        transform.eulerAngles = initialRotation;
-    }
-
     private void TankUpdate()
     {   
-        bool walk = true;
+        bool walk = false;
 
         if (v < 0) {
             if (walk) { v *= m_backwardsWalkScale; }
