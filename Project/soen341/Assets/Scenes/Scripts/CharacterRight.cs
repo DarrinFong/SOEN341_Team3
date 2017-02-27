@@ -14,7 +14,7 @@ public class CharacterRight : MonoBehaviour {
     public void clicked()
     {
         print("right");
-        SimpleCharacterControl sc = GameObject.FindObjectOfType<SimpleCharacterControl>();
-        sc.right();
+        CharacterActions charController = GameObject.FindObjectOfType<CharacterActions>();
+        charController.right();
     }
 }
