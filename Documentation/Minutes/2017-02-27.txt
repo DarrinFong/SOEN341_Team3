@@ -1,0 +1,8 @@
+Team meeting 27/02/2017
+
+Team members present: Loic, Emerald, Ekaterina
+
+Disscussing some goals for sprint 3 and team organization:
+ - Unit testing: Emerald and Christina will be making unit tests to test the correct functioning of the level save system
+ - Travis: Impossible to test all the unity project since it is not supported in Travis therefore, we only test our C# scripts
+ - In game UI: Create copy button on code blocks so user can execute an action multiple times

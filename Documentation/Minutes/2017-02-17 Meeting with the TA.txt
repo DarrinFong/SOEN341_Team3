@@ -1,0 +1,12 @@
+First, show GUI, save/load file, sprint plan, task distribution, 
+
+Update Github description to show how this'll be useful for the TA + Email it to the TA
+Have tools, softwares and plugins planned to be used for the scope of the project
+Email updated description to TA: T_dittim@encs.concordia.ca
+
+Next Sprint (3 weeks):
+-GUI
+-Features (50, 60%)
+-Test Cases 
+-TA view, Student view
+-That will be all.
