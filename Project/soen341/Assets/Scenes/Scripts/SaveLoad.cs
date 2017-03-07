@@ -8,70 +8,116 @@ using System.Linq;
 
 public class SaveLoad : MonoBehaviour
 {
-    public SaveData[] saves = new SaveData[3];
-    public void initializeSaveFiles()
+  /**  public void NewGame(SaveInfo save)
     {
-        string[] saveFiles = Directory.GetFiles(Application.persistentDataPath, "*.gd");
-        for (int i = 0; i < saves.Count() && i < saveFiles.Count(); i++)
+        if (name.text == "" || name.text == null)
         {
-            BinaryFormatter bf = new BinaryFormatter();
-            FileStream file = File.Open(saveFiles[i], FileMode.Open);
-            saves[i] = (SaveData)bf.Deserialize(file);
-            file.Close();
-        }
-        SaveData.current = saves[0];
-    }
-
-    public void NewGame(InputField name)
-    {
-        initializeSaveFiles();
-
-        if (name.text == "" || name.text == null) {
             Debug.Log("Please enter player name!");
             return;
         }
-        int newIndex = -1;
-        for (int i=0; i<saves.Count(); i++)
+        else
         {
-            if (saves[i].saveName == "")
-            {
-                newIndex = i;
-                break;
-            }
+            SaveData.save1 = new SaveInfo(name.text);
+            SaveData.active = SaveData.save1;
+            Debug.Log(SaveData.active.saveName);
+            GameObject.Find("Load").GetComponentInChildren<Text>().text = "Load " + SaveData.active.saveName;
         }
-        if (newIndex < 0)
+    }**/
+
+    public void saveLoad(InputField name, int saveNum)
+    {
+        if (name.text == "" || name.text == null)
         {
-            Debug.Log("No more save spots!");
+            Debug.Log("Please enter player name!");
+            return;
         }
         else
         {
-            SaveData.current = new SaveData(name.text);
-            saves[newIndex] = SaveData.current;
-            Debug.Log(SaveData.current.saveName);
+            switch (saveNum)
+            {
+                case 1:
+                    SaveData.current.save1 = new SaveInfo(name.text);
+                    SaveData.current.active = SaveData.current.save1;
+                    GameObject.Find("Save1").GetComponentInChildren<Text>().text = "Load " + SaveData.current.active.saveName;
+                    break;
+                case 2:
+                    SaveData.current.save2 = new SaveInfo(name.text);
+                    SaveData.current.active = SaveData.current.save2;
+                    GameObject.Find("Save2").GetComponentInChildren<Text>().text = "Load " + SaveData.current.active.saveName;
+                    break;
+                case 3:
+                    SaveData.current.save3 = new SaveInfo(name.text);
+                    SaveData.current.active = SaveData.current.save3;
+                    GameObject.Find("Save3").GetComponentInChildren<Text>().text = "Load " + SaveData.current.active.saveName;
+                    break;
+                default:
+                    Debug.Log("Error in saveLoad. Invalid save number.");
+                    break;
+            }
+
+            Debug.Log(SaveData.current.active.saveName);
             Save();
         }
+        
     }
 
-    public string getCurrentFile()
+    public void saveLoad1(InputField name)
     {
-        return Application.persistentDataPath + "/" + SaveData.current.saveName + ".gd";
+        saveLoad(name, 1);
+    }
+
+    public void saveLoad2(InputField name)
+    {
+        saveLoad(name, 2);
+    }
+
+    public void saveLoad3(InputField name)
+    {
+        saveLoad(name, 3);
+    }
+
+    public string getSavePath()
+    {
+        return Application.persistentDataPath + "/SaveData.gd";
     }
 
     public void Save()
     {
         BinaryFormatter bf = new BinaryFormatter();
-        FileStream file = File.Create(getCurrentFile());
+        FileStream file = File.Create(getSavePath());
         bf.Serialize(file, SaveData.current);
         file.Close();
     }
 
     public void Load()
-    {
-        string curFile = getCurrentFile();
+    {       
 
+    }
+
+    public void Start()
+    {
         BinaryFormatter bf = new BinaryFormatter();
-        FileStream file = File.Open(curFile, FileMode.Open);
-        SaveData.current = (SaveData)bf.Deserialize(file);
-        Debug.Log(SaveData.current.saveName);        
+        if (File.Exists(getSavePath()))
+        {
+            FileStream file = File.Open(getSavePath(), FileMode.Open);
+            SaveData.current = (SaveData)bf.Deserialize(file);
+            file.Close();
+        }
+        else
+        {
+            FileStream file = File.Create(getSavePath());
+            if (SaveData.current != null)
+                bf.Serialize(file, SaveData.current);
+            else
+                bf.Serialize(file, new SaveData());
+            file.Close();
+        }
+
+        if(SaveData.current.save1 != null)
+            GameObject.Find("Save1").GetComponentInChildren<Text>().text = "Load " + SaveData.current.save1.saveName ?? "Save Slot 1";
+        if(SaveData.current.save2 != null)
+            GameObject.Find("Save2").GetComponentInChildren<Text>().text = "Load " + SaveData.current.save2.saveName ?? "Save Slot 2";
+        if(SaveData.current.save3 != null)
+            GameObject.Find("Save3").GetComponentInChildren<Text>().text = "Load " + SaveData.current.save3.saveName ?? "Save Slot 3";
     }
 }
