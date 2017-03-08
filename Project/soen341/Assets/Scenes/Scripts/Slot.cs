@@ -16,8 +16,8 @@ public class Slot : MonoBehaviour, IDropHandler {
             print("I'm in OnDrop");
             DragHandler.itemBeingDragged.transform.SetParent(transform);
             ExecuteEvents.ExecuteHierarchy<IHasChanged>(gameObject, null, (x, y) => x.HasChanged());
-            /*CodeSequence codeSequenceChange = new CodeSequence();
-            codeSequenceChange.HasChanged();*/
+            CodeSequence codeSequence = GameObject.FindObjectOfType<CodeSequence>();
+            codeSequence.HasChanged();
         }
     }
 }

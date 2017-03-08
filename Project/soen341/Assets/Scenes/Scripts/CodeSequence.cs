@@ -1,19 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class CodeSequence : MonoBehaviour {
-    Transform slots;
+    [SerializeField]Transform slots;
     public static string CodeblocksSequence;
 	// Use this for initialization
 	void Start () {
-        HasChanged();
 	}
 
     public void HasChanged()
     {
-        print("I'm in has changed");
+        print("shit");
         System.Text.StringBuilder builder = new System.Text.StringBuilder();
         builder.Append(",");
         foreach (Transform slotTransform in slots) {

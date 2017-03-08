@@ -18,9 +18,9 @@ public class RunCode : MonoBehaviour
         print("run code");
         CharacterActions charController = GameObject.FindObjectOfType<CharacterActions>();
         string sequence = CodeSequence.CodeblocksSequence;
-        print(sequence);
-        string[] sequenceArray = sequence.Split(',');
-        foreach (string item in sequenceArray)
+        print(CodeSequence.CodeblocksSequence);
+        //string[] sequenceArray = sequence.Split(',');
+        /*foreach (string item in sequenceArray)
         {
             switch (item)
             {
@@ -30,6 +30,6 @@ public class RunCode : MonoBehaviour
                     break;
             }
         }
-        charController.runCode();
+        charController.runCode();*/
     }
 }
