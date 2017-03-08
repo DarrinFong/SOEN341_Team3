@@ -16,5 +16,6 @@ public class CharacterForward : MonoBehaviour {
         print("forward");
         CharacterActions charController = GameObject.FindObjectOfType<CharacterActions>();
         charController.forward();
+        
     }
 }
