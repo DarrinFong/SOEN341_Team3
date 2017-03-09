@@ -6,9 +6,7 @@ public class SaveData
 {
     public static SaveData current;
     public SaveInfo active;
-    public SaveInfo save1;
-    public SaveInfo save2;
-    public SaveInfo save3;
+    public SaveInfo[] saves = new SaveInfo[3];
 
     public SaveData() { }
 }
