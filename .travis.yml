@@ -1,8 +1,8 @@
-language: objective-c
-osx_image: xcode61
-rvm:
-- 2.1.2
+language: csharp
+solution: soen341.sln
 install:
-- ./Scripts/install.sh
+  - nuget restore soen341.sln
+  - nuget install NUnit.Runners -Version 3.6.1 -OutputDirectory testrunner
 script:
-- ./Scripts/build.sh
+  - xbuild /p:Configuration=Debug soen341.sln
+  - mono ./testrunner/NUnit.Runners.3.6.1/tools/nunit-console.exe ./soen341Tests/bin/Debug/soen341Tests.dll
