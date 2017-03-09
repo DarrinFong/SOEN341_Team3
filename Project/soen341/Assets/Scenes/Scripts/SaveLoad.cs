@@ -8,77 +8,73 @@ using System.Linq;
 
 public class SaveLoad : MonoBehaviour
 {
-  /**  public void NewGame(SaveInfo save)
+    private static GameObject usernamePanel;
+    private static GameObject savesPanel;
+    private static bool hasStarted;
+    private int currentSaveNum;
+
+    public void saveLoad(int saveNum)
     {
-        if (name.text == "" || name.text == null)
+        currentSaveNum = saveNum;
+
+        if (SaveData.current.saves[currentSaveNum] != null)
         {
-            Debug.Log("Please enter player name!");
-            return;
+            SaveData.current.active = SaveData.current.saves[currentSaveNum];
+            loadSave();
         }
         else
-        {
-            SaveData.save1 = new SaveInfo(name.text);
-            SaveData.active = SaveData.save1;
-            Debug.Log(SaveData.active.saveName);
-            GameObject.Find("Load").GetComponentInChildren<Text>().text = "Load " + SaveData.active.saveName;
-        }
-    }**/
+            promptUsername();
 
-    public void saveLoad(InputField name, int saveNum)
+    }
+
+    public void promptUsername()
     {
-        if (name.text == "" || name.text == null)
+        SaveLoad.savesPanel.gameObject.SetActive(false);
+        SaveLoad.usernamePanel.gameObject.SetActive(true);
+    }
+
+    public void cancelUsername(InputField name)
+    {
+        name.text = null;
+        SaveLoad.usernamePanel.gameObject.SetActive(false);
+        SaveLoad.savesPanel.gameObject.SetActive(true);
+        populateLoadButtons();
+    }
+
+    public void saveUsername(InputField name)
+    {
+        string userName = name.text.Trim();
+        if (userName != "" && userName != null)
         {
-            Debug.Log("Please enter player name!");
-            return;
+            SaveData.current.saves[currentSaveNum] = new SaveInfo(userName);
+            SaveData.current.active = SaveData.current.saves[currentSaveNum];
+            loadSave();
         }
         else
-        {
-            switch (saveNum)
-            {
-                case 1:
-                    SaveData.current.save1 = new SaveInfo(name.text);
-                    SaveData.current.active = SaveData.current.save1;
-                    GameObject.Find("Save1").GetComponentInChildren<Text>().text = "Load " + SaveData.current.active.saveName;
-                    break;
-                case 2:
-                    SaveData.current.save2 = new SaveInfo(name.text);
-                    SaveData.current.active = SaveData.current.save2;
-                    GameObject.Find("Save2").GetComponentInChildren<Text>().text = "Load " + SaveData.current.active.saveName;
-                    break;
-                case 3:
-                    SaveData.current.save3 = new SaveInfo(name.text);
-                    SaveData.current.active = SaveData.current.save3;
-                    GameObject.Find("Save3").GetComponentInChildren<Text>().text = "Load " + SaveData.current.active.saveName;
-                    break;
-                default:
-                    Debug.Log("Error in saveLoad. Invalid save number.");
-                    break;
-            }
-
-            Debug.Log(SaveData.current.active.saveName);
-            Save();
-        }
-        
+            Debug.Log("Tell this dickhead to input a valid username");
     }
 
-    public void saveLoad1(InputField name)
+    public void loadSave()
     {
-        saveLoad(name, 1);
-    }
-
-    public void saveLoad2(InputField name)
-    {
-        saveLoad(name, 2);
-    }
-
-    public void saveLoad3(InputField name)
-    {
-        saveLoad(name, 3);
+        Save();
+        Debug.Log("Loading : " + SaveData.current.active.saveName);
+        //change scene to main menu, using data from SavaData.current.active
     }
 
     public string getSavePath()
     {
         return Application.persistentDataPath + "/SaveData.gd";
+    }
+
+    public void populateLoadButtons()
+    {
+        if (SaveData.current.saves[0] != null)
+            GameObject.Find("Save0").GetComponentInChildren<Text>().text = "Load " + SaveData.current.saves[0].saveName;
+        if (SaveData.current.saves[1] != null)
+            GameObject.Find("Save1").GetComponentInChildren<Text>().text = "Load " + SaveData.current.saves[1].saveName;
+        if (SaveData.current.saves[2] != null)
+            GameObject.Find("Save2").GetComponentInChildren<Text>().text = "Load " + SaveData.current.saves[2].saveName;
+        
     }
 
     public void Save()
@@ -89,35 +85,33 @@ public class SaveLoad : MonoBehaviour
         file.Close();
     }
 
-    public void Load()
-    {       
-
-    }
-
     public void Start()
     {
-        BinaryFormatter bf = new BinaryFormatter();
-        if (File.Exists(getSavePath()))
+        if(!hasStarted)
         {
-            FileStream file = File.Open(getSavePath(), FileMode.Open);
-            SaveData.current = (SaveData)bf.Deserialize(file);
-            file.Close();
-        }
-        else
-        {
-            FileStream file = File.Create(getSavePath());
-            if (SaveData.current != null)
-                bf.Serialize(file, SaveData.current);
+            SaveLoad.hasStarted = true;
+            SaveLoad.savesPanel = GameObject.Find("SavesPanel");
+            SaveLoad.usernamePanel = GameObject.Find("UsernamePanel");
+            SaveLoad.usernamePanel.gameObject.SetActive(false);
+            BinaryFormatter bf = new BinaryFormatter();
+            if (File.Exists(getSavePath()))
+            {
+                FileStream file = File.Open(getSavePath(), FileMode.Open);
+                SaveData.current = (SaveData)bf.Deserialize(file);
+                file.Close();
+            }
             else
-                bf.Serialize(file, new SaveData());
-            file.Close();
-        }
+            {
+                FileStream file = File.Create(getSavePath());
+                if (SaveData.current != null)
+                    bf.Serialize(file, SaveData.current);
+                else
+                    bf.Serialize(file, new SaveData());
+                file.Close();
+                SaveData.current = new SaveData();
+            }
 
-        if(SaveData.current.save1 != null)
-            GameObject.Find("Save1").GetComponentInChildren<Text>().text = "Load " + SaveData.current.save1.saveName ?? "Save Slot 1";
-        if(SaveData.current.save2 != null)
-            GameObject.Find("Save2").GetComponentInChildren<Text>().text = "Load " + SaveData.current.save2.saveName ?? "Save Slot 2";
-        if(SaveData.current.save3 != null)
-            GameObject.Find("Save3").GetComponentInChildren<Text>().text = "Load " + SaveData.current.save3.saveName ?? "Save Slot 3";
+            populateLoadButtons();
+        }
     }
 }
