@@ -237,7 +237,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Save
+  m_Text: 'Continue
+
+'
 --- !u!222 &295323446
 CanvasRenderer:
   m_ObjectHideFlags: 0
