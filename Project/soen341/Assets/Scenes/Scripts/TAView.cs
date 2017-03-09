@@ -47,7 +47,7 @@ public class TAView : MonoBehaviour {
         }
         if (SaveData.current.saves[2] != null) {
             totalSaves++;
-            average += SaveData.current.saves[3].highestLevel;
+            average += SaveData.current.saves[2].highestLevel;
             GameObject.Find("P3").GetComponentInChildren<Text>().text = "Student Name: " + SaveData.current.saves[2].saveName +
                                                                          "\nHighest Level: " + SaveData.current.saves[2].highestLevel +
                                                                          "\nCurrent Level:" + SaveData.current.saves[2].lastLevel + "\nTotal play time:";

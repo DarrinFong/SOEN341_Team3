@@ -5,6 +5,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class SaveLoad : MonoBehaviour
 {
@@ -51,12 +52,13 @@ public class SaveLoad : MonoBehaviour
             loadSave();
         }
         else
-            Debug.Log("Tell this dickhead to input a valid username");
+            Debug.Log("Input a valid username");
     }
 
     public void loadSave()
     {
         Save();
+        SceneManager.LoadScene("MainMenu");
         Debug.Log("Loading : " + SaveData.current.active.saveName);
         //change scene to main menu, using data from SavaData.current.active
     }

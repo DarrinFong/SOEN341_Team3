@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scenes\Scripts\CharacterRight.cs" />
      <Compile Include="Assets\Scenes\Scripts\ClearActions.cs" />
      <Compile Include="Assets\Scenes\Scripts\Drag.cs" />
+     <Compile Include="Assets\Scenes\Scripts\LoginScript.cs" />
      <Compile Include="Assets\Scenes\Scripts\RunCode.cs" />
      <Compile Include="Assets\Scenes\Scripts\SaveData.cs" />
      <Compile Include="Assets\Scenes\Scripts\SaveLoad.cs" />
