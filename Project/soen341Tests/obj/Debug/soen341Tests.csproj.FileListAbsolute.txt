@@ -12,3 +12,5 @@ C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\bin\Debug\Uni
 C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEditor.xml
 C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.dll
 C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.pdb
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\bin\Debug\nunit.framework.dll
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\bin\Debug\nunit.framework.xml
