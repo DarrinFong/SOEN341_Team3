@@ -5,73 +5,115 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class SaveLoad : MonoBehaviour
 {
-    public SaveData[] saves = new SaveData[3];
-    public void initializeSaveFiles()
-    {
-        string[] saveFiles = Directory.GetFiles(Application.persistentDataPath, "*.gd");
-        for (int i = 0; i < saves.Count() && i < saveFiles.Count(); i++)
-        {
-            BinaryFormatter bf = new BinaryFormatter();
-            FileStream file = File.Open(saveFiles[i], FileMode.Open);
-            saves[i] = (SaveData)bf.Deserialize(file);
-            file.Close();
-        }
-        SaveData.current = saves[0];
-    }
+    private static GameObject usernamePanel;
+    private static GameObject savesPanel;
+    private static bool hasStarted;
+    private int currentSaveNum;
 
-    public void NewGame(InputField name)
+    public void saveLoad(int saveNum)
     {
-        initializeSaveFiles();
+        currentSaveNum = saveNum;
 
-        if (name.text == "" || name.text == null) {
-            Debug.Log("Please enter player name!");
-            return;
-        }
-        int newIndex = -1;
-        for (int i=0; i<saves.Count(); i++)
+        if (SaveData.current.saves[currentSaveNum] != null)
         {
-            if (saves[i].saveName == "")
-            {
-                newIndex = i;
-                break;
-            }
-        }
-        if (newIndex < 0)
-        {
-            Debug.Log("No more save spots!");
+            SaveData.current.active = SaveData.current.saves[currentSaveNum];
+            loadSave();
         }
         else
-        {
-            SaveData.current = new SaveData(name.text);
-            saves[newIndex] = SaveData.current;
-            Debug.Log(SaveData.current.saveName);
-            Save();
-        }
+            promptUsername();
+
     }
 
-    public string getCurrentFile()
+    public void promptUsername()
     {
-        return Application.persistentDataPath + "/" + SaveData.current.saveName + ".gd";
+        SaveLoad.savesPanel.gameObject.SetActive(false);
+        SaveLoad.usernamePanel.gameObject.SetActive(true);
+    }
+
+    public void cancelUsername(InputField name)
+    {
+        name.text = null;
+        SaveLoad.usernamePanel.gameObject.SetActive(false);
+        SaveLoad.savesPanel.gameObject.SetActive(true);
+        populateLoadButtons();
+    }
+
+    public void saveUsername(InputField name)
+    {
+        string userName = name.text.Trim();
+        if (userName != "" && userName != null)
+        {
+            SaveData.current.saves[currentSaveNum] = new SaveInfo(userName);
+            SaveData.current.active = SaveData.current.saves[currentSaveNum];
+            loadSave();
+        }
+        else
+            Debug.Log("Input a valid username");
+    }
+
+    public void loadSave()
+    {
+        Save();
+        SceneManager.LoadScene("MainMenu");
+        Debug.Log("Loading : " + SaveData.current.active.saveName);
+        //change scene to main menu, using data from SavaData.current.active
+    }
+
+    public string getSavePath()
+    {
+        return Application.persistentDataPath + "/SaveData.gd";
+    }
+
+    public void populateLoadButtons()
+    {
+        if (SaveData.current.saves[0] != null)
+            GameObject.Find("Save0").GetComponentInChildren<Text>().text = "Load " + SaveData.current.saves[0].saveName;
+        if (SaveData.current.saves[1] != null)
+            GameObject.Find("Save1").GetComponentInChildren<Text>().text = "Load " + SaveData.current.saves[1].saveName;
+        if (SaveData.current.saves[2] != null)
+            GameObject.Find("Save2").GetComponentInChildren<Text>().text = "Load " + SaveData.current.saves[2].saveName;
+        
     }
 
     public void Save()
     {
         BinaryFormatter bf = new BinaryFormatter();
-        FileStream file = File.Create(getCurrentFile());
+        FileStream file = File.Create(getSavePath());
         bf.Serialize(file, SaveData.current);
         file.Close();
     }
 
-    public void Load()
+    public void Start()
     {
-        string curFile = getCurrentFile();
+        if(!hasStarted)
+        {
+            SaveLoad.hasStarted = true;
+            SaveLoad.savesPanel = GameObject.Find("SavesPanel");
+            SaveLoad.usernamePanel = GameObject.Find("UsernamePanel");
+            SaveLoad.usernamePanel.gameObject.SetActive(false);
+            BinaryFormatter bf = new BinaryFormatter();
+            if (File.Exists(getSavePath()))
+            {
+                FileStream file = File.Open(getSavePath(), FileMode.Open);
+                SaveData.current = (SaveData)bf.Deserialize(file);
+                file.Close();
+            }
+            else
+            {
+                FileStream file = File.Create(getSavePath());
+                if (SaveData.current != null)
+                    bf.Serialize(file, SaveData.current);
+                else
+                    bf.Serialize(file, new SaveData());
+                file.Close();
+                SaveData.current = new SaveData();
+            }
 
-        BinaryFormatter bf = new BinaryFormatter();
-        FileStream file = File.Open(curFile, FileMode.Open);
-        SaveData.current = (SaveData)bf.Deserialize(file);
-        Debug.Log(SaveData.current.saveName);        
+            populateLoadButtons();
+        }
     }
 }

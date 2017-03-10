@@ -12,3 +12,17 @@ C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\bin\Debug\Uni
 C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEditor.xml
 C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.dll
 C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.pdb
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\soen341Tests.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\soen341Tests.pdb
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\Assembly-CSharp.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEngine.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEngine.UI.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEditor.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEngine.xml
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEngine.UI.xml
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEditor.xml
+D:\ws\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.csprojResolveAssemblyReference.cache
+D:\ws\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.pdb
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\Assembly-CSharp.pdb
