@@ -12,6 +12,7 @@ C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\bin\Debug\Uni
 C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEditor.xml
 C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.dll
 C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.pdb
+<<<<<<< HEAD
 C:\Users\Adam\Documents\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.csprojResolveAssemblyReference.cache
 C:\Users\Adam\Documents\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.dll
 C:\Users\Adam\Documents\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.pdb
@@ -27,3 +28,19 @@ C:\Users\Adam\Documents\SOEN341_Team3\Project\soen341Tests\bin\Debug\nunit.frame
 C:\Users\Adam\Documents\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEngine.xml
 C:\Users\Adam\Documents\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEngine.UI.xml
 C:\Users\Adam\Documents\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEditor.xml
+=======
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\soen341Tests.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\soen341Tests.pdb
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\Assembly-CSharp.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEngine.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEngine.UI.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEditor.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEngine.xml
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEngine.UI.xml
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\UnityEditor.xml
+D:\ws\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.csprojResolveAssemblyReference.cache
+D:\ws\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.dll
+D:\ws\SOEN341_Team3\Project\soen341Tests\obj\Debug\soen341Tests.pdb
+D:\ws\SOEN341_Team3\Project\soen341Tests\bin\Debug\Assembly-CSharp.pdb
+>>>>>>> 451b87a6175e76d2a6c363f857f66e8e484694de
