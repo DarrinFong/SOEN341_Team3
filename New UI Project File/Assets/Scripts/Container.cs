@@ -13,7 +13,7 @@ public class Container : Block {
     private static readonly Vector3 DEFAULT_ARMPOS = new Vector3(-1.625f, 0.173f, 0);
     private static readonly Vector3 DEFAULT_FOOTPOS = new Vector3(-0.874f, -0.45f, 0);
 
-    List<Block> elements = new List<Block>();
+    protected List<Block> elements = new List<Block>();
 
 
 	// Use this for initialization
@@ -30,7 +30,7 @@ public class Container : Block {
     public void addElement(Block block)
     {
 
-        print("Added " + block.gameObject.name + " to the container list");
+        //print("Added " + block.gameObject.name + " to the container list");
        
         Vector3 blockSize = block.getSize(); 
 
@@ -63,7 +63,8 @@ public class Container : Block {
                 elements[i].gameObject.transform.localPosition = new Vector3((elements[i].getSize().x - header.localScale.x) / 2 + arm.localScale.x, -header.localScale.y - sumOfHeightsAtIndex(i), 0);
             }
         }
-            changeArmSize();
+
+        changeArmSize();
 
     }
 
@@ -79,10 +80,10 @@ public class Container : Block {
 
     }
 
-    public void resize()
-    {
-        size = new Vector3(header.localScale.x, header.localScale.y + arm.localScale.y + footer.localScale.y, 0);
-    }
+    //public void resize()
+    //{
+    //    size = new Vector3(header.localScale.x, header.localScale.y + arm.localScale.y + footer.localScale.y, 0);
+    //}
 
     public float sumOfHeightsAtIndex(int h)
     {
@@ -114,9 +115,12 @@ public class Container : Block {
         {
             elements[i].setIndex(i);
         }
+        changeArmSize();
+    }
 
-        //TODO: fix positions
-
+    public List<Block> getContainerList()
+    {
+        return elements;
     }
 
 }
