@@ -1,25 +1,24 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
-//using Assets.Tests;
 using UnityEngine.EventSystems;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace Assets.Tests
 {
-    [TestClass()]
+    [TestFixture]
     public class DragTests: MonoBehaviour
     {
         private Vector2 pointerOffset;
         private RectTransform canvasRectTransform;
         private RectTransform panelRectTransform;
 
-        [TestMethod()]
+        [Test]
         public void OnPointerDownTest()
         {
             GivenCanvas();
