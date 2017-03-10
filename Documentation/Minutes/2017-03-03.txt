@@ -1,0 +1,24 @@
+Meeting 03/03/2017
+
+Present: Adam, Claudia, Darrin, Ekaterina, Emerald, Joseph, Loic, Phuong-Thao
+
+Time: 40mins
+
+Discussed with TA (20 mins):
+	- Avatar Option
+	- Description of non functional stories
+	- Create 3 levels for the entirety of the game
+	- TA view (show how many students have completed the levels)
+
+Discussed post TA meeting (20 mins):
+	- Tasks Distribution
+	- User Stories Priority 
+	- Discussion of what the 3 levels will be
+
+TODOS:
+	- Implement the UI properly (save/load)
+	- Create TA view
+	- Work on additional game features
+
+
+
