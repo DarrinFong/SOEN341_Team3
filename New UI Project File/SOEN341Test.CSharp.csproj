@@ -77,7 +77,6 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Action.cs" />
     <Compile Include="Assets\Scripts\Block.cs" />
-    <Compile Include="Assets\Scripts\BlockController.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\Condition.cs" />
     <Compile Include="Assets\Scripts\Container.cs" />

@@ -10,14 +10,23 @@ public class UIController : MonoBehaviour {
 
     public Action actionBlock;
     public Container containerBlock;
+    public Condition conditionBlock;
+    public Character characterBlock;
 
+    public Plane UINormal;
     public LayerMask collisionMask;
+
+    private Container[] allContainers;
+    private List<Container> topContainers = new List<Container>();
+    private List<List<Block>> allElements = new List<List<Block>>();
 
 	// Use this for initialization
 	void Start () {
 
         mainCamera = FindObjectOfType<Camera>();
         planeTransform = this.transform;
+        //UINormal = new Plane(new Vector3(this.transform.rotation.x - 90, this.transform.rotation.y, this.transform.rotation.z), this.transform.position);
+        //Debug.DrawLine(this.transform.position, new Vector3(this.transform.rotation.x - 90, this.transform.rotation.y, this.transform.rotation.z));
 
 	}
 	
@@ -42,10 +51,10 @@ public class UIController : MonoBehaviour {
 
         Ray cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
         //TODO: Switch the plane normal to the UIPlane normal
-        Plane groundPlane = new Plane(Vector3.back, this.transform.position); //abstract ground plane looking up at the origin T
+        Plane UINormal = new Plane(Vector3.back, this.transform.position); //abstract ground plane looking up at the origin T
         float rayLength;
 
-        if (groundPlane.Raycast(cameraRay, out rayLength))
+        if (UINormal.Raycast(cameraRay, out rayLength))
         {
             point = cameraRay.GetPoint(rayLength);
             Debug.DrawLine(cameraRay.origin, point, Color.blue);
@@ -63,19 +72,11 @@ public class UIController : MonoBehaviour {
         Ray cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        //Plane groundPlane = new Plane(Vector3.back, Vector3.zero); //abstract ground plane looking up at the origin
-        //float rayLength;
-
         if (Physics.Raycast(cameraRay, out hit, 1000, collisionMask, QueryTriggerInteraction.Collide))
         {
 
             onHitObject(hit);
             Debug.DrawLine(cameraRay.origin, hit.collider.gameObject.transform.position, Color.blue);
-
-            //print(hit.collider.gameObject.name);
-            //Vector3 pointToLook = cameraRay.GetPoint(rayLength);
-            //transform.LookAt(new Vector3(pointToLook.x, transform.position.y, pointToLook.z));
-            //return hit;
         }
 
     }
@@ -95,25 +96,110 @@ public class UIController : MonoBehaviour {
             {
                 //remove from parent
                 int index = hit.collider.gameObject.GetComponent<Block>().getIndex();
-                hit.collider.gameObject.GetComponent<Block>().getParentContainer().GetComponent<Container>().removeElement(index);
-
-                hit.collider.gameObject.GetComponent<Block>().setParentContainerNull();
+                
+                //hit.collider.gameObject.GetComponent<Block>().getParentContainer().GetComponent<Container>().removeElement(index);
+                if(hit.collider.gameObject.GetComponent<Block>().getParentContainer().GetComponent<Block>().getContainerType() == 1)
+                    hit.collider.gameObject.GetComponent<Block>().getParentContainer().GetComponent<Condition>().removeElement(index);
+                else
+                    hit.collider.gameObject.GetComponent<Block>().getParentContainer().GetComponent<Character>().removeElement(index);
+                hit.collider.gameObject.GetComponent<Block>().setParentContainerNull(); //MAKE BATMAN
 
             }
         }
 
         switch (hit.collider.gameObject.name) {
 
-            case "createAction":
-                Block newAction = Instantiate(actionBlock, objectHit.position, objectHit.rotation) as Action;
+            //tried using enumerator but wasn't working well, so these are the values
+            //forward = 0
+            //backward = 1
+            //left = 2
+            //right = 3
+
+            case "moveForward":
+                createAction(0, objectHit);
                 break;
-            case "createContainer":
-                Block newContainer = Instantiate(containerBlock, objectHit.position, objectHit.rotation) as Container;
+            case "moveBackward":
+                createAction(1, objectHit);
+                break;
+            case "moveLeft":
+                createAction(2, objectHit);
+                break;
+            case "moveRight":
+                createAction(3, objectHit);
+                break;
+            case "ifCondition":
+                createCondition(0, objectHit);
+                break;
+            case "for2Condition":
+                createCondition(1, objectHit);
+                break;
+            case "for5Condition":
+                createCondition(2, objectHit);
+                break;
+            case "for10Condition":
+                createCondition(3, objectHit);
+                break;
+            case "mainCharacter":
+                createCharacter(0, objectHit);
+                break;
+            case "reset":
+                break;
+            case "run":
+                runGame();
                 break;
             default:
                 break;
         }
 
     }
+
+
+    public void createAction(int type, Transform spawn)
+    {
+        Block newAction = Instantiate(actionBlock, spawn.position, spawn.rotation) as Action;
+        newAction.setType(type);
+    }
+
+    public void createCondition(int type, Transform spawn)
+    {
+        Block newCondition = Instantiate(conditionBlock, spawn.position, spawn.rotation) as Condition;
+        newCondition.setType(type);
+    }
+
+    public void createCharacter(int type, Transform spawn)
+    {
+        Block newCharacter = Instantiate(characterBlock, spawn.position, spawn.rotation) as Character;
+        newCharacter.setType(type);
+    }
+
+    public void runGame()
+    {
+        getContainers();
+       
+        foreach (Block b in topContainers)
+        {
+            b.StartCoroutine("executeBlock");
+        }
+        
+    }
+
+    public void getAllElements()
+    {
+        foreach (Container c in topContainers)
+        {
+            allElements.Add(c.getContainerList());
+        }
+    }
+
+    public void getContainers()
+    {
+        allContainers = this.gameObject.GetComponentsInChildren<Container>();
+
+        foreach (Container c in allContainers)
+            if (c.parentIsNull())
+                topContainers.Add(c);
+
+    }
+
 
 }

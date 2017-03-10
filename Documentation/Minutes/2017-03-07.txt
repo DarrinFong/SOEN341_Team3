@@ -1,0 +1,19 @@
+Meeting 07/03/2017
+
+Present: Emerald, Phuong-Thao
+
+Meeting for testing team
+
+Time: 30 mins
+
+Discussed:
+	- User Stories for Sprint 3 (Trello)
+	- Travis CI 
+	- Set up testing suite
+
+TODOS:
+	- Burndown Chart
+	- Trello board update
+	- Changes in Travis CI environment
+	- Changes in testing environment
+
