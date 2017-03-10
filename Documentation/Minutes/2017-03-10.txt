@@ -1,0 +1,19 @@
+Meeting 10/03/2017
+
+Present: Adam, Claudia, Darrin, Ekaterina, Emerald, Joseph, Loic, Phuong-Thao
+
+Time: 20mins
+
+Discussed with TA:
+	- Avatar Option
+	- Larger fonts
+	- Add a login with passwords for the users
+	- Discussed possibly adding a logger to keep track of how long it takes a user to complete a level
+	- Discussed what parts of the documentation could be started
+
+TODOS:
+	- Add another avatar
+	- Create back/exit functions
+	- Add a password for each individual user
+	- Unit tests for select scripts only
+	- Start working on the documentation
