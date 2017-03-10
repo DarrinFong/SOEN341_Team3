@@ -8,9 +8,9 @@ public class CharacterLeft : MonoBehaviour
     void Start()
     {
         var leftButton = transform.GetComponent<Button>();
-        leftButton.GetComponent<Button>().onClick.AddListener(delegate {
-            clicked();
-        });
+        //leftButton.GetComponent<Button>().onClick.AddListener(delegate {
+           // clicked();
+       // });
     }
 
     public void clicked()
