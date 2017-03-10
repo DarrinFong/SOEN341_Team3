@@ -5,9 +5,20 @@ using UnityEngine;
 public class SaveData
 {
     public static SaveData current;
-    public string saveName;
+    public SaveInfo active;
+    public SaveInfo[] saves = new SaveInfo[3];
 
-    public SaveData(string saveName)
+    public SaveData() { }
+}
+
+[System.Serializable]
+public class SaveInfo
+{
+    public string saveName;
+    public int lastLevel;
+    public int highestLevel;
+
+    public SaveInfo(string saveName)
     {
         this.saveName = saveName;
     }
