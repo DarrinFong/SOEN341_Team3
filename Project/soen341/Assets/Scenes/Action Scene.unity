@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -926,7 +926,7 @@ RectTransform:
   m_Children:
   - {fileID: 1645720987}
   m_Father: {fileID: 520009318}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1060,11 +1060,11 @@ RectTransform:
   - {fileID: 2093747210}
   - {fileID: 1424276615}
   - {fileID: 25069017}
+  - {fileID: 1386617467}
   - {fileID: 1413637875}
   - {fileID: 1215579053}
   - {fileID: 487764549}
   - {fileID: 1964037109}
-  - {fileID: 1386617467}
   m_Father: {fileID: 335404665}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1426,7 +1426,7 @@ RectTransform:
   m_Children:
   - {fileID: 777398045}
   m_Father: {fileID: 520009318}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1600,7 +1600,7 @@ RectTransform:
   m_Children:
   - {fileID: 1715666623}
   m_Father: {fileID: 520009318}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1856,7 +1856,7 @@ RectTransform:
   m_Children:
   - {fileID: 1559460513}
   m_Father: {fileID: 520009318}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -2574,7 +2574,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Go Right
+  m_Text: Turn Right
 --- !u!222 &1559460515
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2808,7 +2808,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Go Left
+  m_Text: Turn Left
 --- !u!222 &1715666626
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2845,7 +2845,7 @@ RectTransform:
   m_Children:
   - {fileID: 974230231}
   m_Father: {fileID: 520009318}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
