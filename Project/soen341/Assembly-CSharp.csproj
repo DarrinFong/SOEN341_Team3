@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scenes\Scripts\CharacterActions.cs" />
+     <Compile Include="Assets\Scenes\Scripts\CharacterBackward.cs" />
      <Compile Include="Assets\Scenes\Scripts\CharacterForward.cs" />
+     <Compile Include="Assets\Scenes\Scripts\CharacterLeft.cs" />
      <Compile Include="Assets\Scenes\Scripts\CharacterRight.cs" />
      <Compile Include="Assets\Scenes\Scripts\ClearActions.cs" />
      <Compile Include="Assets\Scenes\Scripts\Drag.cs" />

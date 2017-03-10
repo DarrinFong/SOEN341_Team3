@@ -14,10 +14,24 @@ public class CharacterActions : MonoBehaviour {
         actionPointer++;
     }
 
+    public void left()
+    {
+        print("dickbutt left, pointer: " + actionPointer);
+        actionSequence[actionPointer] = 'l';
+        actionPointer++;
+    }
+
     public void forward()
     {
         print("dickbutt forward, pointer: " + actionPointer);
         actionSequence[actionPointer] = 'f';
+        actionPointer++;
+    }
+
+    public void backward()
+    {
+        print("dickbutt backward, pointer: " + actionPointer);
+        actionSequence[actionPointer] = 'b';
         actionPointer++;
     }
 
@@ -43,6 +57,9 @@ public class CharacterActions : MonoBehaviour {
         {
             Vector3 positionBeforeAction = transform.position;
             Vector3 rotationBeforeAction = transform.eulerAngles;
+            float speed = 1.0f;
+
+
             switch (actionSequence[action])
             {
                 case 'f':
@@ -52,11 +69,21 @@ public class CharacterActions : MonoBehaviour {
                         yield return new WaitForSeconds(0);
                     }
                     dickButt.setV(0.0f);
+                     print("position - x: " + (float)(System.Math.Round(transform.position.x, 0)) + ", z: " + (float)(System.Math.Round(transform.position.z, 0)));
+                    transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)), -0.5f, (float)(System.Math.Round(transform.position.z, 0)));
+                    break;
+                case 'b':
+                    while (System.Math.Abs(positionBeforeAction.x - transform.position.x) < 0.9889f && System.Math.Abs(positionBeforeAction.z - transform.position.z) < 0.9889f)
+                    {
+                        dickButt.setV(-1.0f);
+                        yield return new WaitForSeconds(0);
+                    }
+                    dickButt.setV(0.0f);
                     print("position - x: " + (float)(System.Math.Round(transform.position.x, 0)) + ", z: " + (float)(System.Math.Round(transform.position.z, 0)));
                     transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)), -0.5f, (float)(System.Math.Round(transform.position.z, 0)));
                     break;
                 case 'r':
-                    while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y) < 89)
+                    while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y)  < 89)
                     {
                         dickButt.setH(1.0f);
                         yield return new WaitForSeconds(0);
@@ -64,6 +91,17 @@ public class CharacterActions : MonoBehaviour {
                     dickButt.setH(0.0f);
                     print("angle: " + (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100));
                     transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
+                    break;
+                case 'l':
+  //                  while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y) < -89)
+   //                 {
+   //                     dickButt.setH(-1.0f);
+   //                     //transform.Rotate(0, -speed, 0);
+   //                     yield return new WaitForSeconds(0);
+   //                 }
+   //                 dickButt.setH(0.0f);
+   //                 print("angle: " + (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100));
+    //                transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
                     break;
                 default:
                     dickButt.setV(0.0f);

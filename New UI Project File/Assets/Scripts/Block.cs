@@ -11,15 +11,19 @@ public class Block : MonoBehaviour {
     protected GameObject parentContainer;
     protected int index;
     protected Vector3 size;
+    protected int type;
+    protected int containerType;
 
+    private TextMesh text;
     private bool drag;
     private Camera mainCamera;
 
-    // Use this for initialization
+    // Called upon object instantiation 
     public virtual void Awake () {
 
-        oldTransform = this.GetComponent<Transform>();
-        print("Created: " +  this.gameObject.name + " at " + oldTransform.position);
+        oldTransform = this.GetComponent<Transform>(); //TODO:Use old transform to snap back
+
+        text = this.gameObject.GetComponentInChildren<TextMesh>();
 
         mainCamera = FindObjectOfType<Camera>();
         UI = FindObjectOfType<UIController>();
@@ -34,7 +38,7 @@ public class Block : MonoBehaviour {
 
         if (drag)
         {
-            MoveBlock();
+            moveBlock();
 
             if (Input.GetMouseButtonUp(0))
             {
@@ -57,7 +61,7 @@ public class Block : MonoBehaviour {
         {
             if (!(b.gameObject.tag == "Action"))
             {
-                print("Enter: " + b.gameObject.name);
+                //print("Enter: " + b.gameObject.name);
                 parentContainer = b.gameObject;
             }
         }
@@ -67,14 +71,14 @@ public class Block : MonoBehaviour {
     {
         if (drag) {
             if (!(b.gameObject.tag == "Action")) {
-                print("Exit: " + b.gameObject.name);
+                //print("Exit: " + b.gameObject.name);
                 parentContainer = UI.gameObject;
             }
         }
     }
 
 
-    public void MoveBlock()
+    public void moveBlock()
     {
 
         Vector3 uiray = UI.cameraToUI();
@@ -82,7 +86,37 @@ public class Block : MonoBehaviour {
 
         this.transform.position = new Vector3(uiray.x, uiray.y - this.getSize().y*0.50f, UI.transform.position.z + spaceFromPanel);
 
+    }
 
+    public void setType(int t)
+    {
+        type = t;
+        changeType();
+    }
+
+    public virtual void changeType()
+    {
+
+    }
+
+    public void setContainerType(int t)
+    {
+        containerType = t;
+    }
+
+    public int getContainerType()
+    {
+        return containerType;
+    }
+
+    public virtual int getType()
+    {
+        return type;
+    }
+
+    public void setText(string str)
+    {
+        text.text = str;
     }
 
     public void setIndex(int i)
@@ -93,6 +127,12 @@ public class Block : MonoBehaviour {
     public int getIndex()
     {
         return index;
+    }
+
+
+    public Vector3 getSize()
+    {
+        return size;
     }
 
     public void dragEnable()
@@ -107,21 +147,21 @@ public class Block : MonoBehaviour {
 
     public virtual void setParent()
     {
-        print("Setting parent with " + parentContainer.tag);
+        //print("Setting parent with " + parentContainer.tag);
         if (parentContainer.tag == "Container")
         {
-            print("parent container from superclass");
+            //print("parent container from superclass");
             this.transform.parent = parentContainer.transform;
             parentContainer.GetComponent<Container>().addElement(this);
         }
 
         else if (parentContainer.tag == "UI" && this.tag == "Action")
         {
-            print("Destroy");
+            //print("Destroy");
             Destroy(this.gameObject);
         }
 
-        else if (parentContainer.tag == "UI" && this.tag == "Contained")
+        else if (parentContainer.tag == "UI" && this.tag == "Container")
         {
             this.transform.parent = UI.transform;
         }
@@ -133,11 +173,6 @@ public class Block : MonoBehaviour {
         return !(parentContainer.tag == "Container");
     }
 
-    public Vector3 getSize()
-    {
-        return size;
-    }
-
     public void setParentContainerNull()
     {
         parentContainer = UI.gameObject;
@@ -147,5 +182,11 @@ public class Block : MonoBehaviour {
     {
         return parentContainer;
     }
+
+    public virtual IEnumerator executeBlock()
+    {
+        yield return new WaitForSeconds(1);
+    }
+
 
 }
