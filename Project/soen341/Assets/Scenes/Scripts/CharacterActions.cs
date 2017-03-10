@@ -26,6 +26,7 @@ public class CharacterActions : MonoBehaviour {
         print("dickbutt forward, pointer: " + actionPointer);
         actionSequence[actionPointer] = 'f';
         actionPointer++;
+
     }
 
     public void backward()
