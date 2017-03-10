@@ -1,0 +1,18 @@
+Meeting 09/03/2017
+
+Present: Adam, Claudia, Darrin, Ekaterina, Emerald, Joseph, Loic, Phuong-Thao
+
+Time: 3h
+
+Discussed: 
+
+	- Changes in the panel interface
+	- Discussion of non functional requirements
+	- Discussion about next Sprint User Stories
+	- Discussion on continuous testing
+	- Discussion about the final report 
+
+TODOS:
+	- Finish Block diagrams
+	- Write Next Sprints User Stories
+	- Write report for non-functional stories
