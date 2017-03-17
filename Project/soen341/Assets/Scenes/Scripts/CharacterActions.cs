@@ -58,8 +58,6 @@ public class CharacterActions : MonoBehaviour {
         {
             Vector3 positionBeforeAction = transform.position;
             Vector3 rotationBeforeAction = transform.eulerAngles;
-            float speed = 1.0f;
-
 
             switch (actionSequence[action])
             {
@@ -70,7 +68,7 @@ public class CharacterActions : MonoBehaviour {
                         yield return new WaitForSeconds(0);
                     }
                     dickButt.setV(0.0f);
-                     print("position - x: " + (float)(System.Math.Round(transform.position.x, 0)) + ", z: " + (float)(System.Math.Round(transform.position.z, 0)));
+                    print("position - x: " + (float)(System.Math.Round(transform.position.x, 0)) + ", z: " + (float)(System.Math.Round(transform.position.z, 0)));
                     transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)), -0.5f, (float)(System.Math.Round(transform.position.z, 0)));
                     break;
                 case 'b':
@@ -84,7 +82,7 @@ public class CharacterActions : MonoBehaviour {
                     transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)), -0.5f, (float)(System.Math.Round(transform.position.z, 0)));
                     break;
                 case 'r':
-                    while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y)  < 89)
+                    while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y) < 89)
                     {
                         dickButt.setH(1.0f);
                         yield return new WaitForSeconds(0);
@@ -120,7 +118,7 @@ public class CharacterActions : MonoBehaviour {
         }
         yield return new WaitForSeconds(1);
         print("end of actions");
-        transform.position = new Vector3(initialPosition.x, initialPosition.y + 1, initialPosition.z);
+        transform.position = new Vector3(initialPosition.x, initialPosition.y, initialPosition.z);
         transform.eulerAngles = initialRotation;
     }
 }
