@@ -94,15 +94,21 @@ public class CharacterActions : MonoBehaviour {
                     transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
                     break;
                 case 'l':
-  //                  while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y) < -89)
-   //                 {
-   //                     dickButt.setH(-1.0f);
-   //                     //transform.Rotate(0, -speed, 0);
-   //                     yield return new WaitForSeconds(0);
-   //                 }
-   //                 dickButt.setH(0.0f);
-   //                 print("angle: " + (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100));
-    //                transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
+                    if (System.Math.Round(rotationBeforeAction.y, 1) == 0)
+                        while (System.Math.Abs(System.Math.Round(transform.eulerAngles.y, 1) - System.Math.Round(rotationBeforeAction.y, 1)) > 271 || (System.Math.Round(transform.eulerAngles.y, 1) == 0))
+                        {
+                            dickButt.setH(-1.0f);
+                            yield return new WaitForSeconds(0);
+                        }
+                    else
+                        while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y) < 89)
+                        {
+                            dickButt.setH(-1.0f);
+                            yield return new WaitForSeconds(0);
+                        }
+                    dickButt.setH(0.0f);
+                    print("angle: " + (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100));
+                    transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
                     break;
                 default:
                     dickButt.setV(0.0f);
