@@ -141,8 +141,12 @@ public class UIController : MonoBehaviour {
                 createCharacter(0, objectHit);
                 break;
             case "reset":
-                //CharacterActions charController = GameObject.FindObjectOfType<CharacterActions>();
-                //charController.clearActions();
+                foreach (var item in allContainers)
+                {
+                    item.RemoveAll();
+                }
+                CharacterActions charController = GameObject.FindObjectOfType<CharacterActions>();
+                charController.clearActions();
                 break;
             case "run":
                 runGame();

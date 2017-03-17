@@ -75,6 +75,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\GameUI\Scripts\Action.cs" />
+    <Compile Include="Assets\Scenes\GameUI\Scripts\Block.cs" />
+    <Compile Include="Assets\Scenes\GameUI\Scripts\Character.cs" />
+    <Compile Include="Assets\Scenes\GameUI\Scripts\Condition.cs" />
+    <Compile Include="Assets\Scenes\GameUI\Scripts\Container.cs" />
+    <Compile Include="Assets\Scenes\GameUI\Scripts\UIController.cs" />
     <Compile Include="Assets\Scenes\Scripts\CharacterActions.cs" />
     <Compile Include="Assets\Scenes\Scripts\CharacterBackward.cs" />
     <Compile Include="Assets\Scenes\Scripts\CharacterForward.cs" />
@@ -82,10 +88,12 @@
     <Compile Include="Assets\Scenes\Scripts\CharacterRight.cs" />
     <Compile Include="Assets\Scenes\Scripts\ClearActions.cs" />
     <Compile Include="Assets\Scenes\Scripts\Drag.cs" />
+    <Compile Include="Assets\Scenes\Scripts\LoginScript.cs" />
     <Compile Include="Assets\Scenes\Scripts\RunCode.cs" />
     <Compile Include="Assets\Scenes\Scripts\SaveData.cs" />
     <Compile Include="Assets\Scenes\Scripts\SaveLoad.cs" />
     <Compile Include="Assets\Scenes\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\Scenes\Scripts\TAView.cs" />
     <Compile Include="Assets\Scenes\Scripts\TogglePanelClose.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
