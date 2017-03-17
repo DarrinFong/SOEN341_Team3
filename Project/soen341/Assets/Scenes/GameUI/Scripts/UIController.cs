@@ -141,7 +141,7 @@ public class UIController : MonoBehaviour {
                 createCharacter(0, objectHit);
                 break;
             case "reset":
-                foreach (var item in allContainers)
+                foreach (var item in topContainers)
                 {
                     item.RemoveAll();
                 }

@@ -123,7 +123,8 @@ public class Container : Block {
         {
             Destroy(elements[i].gameObject);
             elements.RemoveAt(i);
-            if(!this.parentIsNull())
+            Character character = new Character();
+            if (this.GetType() != character.GetType())
                 Destroy(this.gameObject);
         }
         changeArmSize();
