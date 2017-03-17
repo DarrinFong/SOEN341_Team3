@@ -46,6 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scenes\GameUI\Scripts\Action.cs" />
+     <Compile Include="Assets\Scenes\GameUI\Scripts\Block.cs" />
+     <Compile Include="Assets\Scenes\GameUI\Scripts\Character.cs" />
+     <Compile Include="Assets\Scenes\GameUI\Scripts\Condition.cs" />
+     <Compile Include="Assets\Scenes\GameUI\Scripts\Container.cs" />
+     <Compile Include="Assets\Scenes\GameUI\Scripts\UIController.cs" />
      <Compile Include="Assets\Scenes\Scripts\CharacterActions.cs" />
      <Compile Include="Assets\Scenes\Scripts\CharacterBackward.cs" />
      <Compile Include="Assets\Scenes\Scripts\CharacterForward.cs" />
