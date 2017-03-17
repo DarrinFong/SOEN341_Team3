@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Action-Scene.unity
+- path: Assets/Scenes/TAView.unity
   isLoaded: 1
   isActive: 1
