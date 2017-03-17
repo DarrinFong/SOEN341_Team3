@@ -15,11 +15,13 @@ public class SaveData
 public class SaveInfo
 {
     public string saveName;
+    public string password;
     public int lastLevel;
     public int highestLevel;
 
-    public SaveInfo(string saveName)
+    public SaveInfo(string saveName, string password)
     {
         this.saveName = saveName;
+        this.password = password;
     }
 }

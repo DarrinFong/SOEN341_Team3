@@ -42,12 +42,14 @@ public class SaveLoad : MonoBehaviour
         populateLoadButtons();
     }
 
-    public void saveUsername(InputField name)
+    public void saveUsername(InputField name, InputField pass)
     {
         string userName = name.text.Trim();
-        if (userName != "" && userName != null)
+        string password = pass.text.Trim();
+    
+        if (userName != "" && userName != null && password != "" && password != null)
         {
-            SaveData.current.saves[currentSaveNum] = new SaveInfo(userName);
+            SaveData.current.saves[currentSaveNum] = new SaveInfo(userName,password);
             SaveData.current.active = SaveData.current.saves[currentSaveNum];
             loadSave();
         }
