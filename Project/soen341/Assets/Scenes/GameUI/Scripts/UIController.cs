@@ -151,6 +151,10 @@ public class UIController : MonoBehaviour {
             case "run":
                 runGame();
                 break;
+            case "start":
+                print("It actually works");
+                //hide start panel
+                break;
             default:
                 break;
         }

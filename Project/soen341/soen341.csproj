@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\OnStart.cs" />
     <Compile Include="Assets\Scenes\GameUI\Scripts\Action.cs" />
     <Compile Include="Assets\Scenes\GameUI\Scripts\Block.cs" />
     <Compile Include="Assets\Scenes\GameUI\Scripts\Character.cs" />
