@@ -117,7 +117,18 @@ public class Container : Block {
         }
         changeArmSize();
     }
-
+    public void RemoveAll()
+    {
+        for (int i = 0; i < elements.Count; i++)
+        {
+            Destroy(elements[i].gameObject);
+            elements.RemoveAt(i);
+            Character character = new Character();
+            if (this.GetType() != character.GetType())
+                Destroy(this.gameObject);
+        }
+        changeArmSize();
+    }
     public List<Block> getContainerList()
     {
         return elements;

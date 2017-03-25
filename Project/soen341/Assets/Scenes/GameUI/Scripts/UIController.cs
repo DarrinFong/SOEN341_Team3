@@ -20,12 +20,16 @@ public class UIController : MonoBehaviour {
     private List<Container> topContainers = new List<Container>();
     private List<List<Block>> allElements = new List<List<Block>>();
 
-	// Use this for initialization
-	void Start () {
+    private Vector3 winLevel2Coordinates = new Vector3(2.0f, 2.0f, 2.0f);
+    private GameObject StartPanel;
+
+
+    // Use this for initialization
+    void Start () {
 
         mainCamera = FindObjectOfType<Camera>();
         planeTransform = this.transform;
-
+        StartPanel = GameObject.Find("InstructionPanel2");
     }
 	
 	// Update is called once per frame
@@ -141,11 +145,22 @@ public class UIController : MonoBehaviour {
                 createCharacter(0, objectHit);
                 break;
             case "reset":
-                //CharacterActions charController = GameObject.FindObjectOfType<CharacterActions>();
-                //charController.clearActions();
+                foreach (var item in topContainers)
+                {
+                    item.RemoveAll();
+                }
+                CharacterActions charController = GameObject.FindObjectOfType<CharacterActions>();
+                charController.clearActions();
                 break;
             case "run":
                 runGame();
+                break;
+            case "start":
+                //set destination of level2 and mode the object indicating it
+                Destination dest = GameObject.FindObjectOfType<Destination>();
+                dest.SetDestination(winLevel2Coordinates);
+                //hide instruction panel
+                Destroy(StartPanel);
                 break;
             default:
                 break;

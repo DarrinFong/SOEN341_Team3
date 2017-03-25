@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterActions : MonoBehaviour {
 
     static char[] actionSequence = new char[1000];
     static int actionPointer = 0;
-        
+
+
+
     public void right()
     {
         print("dickbutt right, pointer: " + actionPointer);
@@ -50,6 +53,7 @@ public class CharacterActions : MonoBehaviour {
     public System.Collections.IEnumerator runActions(int Whatever)
     {
         SimpleCharacterControl dickButt = GameObject.FindObjectOfType<SimpleCharacterControl>();
+        
         // m_animator.SetTrigger("Jump");
         // m_animator.SetTrigger("Land");
         Vector3 initialPosition = transform.position;
@@ -118,7 +122,25 @@ public class CharacterActions : MonoBehaviour {
         }
         yield return new WaitForSeconds(1);
         print("end of actions");
+        if (isDestinationReached(transform)) { winLevel(); print("win level 2"); }
         transform.position = new Vector3(initialPosition.x, initialPosition.y, initialPosition.z);
         transform.eulerAngles = initialRotation;
+        
+    }
+
+    private bool isDestinationReached(Transform transform)
+    {
+        //here we difine the coordinates necessary for a win level scenario
+        print("x Position: " + transform.position.x);
+        print("z Position: " + transform.position.z);
+        if (transform.position.x == 2.0f && transform.position.z == 2.0f)
+            return true;
+        else return false;
+    }
+    private void winLevel()
+    {
+        SceneChanger sceneChange = new SceneChanger();
+        //create a new scene named scene 3 to be able to change to the new level
+        sceneChange.NewGame("Level3");
     }
 }
