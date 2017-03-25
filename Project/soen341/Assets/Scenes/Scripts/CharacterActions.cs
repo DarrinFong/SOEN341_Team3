@@ -7,7 +7,9 @@ public class CharacterActions : MonoBehaviour {
 
     static char[] actionSequence = new char[1000];
     static int actionPointer = 0;
-        
+
+
+
     public void right()
     {
         print("dickbutt right, pointer: " + actionPointer);
@@ -51,6 +53,7 @@ public class CharacterActions : MonoBehaviour {
     public System.Collections.IEnumerator runActions(int Whatever)
     {
         SimpleCharacterControl dickButt = GameObject.FindObjectOfType<SimpleCharacterControl>();
+        
         // m_animator.SetTrigger("Jump");
         // m_animator.SetTrigger("Land");
         Vector3 initialPosition = transform.position;
@@ -138,6 +141,6 @@ public class CharacterActions : MonoBehaviour {
     {
         SceneChanger sceneChange = new SceneChanger();
         //create a new scene named scene 3 to be able to change to the new level
-        //sceneChange.NewGame("Level3");
+        sceneChange.NewGame("Level3");
     }
 }
