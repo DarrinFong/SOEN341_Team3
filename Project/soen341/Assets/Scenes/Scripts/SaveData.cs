@@ -17,6 +17,12 @@ public class SaveInfo
     public string saveName;
     public int lastLevel;
     public int highestLevel;
+    public int saveNum;
+    public int gender;
+    public long timelvl1;
+    public long timelvl2;
+    public long timelvl3;
+
 
     public SaveInfo(string saveName)
     {

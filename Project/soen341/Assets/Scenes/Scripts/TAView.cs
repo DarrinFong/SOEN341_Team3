@@ -36,21 +36,33 @@ public class TAView : MonoBehaviour {
             average += SaveData.current.saves[0].highestLevel;
             GameObject.Find("P1").GetComponentInChildren<Text>().text = "Student Name: " + SaveData.current.saves[0].saveName +
                                                                          "\nHighest Level: " + SaveData.current.saves[0].highestLevel +
-                                                                         "\nCurrent Level:" + SaveData.current.saves[0].lastLevel + "\nTotal play time:";
+                                                                         "\nCurrent Level: " + SaveData.current.saves[0].lastLevel +
+                                                                         "\nCompletion Time" +
+                                                                         "\nLevel 1: " + SaveData.current.saves[0].timelvl1 +
+                                                                         "\nLevel 2: " + SaveData.current.saves[0].timelvl2 + 
+                                                                         "\nLevel 3: " + SaveData.current.saves[0].timelvl3;
         }
         if (SaveData.current.saves[1] != null) {
             totalSaves++;
             average += SaveData.current.saves[1].highestLevel;
             GameObject.Find("P2").GetComponentInChildren<Text>().text = "Student Name: " + SaveData.current.saves[1].saveName +
                                                                          "\nHighest Level: " + SaveData.current.saves[1].highestLevel +
-                                                                         "\nCurrent Level:" + SaveData.current.saves[1].lastLevel + "\nTotal play time:";
+                                                                         "\nCurrent Level:" + SaveData.current.saves[1].lastLevel +
+                                                                         "\nCompletion Time" +
+                                                                         "\nLevel 1: " + SaveData.current.saves[1].timelvl1 +
+                                                                         "\nLevel 2: " + SaveData.current.saves[1].timelvl2 +
+                                                                         "\nLevel 3: " + SaveData.current.saves[1].timelvl3;
         }
         if (SaveData.current.saves[2] != null) {
             totalSaves++;
             average += SaveData.current.saves[2].highestLevel;
             GameObject.Find("P3").GetComponentInChildren<Text>().text = "Student Name: " + SaveData.current.saves[2].saveName +
                                                                          "\nHighest Level: " + SaveData.current.saves[2].highestLevel +
-                                                                         "\nCurrent Level:" + SaveData.current.saves[2].lastLevel + "\nTotal play time:";
+                                                                         "\nCurrent Level:" + SaveData.current.saves[2].lastLevel +
+                                                                         "\nCompletion Time" +
+                                                                         "\nLevel 1: " + SaveData.current.saves[2].timelvl1 +
+                                                                         "\nLevel 2: " + SaveData.current.saves[2].timelvl2 +
+                                                                         "\nLevel 3: " + SaveData.current.saves[2].timelvl3;
         }
 
         average = average/totalSaves;

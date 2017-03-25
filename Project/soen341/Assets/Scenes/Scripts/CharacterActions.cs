@@ -1,5 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,8 +10,7 @@ public class CharacterActions : MonoBehaviour {
 
     static char[] actionSequence = new char[1000];
     static int actionPointer = 0;
-
-
+    long startTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond; 
 
     public void right()
     {
@@ -140,7 +142,28 @@ public class CharacterActions : MonoBehaviour {
     private void winLevel()
     {
         SceneChanger sceneChange = new SceneChanger();
+
+        //Save data
+        long endTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+        int level = 2; //CHANGE THIS (Hardcoded just for testing)
+
+        SaveData.current.active.lastLevel = level;
+        SaveData.current.active.timelvl2 = endTime - startTime;
+        if (level > SaveData.current.active.highestLevel)
+            SaveData.current.active.highestLevel = level;
+
+        SaveData.current.saves[SaveData.current.active.saveNum] = SaveData.current.active;
+        Save();
         //create a new scene named scene 3 to be able to change to the new level
         sceneChange.NewGame("Level3");
+    }
+
+    //Writes the to the file
+    private void Save()
+    {
+        BinaryFormatter bf = new BinaryFormatter();
+        FileStream file = File.Create(Application.persistentDataPath + "/SaveData.gd");
+        bf.Serialize(file, SaveData.current);
+        file.Close();
     }
 }

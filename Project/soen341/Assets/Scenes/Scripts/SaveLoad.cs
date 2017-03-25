@@ -21,6 +21,7 @@ public class SaveLoad : MonoBehaviour
         if (SaveData.current.saves[currentSaveNum] != null)
         {
             SaveData.current.active = SaveData.current.saves[currentSaveNum];
+            SaveData.current.active.saveNum = currentSaveNum;
             loadSave();
         }
         else
