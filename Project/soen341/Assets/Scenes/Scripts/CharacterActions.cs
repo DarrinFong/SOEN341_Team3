@@ -148,7 +148,7 @@ public class CharacterActions : MonoBehaviour {
         int level = 2; //CHANGE THIS (Hardcoded just for testing)
 
         SaveData.current.active.lastLevel = level;
-        SaveData.current.active.timelvl2 = endTime - startTime;
+        SaveData.current.active.timelvl2 = (endTime - startTime)/1000;
         if (level > SaveData.current.active.highestLevel)
             SaveData.current.active.highestLevel = level;
 
