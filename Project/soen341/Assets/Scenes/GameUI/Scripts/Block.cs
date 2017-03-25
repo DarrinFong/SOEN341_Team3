@@ -24,7 +24,6 @@ public class Block : MonoBehaviour {
         oldTransform = this.GetComponent<Transform>(); //TODO:Use old transform to snap back
 
         text = this.gameObject.GetComponentInChildren<TextMesh>();
-
         mainCamera = FindObjectOfType<Camera>();
         UI = FindObjectOfType<UIController>();
         this.transform.parent = UI.transform;

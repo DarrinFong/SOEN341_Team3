@@ -26,7 +26,6 @@ public class UIController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-
         mainCamera = FindObjectOfType<Camera>();
         planeTransform = this.transform;
         StartPanel = GameObject.Find("InstructionPanel2");
