@@ -19,9 +19,9 @@ public class SaveInfo
     public int highestLevel;
     public int saveNum;
     public int gender;
-    public long timelvl1;
-    public long timelvl2;
-    public long timelvl3;
+    public long[] time =  new long[3];
+
+   
 
 
     public SaveInfo(string saveName)
