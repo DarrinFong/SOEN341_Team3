@@ -38,9 +38,9 @@ public class TAView : MonoBehaviour {
                                                                          "\nHighest Level: " + SaveData.current.saves[0].highestLevel +
                                                                          "\nCurrent Level: " + SaveData.current.saves[0].lastLevel +
                                                                          "\nCompletion Time" +
-                                                                         "\nLevel 1: " + SaveData.current.saves[0].timelvl1 +
-                                                                         "\nLevel 2: " + SaveData.current.saves[0].timelvl2 + 
-                                                                         "\nLevel 3: " + SaveData.current.saves[0].timelvl3;
+                                                                         "\nLevel 1: " + SaveData.current.saves[0].time[0] +
+                                                                         "\nLevel 2: " + SaveData.current.saves[0].time[1] + 
+                                                                         "\nLevel 3: " + SaveData.current.saves[0].time[2];
         }
         if (SaveData.current.saves[1] != null) {
             totalSaves++;
@@ -49,9 +49,9 @@ public class TAView : MonoBehaviour {
                                                                          "\nHighest Level: " + SaveData.current.saves[1].highestLevel +
                                                                          "\nCurrent Level:" + SaveData.current.saves[1].lastLevel +
                                                                          "\nCompletion Time" +
-                                                                         "\nLevel 1: " + SaveData.current.saves[1].timelvl1 +
-                                                                         "\nLevel 2: " + SaveData.current.saves[1].timelvl2 +
-                                                                         "\nLevel 3: " + SaveData.current.saves[1].timelvl3;
+                                                                         "\nLevel 1: " + SaveData.current.saves[1].time[0] +
+                                                                         "\nLevel 2: " + SaveData.current.saves[1].time[1] +
+                                                                         "\nLevel 3: " + SaveData.current.saves[1].time[2];
         }
         if (SaveData.current.saves[2] != null) {
             totalSaves++;
@@ -60,9 +60,9 @@ public class TAView : MonoBehaviour {
                                                                          "\nHighest Level: " + SaveData.current.saves[2].highestLevel +
                                                                          "\nCurrent Level:" + SaveData.current.saves[2].lastLevel +
                                                                          "\nCompletion Time" +
-                                                                         "\nLevel 1: " + SaveData.current.saves[2].timelvl1 +
-                                                                         "\nLevel 2: " + SaveData.current.saves[2].timelvl2 +
-                                                                         "\nLevel 3: " + SaveData.current.saves[2].timelvl3;
+                                                                         "\nLevel 1: " + SaveData.current.saves[2].time[0] +
+                                                                         "\nLevel 2: " + SaveData.current.saves[2].time[1] +
+                                                                         "\nLevel 3: " + SaveData.current.saves[2].time[2];
         }
 
         average = average/totalSaves;

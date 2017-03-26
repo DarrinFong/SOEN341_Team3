@@ -148,15 +148,17 @@ public class CharacterActions : MonoBehaviour {
 
         //Save data
         long endTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-        int level = 2; //CHANGE THIS (Hardcoded just for testing)
+        Debug.Log("Kappa pride");
+        int level = levelDestination.lvl;
+        Debug.Log("Kappa pride");
+        Debug.Log("level is " + level);
+        SaveData.current.active.lastLevel = level;
+        SaveData.current.active.time[level-1] = (endTime - startTime)/1000;
+        if (level > SaveData.current.active.highestLevel)
+            SaveData.current.active.highestLevel = level;
 
-        //SaveData.current.active.lastLevel = level;
-        //SaveData.current.active.timelvl2 = (endTime - startTime)/1000;
-        //if (level > SaveData.current.active.highestLevel)
-        //    SaveData.current.active.highestLevel = level;
-
-        //SaveData.current.saves[SaveData.current.active.saveNum] = SaveData.current.active;
-        //Save();
+        SaveData.current.saves[SaveData.current.active.saveNum] = SaveData.current.active;
+        Save();
         //create a new scene named scene 3 to be able to change to the new level
         sceneChange.NewGame(levelDestination.nextLevel);
     }

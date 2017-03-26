@@ -7,6 +7,7 @@ public class Destination : MonoBehaviour {
     public Vector3 WinningCoordinates;
     public string level;
     public string nextLevel;
+    public int lvl;
 	// Use this for initialization
 	void Start () {
 		
@@ -19,6 +20,7 @@ public class Destination : MonoBehaviour {
     public void SetDestination(Vector3 position, int level) {
         if(position != null)
         {
+            this.lvl = level;
             this.transform.position = position;
             WinningCoordinates = position;
             this.level = "Level" + level;
