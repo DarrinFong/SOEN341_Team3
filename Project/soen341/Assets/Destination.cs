@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Destination : MonoBehaviour {
 
+    public Vector3 WinningCoordinates;
 	// Use this for initialization
 	void Start () {
 		
@@ -15,6 +16,9 @@ public class Destination : MonoBehaviour {
 	}
     public void SetDestination(Vector3 position) {
         if(position != null)
+        {
             this.transform.position = position;
+            WinningCoordinates = position;
+        }
     }
 }

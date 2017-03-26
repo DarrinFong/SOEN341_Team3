@@ -2069,9 +2069,8 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1250975628}
-  m_Text: "The purpose of this level is for the character to reach the \nmarked destination
-    by using for loops.\nYou must advance the character \nby two tiles forward and
-    then 2 tiles to the right."
+  m_Text: "The purpose of this level is to reach the marked \ndestination using for
+    loops."
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2841,6 +2840,10 @@ Prefab:
     - target: {fileID: 4591809601311084, guid: e3c0e0b61cc0dae4ba72dfe14460b60c, type: 2}
       propertyPath: m_LocalPosition.z
       value: 11.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094847854972254, guid: e3c0e0b61cc0dae4ba72dfe14460b60c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3c0e0b61cc0dae4ba72dfe14460b60c, type: 2}

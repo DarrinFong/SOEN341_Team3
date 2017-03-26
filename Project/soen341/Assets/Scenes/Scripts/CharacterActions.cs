@@ -10,7 +10,8 @@ public class CharacterActions : MonoBehaviour {
 
     static char[] actionSequence = new char[1000];
     static int actionPointer = 0;
-    long startTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond; 
+    long startTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+    Vector3 winningPosition;
 
     public void right()
     {
@@ -55,7 +56,7 @@ public class CharacterActions : MonoBehaviour {
     public System.Collections.IEnumerator runActions(int Whatever)
     {
         SimpleCharacterControl dickButt = GameObject.FindObjectOfType<SimpleCharacterControl>();
-        
+        winningPosition = GameObject.FindObjectOfType<Destination>().WinningCoordinates;
         // m_animator.SetTrigger("Jump");
         // m_animator.SetTrigger("Land");
         Vector3 initialPosition = transform.position;
@@ -135,7 +136,7 @@ public class CharacterActions : MonoBehaviour {
         //here we difine the coordinates necessary for a win level scenario
         print("x Position: " + transform.position.x);
         print("z Position: " + transform.position.z);
-        if (transform.position.x == 2.0f && transform.position.z == 2.0f)
+        if (transform.position.x == winningPosition.x && transform.position.z == winningPosition.z)
             return true;
         else return false;
     }
@@ -147,13 +148,13 @@ public class CharacterActions : MonoBehaviour {
         long endTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
         int level = 2; //CHANGE THIS (Hardcoded just for testing)
 
-        SaveData.current.active.lastLevel = level;
-        SaveData.current.active.timelvl2 = (endTime - startTime)/1000;
-        if (level > SaveData.current.active.highestLevel)
-            SaveData.current.active.highestLevel = level;
+        //SaveData.current.active.lastLevel = level;
+        //SaveData.current.active.timelvl2 = (endTime - startTime)/1000;
+        //if (level > SaveData.current.active.highestLevel)
+        //    SaveData.current.active.highestLevel = level;
 
-        SaveData.current.saves[SaveData.current.active.saveNum] = SaveData.current.active;
-        Save();
+        //SaveData.current.saves[SaveData.current.active.saveNum] = SaveData.current.active;
+        //Save();
         //create a new scene named scene 3 to be able to change to the new level
         sceneChange.NewGame("Level3");
     }
