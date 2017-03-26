@@ -20,16 +20,20 @@ public class UIController : MonoBehaviour {
     private List<Container> topContainers = new List<Container>();
     private List<List<Block>> allElements = new List<List<Block>>();
 
+    private Vector3 winLevel1Coordinates = new Vector3(5.0f, 0.0f, 0.0f);
     private Vector3 winLevel2Coordinates = new Vector3(2.0f, 2.0f, 2.0f);
+    private Vector3 winLevel3Coordinates = new Vector3(2.0f, 2.0f, 10.0f);
     private GameObject StartPanel;
 
+    public Destination dest;
 
     // Use this for initialization
     void Start () {
-
         mainCamera = FindObjectOfType<Camera>();
         planeTransform = this.transform;
         StartPanel = GameObject.Find("InstructionPanel2");
+
+        dest = GameObject.FindObjectOfType<Destination>();
     }
 	
 	// Update is called once per frame
@@ -88,7 +92,6 @@ public class UIController : MonoBehaviour {
     {
 
         //print(hit.collider.gameObject.name);
-
         Transform objectHit = hit.collider.gameObject.transform;
 
         if(hit.collider.gameObject.tag == "Action" || hit.collider.gameObject.tag == "Container")
@@ -157,8 +160,24 @@ public class UIController : MonoBehaviour {
                 break;
             case "start":
                 //set destination of level2 and mode the object indicating it
-                Destination dest = GameObject.FindObjectOfType<Destination>();
-                dest.SetDestination(winLevel2Coordinates);
+                
+                dest.SetDestination(winLevel2Coordinates, 2);
+                //hide instruction panel
+                Destroy(StartPanel);
+                break;
+            case "startLevel1":
+                print("I'm in leve 1 start button");
+                //set destination of level1 and mode the object indicating it
+                //Destination destLevel1 = GameObject.FindObjectOfType<Destination>();
+                dest.SetDestination(winLevel1Coordinates, 1);
+                //hide instruction panel
+                Destroy(StartPanel);
+                break;
+            case "startLevel3":
+                print("I'm in level 3 start button");
+                //set destination of level3 and mode the object indicating it
+                //Destination destLevel3 = GameObject.FindObjectOfType<Destination>();
+                dest.SetDestination(winLevel3Coordinates, 3);
                 //hide instruction panel
                 Destroy(StartPanel);
                 break;
