@@ -15,6 +15,7 @@ public class SaveData
 public class SaveInfo
 {
     public string saveName;
+    private string password;
     public int lastLevel;
     public int highestLevel;
     public int saveNum;
@@ -27,5 +28,15 @@ public class SaveInfo
     public SaveInfo(string saveName)
     {
         this.saveName = saveName;
+    }
+
+    public bool AuthPassword(string password)
+    {
+        return this.password == password;
+    }
+
+    public void SetPassword(string password)
+    {
+        this.password = password;
     }
 }
