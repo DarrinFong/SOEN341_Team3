@@ -22,7 +22,7 @@ public class UIController : MonoBehaviour {
 
     private Vector3 winLevel1Coordinates = new Vector3(5.0f, 0.0f, 0.0f);
     private Vector3 winLevel2Coordinates = new Vector3(2.0f, 2.0f, 2.0f);
-    private Vector3 winLevel3Coordinates = new Vector3(10.0f, 2.0f, 2.0f);
+    private Vector3 winLevel3Coordinates = new Vector3(2.0f, 2.0f, 10.0f);
     private GameObject StartPanel;
 
     public Destination dest;
@@ -161,7 +161,7 @@ public class UIController : MonoBehaviour {
             case "start":
                 //set destination of level2 and mode the object indicating it
                 
-                dest.SetDestination(winLevel2Coordinates);
+                dest.SetDestination(winLevel2Coordinates, 2);
                 //hide instruction panel
                 Destroy(StartPanel);
                 break;
@@ -169,7 +169,7 @@ public class UIController : MonoBehaviour {
                 print("I'm in leve 1 start button");
                 //set destination of level1 and mode the object indicating it
                 //Destination destLevel1 = GameObject.FindObjectOfType<Destination>();
-                dest.SetDestination(winLevel1Coordinates);
+                dest.SetDestination(winLevel1Coordinates, 1);
                 //hide instruction panel
                 Destroy(StartPanel);
                 break;
@@ -177,7 +177,7 @@ public class UIController : MonoBehaviour {
                 print("I'm in level 3 start button");
                 //set destination of level3 and mode the object indicating it
                 //Destination destLevel3 = GameObject.FindObjectOfType<Destination>();
-                dest.SetDestination(winLevel3Coordinates);
+                dest.SetDestination(winLevel3Coordinates, 3);
                 //hide instruction panel
                 Destroy(StartPanel);
                 break;
