@@ -1,7 +1,7 @@
 language: csharp
 solution: soen341.sln
 install:
-  - nuget restore soen341.sln
+  - nuget restore src/soen341Tests/packages.config -SolutionDirectory src
   - nuget install NUnit.ConsoleRunner -Version 3.6.1 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Debug soen341.sln
