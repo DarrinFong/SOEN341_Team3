@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Destination.cs" />
+     <Compile Include="Assets\Exit.cs" />
      <Compile Include="Assets\OnStart.cs" />
      <Compile Include="Assets\Scenes\GameUI\Scripts\Action.cs" />
      <Compile Include="Assets\Scenes\GameUI\Scripts\Block.cs" />

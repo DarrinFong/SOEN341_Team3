@@ -185,6 +185,10 @@ public class UIController : MonoBehaviour {
                 //hide instruction panel
                 Destroy(StartPanelLevel3);
                 break;
+            case "exit":
+                SceneChanger sceneChanger = new SceneChanger();
+                sceneChanger.NewGame("LevelSelect");
+                break;
             default:
                 break;
         }
