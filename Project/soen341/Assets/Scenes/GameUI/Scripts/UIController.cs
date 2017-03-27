@@ -24,6 +24,8 @@ public class UIController : MonoBehaviour {
     private Vector3 winLevel2Coordinates = new Vector3(2.0f, 2.0f, 2.0f);
     private Vector3 winLevel3Coordinates = new Vector3(2.0f, 2.0f, 10.0f);
     private GameObject StartPanel;
+    private GameObject StartPanelLevel1;
+    private GameObject StartPanelLevel3;
 
     public Destination dest;
 
@@ -32,6 +34,8 @@ public class UIController : MonoBehaviour {
         mainCamera = FindObjectOfType<Camera>();
         planeTransform = this.transform;
         StartPanel = GameObject.Find("InstructionPanel2");
+        StartPanelLevel1 = GameObject.Find("InstructionPanel1");
+        StartPanelLevel3 = GameObject.Find("InstructionPanel3");
 
         dest = GameObject.FindObjectOfType<Destination>();
     }
@@ -171,7 +175,7 @@ public class UIController : MonoBehaviour {
                 //Destination destLevel1 = GameObject.FindObjectOfType<Destination>();
                 dest.SetDestination(winLevel1Coordinates, 1);
                 //hide instruction panel
-                Destroy(StartPanel);
+                Destroy(StartPanelLevel1);
                 break;
             case "startLevel3":
                 print("I'm in level 3 start button");
@@ -179,7 +183,7 @@ public class UIController : MonoBehaviour {
                 //Destination destLevel3 = GameObject.FindObjectOfType<Destination>();
                 dest.SetDestination(winLevel3Coordinates, 3);
                 //hide instruction panel
-                Destroy(StartPanel);
+                Destroy(StartPanelLevel3);
                 break;
             default:
                 break;
