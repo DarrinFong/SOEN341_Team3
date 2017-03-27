@@ -4,8 +4,8 @@ Discussed:
 
 - How to seperate each level.
  - Level 1: Student will be required to move the character forward (until he arrives at the end point)
- - Level 2: Students will use a while loop to avoid repeadting the same forward call
- - Level 3: Student will use a for loop to determin the number of times the avatar should move in a certani direction
+ - Level 2: Students will use a for loop to avoid repeadting the same forward call
+ - Level 3: Student will use a for loop to determine the number of times the avatar should move in a certani direction
 
 TODO: 
 - Work on the implementation of the game.
