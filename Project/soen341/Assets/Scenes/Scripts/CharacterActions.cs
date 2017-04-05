@@ -144,7 +144,7 @@ public class CharacterActions : MonoBehaviour {
     }
     private void winLevel()
     {
-        SceneChanger sceneChange = new SceneChanger();
+        
 
         //Save data
         long endTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
@@ -160,7 +160,8 @@ public class CharacterActions : MonoBehaviour {
         SaveData.current.saves[SaveData.current.active.saveNum] = SaveData.current.active;
         Save();
         //create a new scene named scene 3 to be able to change to the new level
-        sceneChange.NewGame(levelDestination.nextLevel);
+        SceneManager.LoadScene(levelDestination.nextLevel);
+        
     }
 
     //Writes the to the file
