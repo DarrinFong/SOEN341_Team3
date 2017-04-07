@@ -1,12 +1,12 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Tests
 {
-    [TestClass]
+    [TestFixture]
     public class TestDestination
     {
-        [TestMethod]
+        [Test]
         public void TestMethod1()
         {
             Assert.AreEqual(1, 1);
