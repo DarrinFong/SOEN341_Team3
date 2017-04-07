@@ -1,0 +1,6 @@
+C:\Users\Christina\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\Tests.dll
+C:\Users\Christina\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\Tests.pdb
+C:\Users\Christina\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Christina\Documents\GitHub\SOEN341_Team3\Project\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Christina\Documents\GitHub\SOEN341_Team3\Project\Tests\obj\Debug\Tests.dll
+C:\Users\Christina\Documents\GitHub\SOEN341_Team3\Project\Tests\obj\Debug\Tests.pdb
