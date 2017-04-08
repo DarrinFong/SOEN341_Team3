@@ -27,9 +27,12 @@ public class TAView : MonoBehaviour {
         }
 
         ShowStats();
+
+
+
                                                                        
     }
-
+   
     public void ShowStats()
     {
         if (SaveData.current.saves[0] != null)

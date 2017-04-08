@@ -144,7 +144,13 @@ public class CharacterActions : MonoBehaviour {
     }
     private void WinLevel()
     {
+<<<<<<< HEAD
         SceneChanger sceneChange = new SceneChanger();
+=======
+        
+
+        //Save data
+>>>>>>> 61a6a6786ea444d4c3862a129d9e971981735e3e
         long endTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
         int level = levelDestination.lvl;
 
@@ -156,8 +162,14 @@ public class CharacterActions : MonoBehaviour {
 
         SaveData.current.saves[SaveData.current.active.saveNum] = SaveData.current.active;
         Save();
+<<<<<<< HEAD
 
         sceneChange.NewGame(levelDestination.nextLevel);
+=======
+        //create a new scene named scene 3 to be able to change to the new level
+        SceneManager.LoadScene(levelDestination.nextLevel);
+        
+>>>>>>> 61a6a6786ea444d4c3862a129d9e971981735e3e
     }
 
     private void Save()

@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Destination.cs" />
+    <Compile Include="Assets\Exit.cs" />
     <Compile Include="Assets\OnStart.cs" />
     <Compile Include="Assets\Scenes\GameUI\Scripts\Action.cs" />
     <Compile Include="Assets\Scenes\GameUI\Scripts\Block.cs" />
@@ -96,7 +97,7 @@
     <Compile Include="Assets\Scenes\Scripts\CharacterRight.cs" />
     <Compile Include="Assets\Scenes\Scripts\ClearActions.cs" />
     <Compile Include="Assets\Scenes\Scripts\Drag.cs" />
-    <Compile Include="Assets\Scenes\Scripts\LoginScript.cs" />
+    <Compile Include="Assets\Scenes\Scripts\LogOnScript.cs" />
     <Compile Include="Assets\Scenes\Scripts\RunCode.cs" />
     <Compile Include="Assets\Scenes\Scripts\SaveData.cs" />
     <Compile Include="Assets\Scenes\Scripts\SaveLoad.cs" />
