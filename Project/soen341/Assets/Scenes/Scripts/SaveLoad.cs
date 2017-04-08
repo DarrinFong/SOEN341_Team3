@@ -35,7 +35,7 @@ public class SaveLoad : MonoBehaviour
         SaveLoad.passwordPanel.gameObject.SetActive(true);
     }
 
-    public void authenticatePassword(InputField pass)
+    public void AuthenticatePassword(InputField pass)
     {
         if (SaveData.current.active.AuthPassword(pass.text))
             loadSave();
@@ -43,7 +43,7 @@ public class SaveLoad : MonoBehaviour
             Debug.Log("Invalid password");
     }
 
-    public void cancelPassword(InputField pass)
+    public void CancelPassword(InputField pass)
     {
         pass.text = null;
         SaveLoad.passwordPanel.gameObject.SetActive(false);
@@ -59,7 +59,7 @@ public class SaveLoad : MonoBehaviour
         GameObject.Find("Female").GetComponent<Image>().color = Color.white;
     }
 
-    public void cancelUsername(InputField name)
+    public void CancelUsername(InputField name)
     {
         name.text = null;
         SaveLoad.usernamePanel.gameObject.SetActive(false);
@@ -67,7 +67,7 @@ public class SaveLoad : MonoBehaviour
         populateLoadButtons();
     }
 
-    public void changeSex(string sex)
+    public void ChangeSex(string sex)
     {
         switch (sex)
         {
@@ -92,7 +92,7 @@ public class SaveLoad : MonoBehaviour
         return (maleColor == Color.green || femaleColor == Color.green);
     }
 
-    public void saveUsername(InputField name)
+    public void SaveUsername(InputField name)
     {
         string userName = name.text;
         string pass = GameObject.Find("PasswordInput").GetComponentInChildren<InputField>().text;

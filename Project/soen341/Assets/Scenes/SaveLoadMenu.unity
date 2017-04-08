@@ -323,7 +323,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 325207554}
-        m_MethodName: cancelPassword
+        m_MethodName: CancelPassword
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1522229930}
@@ -745,7 +745,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 325207554}
-        m_MethodName: authenticatePassword
+        m_MethodName: AuthenticatePassword
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1522229930}
@@ -1313,7 +1313,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 325207554}
-        m_MethodName: changeSex
+        m_MethodName: ChangeSex
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1435,7 +1435,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 325207554}
-        m_MethodName: saveUsername
+        m_MethodName: SaveUsername
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1148971137}
@@ -2196,7 +2196,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 325207554}
-        m_MethodName: cancelUsername
+        m_MethodName: CancelUsername
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1148971137}
@@ -2389,7 +2389,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 325207554}
-        m_MethodName: changeSex
+        m_MethodName: ChangeSex
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
