@@ -11,9 +11,27 @@ public class CharacterActions : MonoBehaviour {
     static char[] actionSequence = new char[1000];
     static int actionPointer = 0;
     long startTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+    bool male = false;
+    GameObject guy, chick;
 
     Destination levelDestination;
+    
+    private void Start()
+    {
+        chick = GameObject.Find("Girl");
+        guy = GameObject.Find("Guy");
+        guy.GetComponent<Renderer>().enabled = male;
+        chick.GetComponent<Renderer>().enabled = !male;
+        Physics.IgnoreCollision(GameObject.Find("DickButt").GetComponent<SphereCollider>(), GameObject.Find("girl").GetComponent<SphereCollider>());
+    }
 
+    public void setMale(bool male)
+    {
+        this.male = male;
+        guy.GetComponent<Renderer>().enabled = male;
+        chick.GetComponent<Renderer>().enabled = !male;
+    }
+    
     public void right()
     {
         print("dickbutt right, pointer: " + actionPointer);
@@ -56,6 +74,7 @@ public class CharacterActions : MonoBehaviour {
     
     public System.Collections.IEnumerator runActions(int Whatever)
     {
+        SimpleCharacterControlGirl girl = GameObject.FindObjectOfType<SimpleCharacterControlGirl>();
         SimpleCharacterControl dickButt = GameObject.FindObjectOfType<SimpleCharacterControl>();
         levelDestination = GameObject.FindObjectOfType<Destination>();
 
@@ -74,56 +93,73 @@ public class CharacterActions : MonoBehaviour {
                     while (System.Math.Abs(positionBeforeAction.x - transform.position.x) < 0.9889f && System.Math.Abs(positionBeforeAction.z - transform.position.z) < 0.9889f)
                     {
                         dickButt.setV(1.0f);
+                        girl.setV(1.0f);
                         yield return new WaitForSeconds(0);
                     }
                     dickButt.setV(0.0f);
+                    girl.setV(0.0f);
                     print("position - x: " + (float)(System.Math.Round(transform.position.x, 0)) + ", z: " + (float)(System.Math.Round(transform.position.z, 0)));
-                    transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)), -0.5f, (float)(System.Math.Round(transform.position.z, 0)));
+                    girl.transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)), -0.5f, (float)(System.Math.Round(transform.position.z, 0)));
+                    dickButt.transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)), -0.5f, (float)(System.Math.Round(transform.position.z, 0)));
                     break;
                 case 'b':
                     while (System.Math.Abs(positionBeforeAction.x - transform.position.x) < 0.9889f && System.Math.Abs(positionBeforeAction.z - transform.position.z) < 0.9889f)
                     {
                         dickButt.setV(-1.0f);
+                        girl.setV(-1.0f);
                         yield return new WaitForSeconds(0);
                     }
                     dickButt.setV(0.0f);
+                    girl.setV(0.0f);
                     print("position - x: " + (float)(System.Math.Round(transform.position.x, 0)) + ", z: " + (float)(System.Math.Round(transform.position.z, 0)));
-                    transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)), -0.5f, (float)(System.Math.Round(transform.position.z, 0)));
+                    girl.transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)), -0.5f, (float)(System.Math.Round(transform.position.z, 0)));
+                    dickButt.transform.position = new Vector3((float)(System.Math.Round(transform.position.x, 0)), -0.5f, (float)(System.Math.Round(transform.position.z, 0)));
                     break;
                 case 'r':
                     while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y) < 89)
                     {
                         dickButt.setH(1.0f);
+                        girl.setH(1.0f);
                         yield return new WaitForSeconds(0);
                     }
                     dickButt.setH(0.0f);
+                    girl.setH(0.0f);
                     print("angle: " + (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100));
-                    transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
+                    girl.transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
+                    dickButt.transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
                     break;
                 case 'l':
                     if (System.Math.Round(rotationBeforeAction.y, 1) == 0)
                         while (System.Math.Abs(System.Math.Round(transform.eulerAngles.y, 1) - System.Math.Round(rotationBeforeAction.y, 1)) > 271 || (System.Math.Round(transform.eulerAngles.y, 1) == 0))
                         {
                             dickButt.setH(-1.0f);
+                            girl.setH(-1.0f);
                             yield return new WaitForSeconds(0);
                         }
                     else
                         while (System.Math.Abs(transform.eulerAngles.y - rotationBeforeAction.y) < 89)
                         {
                             dickButt.setH(-1.0f);
+                            girl.setH(-1.0f);
                             yield return new WaitForSeconds(0);
                         }
                     dickButt.setH(0.0f);
+                    girl.setH(0.0f);
                     print("angle: " + (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100));
-                    transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
+                    girl.transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
+                    dickButt.transform.eulerAngles = new Vector3(0, (float)(System.Math.Round(transform.eulerAngles.y / 100, 1) * 100), 0);
                     break;
                 default:
                     dickButt.setV(0.0f);
                     dickButt.setH(0.0f);
+                    girl.setV(0.0f);
+                    girl.setH(0.0f);
                     break;
             }
             dickButt.setV(0.0f);
             dickButt.setH(0.0f);
+            girl.setV(0.0f);
+            girl.setH(0.0f);
         }
         yield return new WaitForSeconds(1);
         print("end of actions");
