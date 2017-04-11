@@ -12,8 +12,32 @@ public class CharacterActions : MonoBehaviour {
     static int actionPointer = 0;
     long startTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
 
-    Destination levelDestination;
+    public Destination levelDestination;
 
+    public char[] GetActionSequence()
+    {
+        return actionSequence;
+    }
+    public void SetActionSequence(char[] actionSequence)
+    {
+        CharacterActions.actionSequence = actionSequence;
+    }
+    public int GetActionPointer()
+    {
+        return actionPointer;
+    }
+    public void SetActionPointer(int actionPointer)
+    {
+        CharacterActions.actionPointer = actionPointer;
+    }
+    public long GetStartTime()
+    {
+        return startTime;
+    }
+    public void SetStartTime(long startTime)
+    {
+        this.startTime = startTime;
+    }
     public void right()
     {
         print("dickbutt right, pointer: " + actionPointer);
@@ -142,7 +166,7 @@ public class CharacterActions : MonoBehaviour {
             return true;
         else return false;
     }
-    private void WinLevel()
+    public void WinLevel()
     {
 
         SceneChanger sceneChange = new SceneChanger();

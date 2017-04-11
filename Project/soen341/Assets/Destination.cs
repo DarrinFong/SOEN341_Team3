@@ -8,15 +8,7 @@ public class Destination : MonoBehaviour {
     public string level;
     public string nextLevel;
     public int lvl;
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
     public void SetDestination(Vector3 position, int level) {
         if(position != null)
         {
