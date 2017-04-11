@@ -163,7 +163,7 @@ public class CharacterActions : MonoBehaviour {
         }
         yield return new WaitForSeconds(1);
         print("end of actions");
-        if (isDestinationReached(transform)) { winLevel(); print("win level 2"); }
+        if (isDestinationReached(transform)) { WinLevel(); print("win level 2"); }
         transform.position = new Vector3(initialPosition.x, initialPosition.y, initialPosition.z);
         transform.eulerAngles = initialRotation;
         
@@ -178,28 +178,36 @@ public class CharacterActions : MonoBehaviour {
             return true;
         else return false;
     }
-    private void winLevel()
+    private void WinLevel()
     {
+
         SceneChanger sceneChange = new SceneChanger();
 
+        
+
         //Save data
+
         long endTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-        Debug.Log("Kappa pride");
         int level = levelDestination.lvl;
-        Debug.Log("Kappa pride");
-        Debug.Log("level is " + level);
+
         SaveData.current.active.lastLevel = level;
         SaveData.current.active.time[level-1] = (endTime - startTime)/1000;
+
         if (level > SaveData.current.active.highestLevel)
             SaveData.current.active.highestLevel = level;
 
         SaveData.current.saves[SaveData.current.active.saveNum] = SaveData.current.active;
         Save();
-        //create a new scene named scene 3 to be able to change to the new level
+
+
         sceneChange.NewGame(levelDestination.nextLevel);
+
+        //create a new scene named scene 3 to be able to change to the new level
+        SceneManager.LoadScene(levelDestination.nextLevel);
+        
+
     }
 
-    //Writes the to the file
     private void Save()
     {
         BinaryFormatter bf = new BinaryFormatter();

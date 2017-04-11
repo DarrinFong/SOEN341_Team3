@@ -9,9 +9,9 @@ public class Container : Block {
     public Transform arm;
     public Transform footer;
 
-    private static readonly Vector3 DEFAULT_ARMSIZE = new Vector3(0.25f, 1, 0.05f);
-    private static readonly Vector3 DEFAULT_ARMPOS = new Vector3(-1.625f, 0.173f, 0);
-    private static readonly Vector3 DEFAULT_FOOTPOS = new Vector3(-0.874f, -0.45f, 0);
+    private Vector3 DEFAULT_ARMSIZE = new Vector3(0.25f, 1, 0.05f);
+    private Vector3 DEFAULT_ARMPOS = new Vector3(-1.625f, 0.173f, 0);
+    private Vector3 DEFAULT_FOOTPOS = new Vector3(-0.874f, -0.45f, 0);
 
     protected List<Block> elements = new List<Block>();
 
@@ -19,6 +19,7 @@ public class Container : Block {
 	// Use this for initialization
 	void Start () {
         this.size = new Vector3(header.localScale.x, header.localScale.y + arm.localScale.y + footer.localScale.y, 0);
+
 	}
 	
 	// Update is called once per frame
@@ -117,18 +118,31 @@ public class Container : Block {
         }
         changeArmSize();
     }
+
+    public override void removeSelf()
+    {
+        for (int i = index; i < elements.Count; i++)
+        {
+            print("Trying to remove");
+            elements[i].removeSelf();
+        }
+        Destroy(this.gameObject);
+    }
+
+
     public void RemoveAll()
     {
         for (int i = 0; i < elements.Count; i++)
         {
             Destroy(elements[i].gameObject);
             elements.RemoveAt(i);
-            Character character = new Character();
-            if (this.GetType() != character.GetType())
-                Destroy(this.gameObject);
+            //Character character = new Character();
+           // if (this.GetType() != character.GetType())
+               // Destroy(this.gameObject);
         }
         changeArmSize();
     }
+
     public List<Block> getContainerList()
     {
         return elements;

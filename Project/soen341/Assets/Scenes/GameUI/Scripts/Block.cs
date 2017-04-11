@@ -167,6 +167,11 @@ public class Block : MonoBehaviour {
 
     }
 
+    public virtual void removeSelf()
+    {
+       
+    }
+
     public bool parentIsNull()
     {
         return !(parentContainer.tag == "Container");

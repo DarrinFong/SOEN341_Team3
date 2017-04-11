@@ -22,36 +22,36 @@ public class SaveLoad : MonoBehaviour
         {
             SaveData.current.active = SaveData.current.saves[currentSaveNum];
             SaveData.current.active.saveNum = currentSaveNum;
-            promptPasswordInput();
+            PromptPasswordInput();
         }
         else
-            promptUsername();
+            PromptUsername();
 
     }
 
-    public void promptPasswordInput()
+    public void PromptPasswordInput()
     {
         SaveLoad.savesPanel.gameObject.SetActive(false);
         SaveLoad.passwordPanel.gameObject.SetActive(true);
     }
 
-    public void authenticatePassword(InputField pass)
+    public void AuthenticatePassword(InputField pass)
     {
         if (SaveData.current.active.AuthPassword(pass.text))
-            loadSave();
+            LoadSave();
         else
             Debug.Log("Invalid password");
     }
 
-    public void cancelPassword(InputField pass)
+    public void CancelPassword(InputField pass)
     {
         pass.text = null;
         SaveLoad.passwordPanel.gameObject.SetActive(false);
         SaveLoad.savesPanel.gameObject.SetActive(true);
-        populateLoadButtons();
+        PopulateLoadButtons();
     }
 
-    public void promptUsername()
+    public void PromptUsername()
     {
         SaveLoad.savesPanel.gameObject.SetActive(false);
         SaveLoad.usernamePanel.gameObject.SetActive(true);
@@ -59,15 +59,15 @@ public class SaveLoad : MonoBehaviour
         GameObject.Find("Female").GetComponent<Image>().color = Color.white;
     }
 
-    public void cancelUsername(InputField name)
+    public void CancelUsername(InputField name)
     {
         name.text = null;
         SaveLoad.usernamePanel.gameObject.SetActive(false);
         SaveLoad.savesPanel.gameObject.SetActive(true);
-        populateLoadButtons();
+        PopulateLoadButtons();
     }
 
-    public void changeSex(string sex)
+    public void ChangeSex(string sex)
     {
         switch (sex)
         {
@@ -84,31 +84,32 @@ public class SaveLoad : MonoBehaviour
         }
     }
 
-    public bool choseSex()
+    public bool ChoseSex()
     {
         var maleColor = GameObject.Find("Male").GetComponent<Image>().color;
-        var femaleColor = GameObject.Find("Male").GetComponent<Image>().color;
+        var femaleColor = GameObject.Find("Female").GetComponent<Image>().color;
 
         return (maleColor == Color.green || femaleColor == Color.green);
     }
 
-    public void saveUsername(InputField name)
+    public void SaveUsername(InputField name)
     {
         string userName = name.text;
         string pass = GameObject.Find("PasswordInput").GetComponentInChildren<InputField>().text;
         string repass = GameObject.Find("PasswordCheck").GetComponentInChildren<InputField>().text;
 
-        if (validateUsername(userName))
+        if (ValidateUsername(userName))
         {
-            if (checkPasswords(pass, repass))
+            if (CheckPasswords(pass, repass))
             {
-                if (choseSex())
+                if (ChoseSex())
                 {
                     SaveData.current.saves[currentSaveNum] = new SaveInfo(userName);
                     SaveData.current.active = SaveData.current.saves[currentSaveNum];
                     SaveData.current.active.SetPassword(pass);
                     SaveData.current.active.gender = SaveLoad.sex;
-                    loadSave();
+                    LoadSave();
+
                 }
                 else
                     Debug.Log("Must choose a sex");
@@ -120,17 +121,17 @@ public class SaveLoad : MonoBehaviour
             Debug.Log("Must input a valid username");
     }
 
-    public bool validateUsername(string name)
+    public bool ValidateUsername(string name)
     {
         return name.All(char.IsLetter);
     }
 
-    public bool checkPasswords(string password, string password2)
+    public bool CheckPasswords(string password, string password2)
     {
         return password == password2 && password.Length > 5 && !password.Any(x => x == ' ');
     }
 
-    public void loadSave()
+    public void LoadSave()
     {
         Save();
         SceneManager.LoadScene("MainMenu");
@@ -138,12 +139,12 @@ public class SaveLoad : MonoBehaviour
         //change scene to main menu, using data from SavaData.current.active
     }
 
-    public string getSavePath()
+    public string GetSavePath()
     {
         return Application.persistentDataPath + "/SaveData.gd";
     }
 
-    public void populateLoadButtons()
+    public void PopulateLoadButtons()
     {
         if (SaveData.current.saves[0] != null)
             GameObject.Find("Save0").GetComponentInChildren<Text>().text = "Load " + SaveData.current.saves[0].saveName;
@@ -156,7 +157,7 @@ public class SaveLoad : MonoBehaviour
     public void Save()
     {
         BinaryFormatter bf = new BinaryFormatter();
-        FileStream file = File.Create(getSavePath());
+        FileStream file = File.Create(GetSavePath());
         bf.Serialize(file, SaveData.current);
         file.Close();
     }
@@ -172,15 +173,15 @@ public class SaveLoad : MonoBehaviour
             SaveLoad.usernamePanel.gameObject.SetActive(false);
             SaveLoad.passwordPanel.gameObject.SetActive(false);
             BinaryFormatter bf = new BinaryFormatter();
-            if (File.Exists(getSavePath()))
+            if (File.Exists(GetSavePath()))
             {
-                FileStream file = File.Open(getSavePath(), FileMode.Open);
+                FileStream file = File.Open(GetSavePath(), FileMode.Open);
                 SaveData.current = (SaveData)bf.Deserialize(file);
                 file.Close();
             }
             else
             {
-                FileStream file = File.Create(getSavePath());
+                FileStream file = File.Create(GetSavePath());
                 if (SaveData.current != null)
                     bf.Serialize(file, SaveData.current);
                 else
@@ -189,7 +190,7 @@ public class SaveLoad : MonoBehaviour
                 SaveData.current = new SaveData();
             }
 
-            populateLoadButtons();
+            PopulateLoadButtons();
         }
     }
 }

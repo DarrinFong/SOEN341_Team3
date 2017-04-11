@@ -7,8 +7,6 @@ public class SaveData
     public static SaveData current;
     public SaveInfo active;
     public SaveInfo[] saves = new SaveInfo[3];
-
-    public SaveData() { }
 }
 
 [System.Serializable]
@@ -21,9 +19,6 @@ public class SaveInfo
     public int saveNum;
     public int gender;
     public long[] time =  new long[3];
-
-   
-
 
     public SaveInfo(string saveName)
     {
