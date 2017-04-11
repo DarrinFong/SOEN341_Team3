@@ -1,0 +1,16 @@
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\Tests.dll
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\Tests.pdb
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\Assembly-CSharp.dll
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\nunit.framework.dll
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\UnityEngine.dll
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\UnityEngine.UI.dll
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\UnityEditor.dll
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\Assembly-CSharp.pdb
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\nunit.framework.xml
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\UnityEngine.xml
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\UnityEngine.UI.xml
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\bin\Debug\UnityEditor.xml
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\obj\Debug\Tests.dll
+C:\Users\katia\Documents\GitHub\SOEN341_Team3\Project\Tests\obj\Debug\Tests.pdb
