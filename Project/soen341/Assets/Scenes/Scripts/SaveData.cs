@@ -7,7 +7,6 @@ public class SaveData
     public static SaveData current;
     public SaveInfo active;
     public SaveInfo[] saves = new SaveInfo[3];
-
 }
 
 [System.Serializable]
