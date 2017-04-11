@@ -97,6 +97,7 @@
     <Compile Include="Assets\Scenes\Scripts\CharacterRight.cs" />
     <Compile Include="Assets\Scenes\Scripts\ClearActions.cs" />
     <Compile Include="Assets\Scenes\Scripts\Drag.cs" />
+    <Compile Include="Assets\Scenes\Scripts\LevelSelect.cs" />
     <Compile Include="Assets\Scenes\Scripts\LogOnScript.cs" />
     <Compile Include="Assets\Scenes\Scripts\RunCode.cs" />
     <Compile Include="Assets\Scenes\Scripts\SaveData.cs" />
