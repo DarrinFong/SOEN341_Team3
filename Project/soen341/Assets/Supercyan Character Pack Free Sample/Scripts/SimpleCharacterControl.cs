@@ -134,6 +134,7 @@ public class SimpleCharacterControl : MonoBehaviour {
         transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
         transform.Rotate(0, m_currentH * m_turnSpeed * Time.deltaTime, 0);
 
+		print("MoveSpeed: " + m_currentV);
         m_animator.SetFloat("MoveSpeed", m_currentV);
 
         JumpingAndLanding();
