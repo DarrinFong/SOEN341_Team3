@@ -87,7 +87,7 @@ public class SaveLoad : MonoBehaviour
     public bool ChoseSex()
     {
         var maleColor = GameObject.Find("Male").GetComponent<Image>().color;
-        var femaleColor = GameObject.Find("Male").GetComponent<Image>().color;
+        var femaleColor = GameObject.Find("Female").GetComponent<Image>().color;
 
         return (maleColor == Color.green || femaleColor == Color.green);
     }
