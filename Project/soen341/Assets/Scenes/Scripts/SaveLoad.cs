@@ -123,12 +123,14 @@ public class SaveLoad : MonoBehaviour
 
     public bool ValidateUsername(string name)
     {
-        return name.All(char.IsLetter);
+        SaveLoadExtension.SaveLoadExtension ext = new SaveLoadExtension.SaveLoadExtension();
+        return ext.ValidateUsername(name);
     }
 
     public bool CheckPasswords(string password, string password2)
     {
-        return password == password2 && password.Length > 5 && !password.Any(x => x == ' ');
+        SaveLoadExtension.SaveLoadExtension ext = new SaveLoadExtension.SaveLoadExtension();
+        return ext.CheckPasswords(password,password2);
     }
 
     public void LoadSave()
