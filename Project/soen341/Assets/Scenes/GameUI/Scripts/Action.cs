@@ -14,6 +14,12 @@ public class Action : Block {
         //print("size of action block " + size);
 	}
 
+    public override void removeSelf()
+    {
+        print("deleting action");
+        Destroy(this.gameObject);
+    }
+
     public override IEnumerator executeBlock()
     {
         CharacterActions charController = GameObject.FindObjectOfType<CharacterActions>();

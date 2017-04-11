@@ -21,7 +21,7 @@ public class UIController : MonoBehaviour {
     private List<Container> topContainers = new List<Container>();
     private List<List<Block>> allElements = new List<List<Block>>();
 
-    private Vector3 winLevel1Coordinates = new Vector3(5.0f, 0.0f, 0.0f);
+    private Vector3 winLevel1Coordinates = new Vector3(5.0f, 0.0f, 2.0f);
     private Vector3 winLevel2Coordinates = new Vector3(2.0f, 2.0f, 2.0f);
     private Vector3 winLevel3Coordinates = new Vector3(2.0f, 2.0f, 10.0f);
     private GameObject StartPanel;
@@ -153,12 +153,7 @@ public class UIController : MonoBehaviour {
                 createCharacter(0, objectHit);
                 break;
             case "reset":
-                foreach (var item in topContainers)
-                {
-                    item.RemoveAll();
-                }
-                CharacterActions charController = GameObject.FindObjectOfType<CharacterActions>();
-                charController.clearActions();
+                reset();
                 break;
             case "run":
                 runGame();
@@ -171,7 +166,7 @@ public class UIController : MonoBehaviour {
                 Destroy(StartPanel);
                 break;
             case "startLevel1":
-                print("I'm in leve 1 start button");
+                print("I'm in level 1 start button");
                 //set destination of level1 and mode the object indicating it
                 //Destination destLevel1 = GameObject.FindObjectOfType<Destination>();
                 dest.SetDestination(winLevel1Coordinates, 1);
@@ -215,6 +210,21 @@ public class UIController : MonoBehaviour {
         newCharacter.setType(type);
     }
 
+    public void reset()
+    {
+        getContainers();
+        foreach (Block b in topContainers)
+        {
+            b.removeSelf();
+        }
+
+        CharacterActions charController = GameObject.FindObjectOfType<CharacterActions>();
+        charController.clearActions();
+
+        clearLists();
+
+    }
+
     public void runGame()
     {
         getContainers();
@@ -232,6 +242,12 @@ public class UIController : MonoBehaviour {
         {
             allElements.Add(c.getContainerList());
         }
+    }
+
+    public void clearLists()
+    {
+        topContainers.Clear();
+        allElements.Clear();
     }
 
     public void getContainers()
