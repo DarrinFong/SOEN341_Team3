@@ -11,25 +11,25 @@ public class CharacterActions : MonoBehaviour {
     static char[] actionSequence = new char[1000];
     static int actionPointer = 0;
     long startTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-    bool male = false;
-    GameObject guy, chick;
+    bool male = true;
+    GameObject maleAvatar, femaleAvatar;
 
     Destination levelDestination;
     
     private void Start()
     {
-        chick = GameObject.Find("Girl");
-        guy = GameObject.Find("Guy");
-        guy.GetComponent<Renderer>().enabled = male;
-        chick.GetComponent<Renderer>().enabled = !male;
+		femaleAvatar = GameObject.Find("Girl");
+		maleAvatar = GameObject.Find("C_man_1_FBX2013");
+		maleAvatar.GetComponent<Renderer>().enabled = male;
+		femaleAvatar.GetComponent<Renderer>().enabled = !male;
         Physics.IgnoreCollision(GameObject.Find("DickButt").GetComponent<SphereCollider>(), GameObject.Find("girl").GetComponent<SphereCollider>());
     }
 
     public void setMale(bool male)
     {
         this.male = male;
-        guy.GetComponent<Renderer>().enabled = male;
-        chick.GetComponent<Renderer>().enabled = !male;
+		maleAvatar.GetComponent<Renderer>().enabled = male;
+		femaleAvatar.GetComponent<Renderer>().enabled = !male;
     }
     
     public void right()

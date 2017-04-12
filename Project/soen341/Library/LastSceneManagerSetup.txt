@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Action-Scene.unity
-=======
-- path: Assets/Scenes/SplashScreen.unity
->>>>>>> febbe81492fc78e16f6160a1178729669c273522
   isLoaded: 1
   isActive: 1
