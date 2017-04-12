@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2253,16 +2253,16 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 684813481}
-  m_Text: "The purpose of this level is for the character to reach the \nmarked destination
-    by using for loops.\nYou must advance the character \nby two tiles forward and
-    then 2 tiles to the right."
+  m_Text: "LEVEL 2: The purpose of this level is for the\ncharacter to reach the marked
+    destination \nby using for loops. You must advance the character \nby two tiles
+    forward and then 2 tiles to the right."
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 50
+  m_FontSize: 49
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 0}
