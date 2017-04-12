@@ -123,12 +123,14 @@ public class SaveLoad : MonoBehaviour
 
     public bool ValidateUsername(string name)
     {
-        return name.All(char.IsLetter);
+        SaveLoadInterface.SaveLoadInterface util = new SaveLoadInterface.SaveLoadInterface();
+        return util.ValidateUsername(name);
     }
 
     public bool CheckPasswords(string password, string password2)
     {
-        return password == password2 && password.Length > 5 && !password.Any(x => x == ' ');
+        SaveLoadInterface.SaveLoadInterface util = new SaveLoadInterface.SaveLoadInterface();
+        return util.CheckPasswords(password, password2);
     }
 
     public void LoadSave()
