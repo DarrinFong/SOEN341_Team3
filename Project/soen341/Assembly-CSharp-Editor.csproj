@@ -100,11 +100,7 @@
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\Fx\ParticleBlend.shader" />
  <Reference Include="Assembly-UnityScript">
-<<<<<<< HEAD
- <HintPath>C:/Users/Claudra/Documents/GitHub/SOEN341_Team3/Project/soen341/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
-=======
  <HintPath>C:/Users/Joey/Documents/Github/SOEN341_Team3/Project/soen341/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
->>>>>>> cd70a7925851459b08e332c6b8f9b30bfcf65e36
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>J:/Program Files/unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -155,11 +151,7 @@
  <HintPath>J:/Program Files/unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="NSubstitute">
-<<<<<<< HEAD
- <HintPath>C:/Users/Claudra/Documents/GitHub/SOEN341_Team3/Project/soen341/Assets/UnityTestTools/UnitTesting/Editor/NSubstitute/NSubstitute.dll</HintPath>
-=======
  <HintPath>C:/Users/Joey/Documents/Github/SOEN341_Team3/Project/soen341/Assets/UnityTestTools/UnitTesting/Editor/NSubstitute/NSubstitute.dll</HintPath>
->>>>>>> cd70a7925851459b08e332c6b8f9b30bfcf65e36
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>J:/Program Files/unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
