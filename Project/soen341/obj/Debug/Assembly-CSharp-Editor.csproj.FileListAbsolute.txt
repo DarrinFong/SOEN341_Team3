@@ -1,7 +1,5 @@
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp-Editor.dll
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
-C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp-Editor.dll.CodeAnalysisLog.xml
-C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp-Editor.dll.lastcodeanalysissucceeded
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-UnityScript.dll
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\NSubstitute.dll
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\nunit.framework.dll
