@@ -106,6 +106,7 @@ public class SaveLoad : MonoBehaviour
                 {
                     SaveData.current.saves[currentSaveNum] = new SaveInfo(userName);
                     SaveData.current.active = SaveData.current.saves[currentSaveNum];
+                    SaveData.current.active.saveNum = currentSaveNum;
                     SaveData.current.active.SetPassword(pass);
                     SaveData.current.active.gender = SaveLoad.sex;
                     LoadSave();
