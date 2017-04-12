@@ -18,7 +18,8 @@ public class CharacterActions : MonoBehaviour {
     
     private void Start()
     {
-		femaleAvatar = GameObject.Find("Girl");
+        male = SaveData.current.active.gender != 1;
+        femaleAvatar = GameObject.Find("Girl");
 		maleAvatar = GameObject.Find("C_man_1_FBX2013");
 		maleAvatar.GetComponent<Renderer>().enabled = male;
 		femaleAvatar.GetComponent<Renderer>().enabled = !male;
