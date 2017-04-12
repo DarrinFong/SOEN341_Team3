@@ -163,11 +163,16 @@ public class CharacterActions : MonoBehaviour {
             girl.setH(0.0f);
         }
         yield return new WaitForSeconds(1);
+        
         print("end of actions");
         if (isDestinationReached(transform)) { WinLevel(); print("win level 2"); }
-        transform.position = new Vector3(initialPosition.x, initialPosition.y, initialPosition.z);
-        transform.eulerAngles = initialRotation;
-        
+        //transform.position = new Vector3(initialPosition.x, initialPosition.y, initialPosition.z);
+        //transform.eulerAngles = initialRotation;
+        girl.transform.position = initialPosition;
+        dickButt.transform.position = initialPosition;
+        girl.transform.eulerAngles = initialRotation;
+        dickButt.transform.eulerAngles = initialRotation;
+
     }
 
     private bool isDestinationReached(Transform transform)
