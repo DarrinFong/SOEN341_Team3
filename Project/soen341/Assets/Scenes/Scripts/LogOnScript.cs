@@ -13,9 +13,10 @@ public class LogOnScript : MonoBehaviour{
         {
             throw new System.IO.IOException("person");
         }
-
-        if (pass.text.Trim() == "soen341")
+        LogOnInterface.LogOnInterface util = new LogOnInterface.LogOnInterface();
+        if (util.checkpass(pass.text.Trim()))
         {
+           
             SceneManager.LoadScene("TAView");
         }
         
@@ -25,6 +26,8 @@ public class LogOnScript : MonoBehaviour{
     {
         SceneManager.LoadScene(newGameLevel);
     }
+
+    
 
 
 }

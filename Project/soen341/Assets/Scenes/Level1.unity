@@ -3175,8 +3175,8 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1300409735}
-  m_Text: "the purpose of this level is to move to the \nmarked destination using
-    the available \nbuttons."
+  m_Text: "LEVEL1: the purpose of this level is to move\nto the  marked destination
+    using the available \nbuttons."
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
