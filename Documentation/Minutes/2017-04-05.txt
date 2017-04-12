@@ -1,0 +1,20 @@
+Wednsday 5th April 2017
+
+Group meeting minutes:
+
+Members present:Adam, Claudia, Darrin, Ekaterina, Emerald, Joseph, Loic, Phuong-Thao
+
+Time: 1h
+
+Discussed Project Report:
+-try to have a bare minimum part of the report for wednsday the 11th and discuss it with TA
+-class diagrams will be done from the process view since Unity scenes create instances of script classes at runtime
+
+Discussed Unit testing:
+-NUnit does not work for classes that implement Monobehaviour therefore need to copy scripts to unit test project andtake off Monobehaviour implementation from all classes
+-Test UI and game winning conditions
+
+Discussed Acceptance testing:
+-Review story board and write acceptance test for each story that is a game requiremnet
+-Prepare the document but only run the acceptance tests after unit tests are finalized and no more apprent bugs
+ 
