@@ -13,6 +13,8 @@ public class SaveLoad : MonoBehaviour
     private static bool hasStarted;
     private static int sex;
     private int currentSaveNum;
+    private string[] saveStr = {"Save0","Save1","Save2"};
+    private string loadStr = "Load ";
 
     public void saveLoad(int saveNum)
     {
@@ -150,11 +152,11 @@ public class SaveLoad : MonoBehaviour
     public void PopulateLoadButtons()
     {
         if (SaveData.current.saves[0] != null)
-            GameObject.Find("Save0").GetComponentInChildren<Text>().text = "Load " + SaveData.current.saves[0].saveName;
+            GameObject.Find(saveStr[0]).GetComponentInChildren<Text>().text = loadStr + SaveData.current.saves[0].saveName;
         if (SaveData.current.saves[1] != null)
-            GameObject.Find("Save1").GetComponentInChildren<Text>().text = "Load " + SaveData.current.saves[1].saveName;
+            GameObject.Find(saveStr[1]).GetComponentInChildren<Text>().text = loadStr + SaveData.current.saves[1].saveName;
         if (SaveData.current.saves[2] != null)
-            GameObject.Find("Save2").GetComponentInChildren<Text>().text = "Load " + SaveData.current.saves[2].saveName;
+            GameObject.Find(saveStr[2]).GetComponentInChildren<Text>().text = loadStr + SaveData.current.saves[2].saveName;
     }
 
     public void Save()

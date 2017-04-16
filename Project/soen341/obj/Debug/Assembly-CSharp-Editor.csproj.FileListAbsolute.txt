@@ -53,7 +53,6 @@ C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Unit
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\obj\Debug\Assembly-CSharp-Editor.pdb
-C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\Claudra\Documents\GitHub\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp-Editor.dll
 C:\Users\Claudra\Documents\GitHub\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
 C:\Users\Claudra\Documents\GitHub\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp-Editor.dll.CodeAnalysisLog.xml
@@ -112,3 +111,5 @@ C:\Users\Claudra\Documents\GitHub\SOEN341_Team3\Project\soen341\obj\Debug\Assemb
 C:\Users\Claudra\Documents\GitHub\SOEN341_Team3\Project\soen341\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\Claudra\Documents\GitHub\SOEN341_Team3\Project\soen341\obj\Debug\Assembly-CSharp-Editor.pdb
 C:\Users\Claudra\Documents\GitHub\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp-Editor.dll.CodeAnalysisLog.xml
+C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\soen341\Temp\bin\Debug\Assembly-CSharp-Editor.dll.lastcodeanalysissucceeded

@@ -13,10 +13,11 @@ C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\bin\D
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\bin\Debug\Unity.CecilTools.dll
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\bin\Debug\Mono.Cecil.Pdb.dll
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\bin\Debug\Mono.Cecil.Mdb.dll
-C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\bin\Debug\Assembly-CSharp.pdb
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\bin\Debug\UnityEngine.xml
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\bin\Debug\UnityEngine.UI.xml
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\bin\Debug\UnityEditor.xml
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\obj\Debug\Assembly-CSharpTests2.csprojResolveAssemblyReference.cache
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\obj\Debug\Assembly-CSharpTests2.dll
 C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\obj\Debug\Assembly-CSharpTests2.pdb
+C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\bin\Debug\Assembly-CSharpTests2.dll.CodeAnalysisLog.xml
+C:\Users\Joey\Documents\Github\SOEN341_Team3\Project\Assembly-CSharpTests2\bin\Debug\Assembly-CSharpTests2.dll.lastcodeanalysissucceeded
