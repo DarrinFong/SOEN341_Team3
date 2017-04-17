@@ -1,0 +1,5228 @@
+{
+"id": "58cc05a5855e01cb6138003a",
+"name": "Sprint 4",
+"desc": "",
+"descData": null,
+"closed": false,
+"idOrganization": "589b88a23651881e75aa42e8",
+"invited": false,
+"pinned": false,
+"starred": false,
+"url": "https://trello.com/b/XpvtrwPl/sprint-4",
+"prefs": {
+"permissionLevel": "org",
+"voting": "disabled",
+"comments": "members",
+"invitations": "members",
+"selfJoin": true,
+"cardCovers": true,
+"cardAging": "regular",
+"calendarFeedEnabled": false,
+"background": "blue",
+"backgroundImage": null,
+"backgroundImageScaled": null,
+"backgroundTile": false,
+"backgroundBrightness": "dark",
+"backgroundColor": "#0079BF",
+"canBePublic": true,
+"canBeOrg": true,
+"canBePrivate": true,
+"canInvite": true
+},
+"invitations": [],
+"memberships": [
+{
+"id": "58cc05a5855e01cb6138003b",
+"idMember": "589bb4866d45b01b7e16b69b",
+"memberType": "admin",
+"unconfirmed": false,
+"deactivated": false
+}
+],
+"shortLink": "XpvtrwPl",
+"subscribed": false,
+"labelNames": {
+"green": "",
+"yellow": "",
+"orange": "",
+"red": "",
+"purple": "",
+"blue": "",
+"sky": "",
+"lime": "",
+"pink": "",
+"black": ""
+},
+"powerUps": [],
+"dateLastActivity": "2017-04-17T15:23:21.997Z",
+"dateLastView": "2017-04-17T18:17:20.262Z",
+"shortUrl": "https://trello.com/b/XpvtrwPl",
+"idTags": [],
+"datePluginDisable": null,
+"actions": [
+{
+"id": "58f4ddea4a2f5c770db243f6",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "dpXThZNm",
+"idShort": 3,
+"name": "1. Student should be abe to select their avatar",
+"id": "58cc0676053170f617cfa7ec",
+"desc": "Risk: Low Value Low Risk\nPriority: 8\nPoints: 2"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: 8\nPoints: 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:23:22.004Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4dd2b58359be84f28e0c3",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "dpXThZNm",
+"idShort": 3,
+"name": "1. Student should be abe to select their avatar",
+"id": "58cc0676053170f617cfa7ec",
+"desc": "Risk: Low Value Low Risk\nPriority: 8\nPoints: 3"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: 9\nPoints: 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:20:11.754Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4dd0e5ad7d2e863df9511",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "1nnj2bPR",
+"idShort": 26,
+"name": "6. Students should have privacy to their progress",
+"id": "58f4319ded63a877caeecaec",
+"desc": "Risk: Low Value Low Risk\nPriority: 7\nPoints: 1"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: 8\nPoints: 1"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:19:42.734Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4dcd52e0adc659da4d0f7",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "4qao7Hon",
+"idShort": 18,
+"name": "Verify acceptance tests",
+"id": "58f4266e05630be7fc1311b6",
+"closed": true
+},
+"old": {
+"closed": false
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:18:45.557Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4dcce7e3f4e925c3f704b",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "aFQijHtX",
+"idShort": 19,
+"name": "Create a table to display the status of all acceptance tests",
+"id": "58f426a15cc40f7e4b02059a",
+"closed": true
+},
+"old": {
+"closed": false
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:18:38.089Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf73faaf2f52635b1ec2",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "1iGO0TlW",
+"idShort": 27,
+"id": "58f43226faf0aa91a8199603",
+"name": "6. 1 Add password information for student accounts"
+},
+"old": {
+"name": "Add password information for student accounts"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:21:39.614Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf650f89fe521b39156e",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "kGnb6gW9",
+"idShort": 25,
+"id": "58f4277225d0ca76eafe7500",
+"name": "5.2 Create a exit method to exit TA view or a level being played"
+},
+"old": {
+"name": "Create a exit method to exit TA view or a level being played"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:21:25.512Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf5b16cebfe7ba7f837f",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "m3yFkSdl",
+"idShort": 24,
+"id": "58f4275b3f0206aed954a7f8",
+"name": "5.1 Create a back method to return to previous page"
+},
+"old": {
+"name": "Create a back method to return to previous page"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:21:15.624Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf53a9b8b24f2701d643",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "SzbCfRGk",
+"idShort": 23,
+"id": "58f426ec404d5f3503338496",
+"name": "4.2 Create a pathway to limit the path option for level 3"
+},
+"old": {
+"name": "Create a pathway to limit the path option for level 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:21:07.423Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf4a590f8e67988aa8e0",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "Lj4AIssm",
+"idShort": 21,
+"id": "58f426d6967389ae5b430634",
+"name": "3.1 Create a destination point for level 2"
+},
+"old": {
+"name": "2.3 Create a destination point for level 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:20:58.578Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf43035701445990bccb",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "k3Q36eN6",
+"idShort": 22,
+"id": "58f426d925a92e939718b41f",
+"name": "4.1 Create a destination point for level 3"
+},
+"old": {
+"name": "Create a destination point for level 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:20:51.923Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf3a9b9a7822bf85eb70",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "Lj4AIssm",
+"idShort": 21,
+"id": "58f426d6967389ae5b430634",
+"name": "2.3 Create a destination point for level 2"
+},
+"old": {
+"name": "Create a destination point for level 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:20:42.440Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf3439861a8c61ae7576",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "pqYCIt59",
+"idShort": 20,
+"id": "58f426ca8d2e247d908ad76c",
+"name": "2.2 Create a destination point for level 1"
+},
+"old": {
+"name": "Create a destination point for level 1"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:20:36.698Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf2f7e35c17d6972c5aa",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "NAXiURtv",
+"idShort": 8,
+"id": "58d909456d96dc65b5644f94",
+"name": "2.1 Student should be able to learn how to use the drag and drop feature"
+},
+"old": {
+"name": "Student should be able to learn how to use the drag and drop feature"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:20:31.096Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf296353f5d0378686ba",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "hbNTUzdX",
+"idShort": 15,
+"id": "58d90bb4834461719a1b9942",
+"name": "1.1 Create a option to select avatar"
+},
+"old": {
+"name": "Create a option to select avatar"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:20:25.728Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf24ca2a7ec557335ce1",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"listBefore": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "aFQijHtX",
+"idShort": 19,
+"name": "Create a table to display the status of all acceptance tests",
+"id": "58f426a15cc40f7e4b02059a",
+"idList": "58cc05cfcd432a8a035be47d"
+},
+"old": {
+"idList": "58cc05e038f9e03630d0e221"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:20:20.163Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf221032fb38924e5fd0",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"listBefore": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "lftdTy4k",
+"idShort": 14,
+"name": "Decide what the end goal of each level should be",
+"id": "58d90b38b7b01d01d518e461",
+"idList": "58cc05cfcd432a8a035be47d"
+},
+"old": {
+"idList": "58cc05e038f9e03630d0e221"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:20:18.762Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4cf201fe8a94837500413",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"listBefore": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "xn8kk6uT",
+"idShort": 2,
+"name": "Create unit tests for the functions used",
+"id": "58cc06469a97a1b2a594b614",
+"idList": "58cc05cfcd432a8a035be47d"
+},
+"old": {
+"idList": "58cc05e038f9e03630d0e221"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:20:16.506Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f43226faf0aa91a8199604",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"card": {
+"shortLink": "1iGO0TlW",
+"idShort": 27,
+"name": "Add password information for student accounts",
+"id": "58f43226faf0aa91a8199603"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T03:10:30.053Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4321b2e622d68281dccb1",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "1nnj2bPR",
+"idShort": 26,
+"name": "6. Students should have privacy to their progress",
+"id": "58f4319ded63a877caeecaec",
+"desc": "Risk: Low Value Low Risk\nPriority: 8\nPoints: 1"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 1"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T03:10:19.031Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f43214fde3da7e31600a42",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "dpXThZNm",
+"idShort": 3,
+"name": "1. Student should be abe to select their avatar",
+"id": "58cc0676053170f617cfa7ec",
+"desc": "Risk: Low Value Low Risk\nPriority: 9\nPoints: 3"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: 8\nPoints: 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T03:10:12.964Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f431f59bd4f44ee4aeec1f",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "1nnj2bPR",
+"idShort": 26,
+"name": "6. Students should have privacy to their progress",
+"id": "58f4319ded63a877caeecaec",
+"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 1"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T03:09:41.895Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f431a381719c4fda8c55ff",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "1nnj2bPR",
+"idShort": 26,
+"id": "58f4319ded63a877caeecaec",
+"name": "6. Students should have privacy to their progress"
+},
+"old": {
+"name": "Students should have privacy to their progress"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T03:08:19.728Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4319ded63a877caeecaed",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"card": {
+"shortLink": "1nnj2bPR",
+"idShort": 26,
+"name": "Students should have privacy to their progress",
+"id": "58f4319ded63a877caeecaec"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T03:08:13.611Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42abb9d76d6ebbc6ab253",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "gg61wxiS",
+"idShort": 6,
+"id": "58d908ee431257123f5346fb",
+"name": "2. Student should be able to play a level 1"
+},
+"old": {
+"name": "2. Create level 1"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:38:51.050Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42aafd874f9eb25bda156",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "tBa8VQWg",
+"idShort": 5,
+"id": "58d908e843c3e39afd980104",
+"name": "3. Student should be able to play a level 2"
+},
+"old": {
+"name": "3. Create level 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:38:39.636Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42a9cc8c0e3c539bb1c9b",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "HfJWhgu4",
+"idShort": 7,
+"id": "58d908f6684994de0bc12d3b",
+"name": "4. Student should be able to play a level 3"
+},
+"old": {
+"name": "4. Create level 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:38:20.560Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4294f3dec739b285f3c39",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "4qao7Hon",
+"idShort": 18,
+"name": "Verify acceptance tests",
+"id": "58f4266e05630be7fc1311b6",
+"desc": "Risk: Low Value Low Risk\nPriority: 7\nPoints: 3"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:32:47.736Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4294041dbc6676b31ce77",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "Dvnkm6BZ",
+"idShort": 11,
+"name": "Work on unit testing",
+"id": "58d90a07b6e02a145bfb76a6",
+"desc": "Risk: Low Value Low Risk\nPriority: 6\nPoints: 2"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: 5\nPoints: 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:32:32.855Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4293714c8b81031e10b7a",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "0UkDNiSn",
+"idShort": 17,
+"name": "5. User should be able to move between pages",
+"id": "58f425d94d5f13e01063ea87",
+"desc": "Risk: High Value Low Risk\nPriority: 5\nPoints: 3"
+},
+"old": {
+"desc": "Risk: High Value Low Risk\nPriority: 4\nPoints: 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:32:23.327Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f429366349d6220da540f6",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "HfJWhgu4",
+"idShort": 7,
+"name": "4. Create level 3",
+"id": "58d908f6684994de0bc12d3b",
+"desc": "Risk: High Value Low Risk\nPriority: 4\nPoints: 2"
+},
+"old": {
+"desc": "Risk: High Value Low Risk\nPriority: 3\nPoints: 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:32:22.079Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4292b25abf121f2c7a148",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "tBa8VQWg",
+"idShort": 5,
+"name": "3. Create level 2",
+"id": "58d908e843c3e39afd980104",
+"desc": "Risk: High Value Low Risk\nPriority: 3\nPoints: 2"
+},
+"old": {
+"desc": "Risk: High Value Low Risk\nPriority: 2\nPoints: 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:32:11.451Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f429262a7dbe7d59f9ef56",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "gg61wxiS",
+"idShort": 6,
+"name": "2. Create level 1",
+"id": "58d908ee431257123f5346fb",
+"desc": "Risk: High Value Low Risk\nPriority: 2\nPoints: 2"
+},
+"old": {
+"desc": "Risk: High Value Low Risk\nPriority: 1\nPoints: 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:32:06.316Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42921ac2327dfa9930566",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "fUnH171Q",
+"idShort": 16,
+"name": "Create a flow between the levels",
+"id": "58d90bec527b34a5cfd6e21b",
+"desc": "Risk: High Value High Risk\nPriority: 1\nPoints: 2"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:32:01.177Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4290fc82e5645087e2162",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "dpXThZNm",
+"idShort": 3,
+"name": "1. Student should be abe to select their avatar",
+"id": "58cc0676053170f617cfa7ec",
+"desc": "Risk: Low Value Low Risk\nPriority: 8\nPoints: 3"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: 5\nPoints: 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:31:43.929Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42904eeee91adefc182d9",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "Dvnkm6BZ",
+"idShort": 11,
+"name": "Work on unit testing",
+"id": "58d90a07b6e02a145bfb76a6",
+"desc": "Risk: Low Value Low Risk\nPriority: 5\nPoints: 2"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:31:32.320Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f428e5fb28a344ec32c761",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "dpXThZNm",
+"idShort": 3,
+"name": "1. Student should be abe to select their avatar",
+"id": "58cc0676053170f617cfa7ec",
+"desc": "Risk: Low Value Low Risk\nPriority: 5\nPoints: 3"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:31:01.119Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f428d50a5a15356e6a4127",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "0UkDNiSn",
+"idShort": 17,
+"name": "5. User should be able to move between pages",
+"id": "58f425d94d5f13e01063ea87",
+"desc": "Risk: High Value Low Risk\nPriority: 4\nPoints: 3"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:30:45.278Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f428c7bc346f51dd43ee80",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "HfJWhgu4",
+"idShort": 7,
+"name": "4. Create level 3",
+"id": "58d908f6684994de0bc12d3b",
+"desc": "Risk: High Value Low Risk\nPriority: 3\nPoints: 2"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:30:31.582Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f428beecf5475ce0a20b82",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "tBa8VQWg",
+"idShort": 5,
+"name": "3. Create level 2",
+"id": "58d908e843c3e39afd980104",
+"desc": "Risk: High Value Low Risk\nPriority: 2\nPoints: 2"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:30:22.058Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f428a3157c1c69aa26c049",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "gg61wxiS",
+"idShort": 6,
+"name": "2. Create level 1",
+"id": "58d908ee431257123f5346fb",
+"desc": "Risk: High Value Low Risk\nPriority: 1\nPoints: 2"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:29:55.036Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f427d0262f18dfea6c7140",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "dpXThZNm",
+"idShort": 3,
+"name": "1. Student should be abe to select their avatar",
+"id": "58cc0676053170f617cfa7ec",
+"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 2"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:26:24.223Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4277225d0ca76eafe7501",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"card": {
+"shortLink": "kGnb6gW9",
+"idShort": 25,
+"name": "Create a exit method to exit TA view or a level being played",
+"id": "58f4277225d0ca76eafe7500"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:24:50.445Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4275b3f0206aed954a7f9",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"card": {
+"shortLink": "m3yFkSdl",
+"idShort": 24,
+"name": "Create a back method to return to previous page",
+"id": "58f4275b3f0206aed954a7f8"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:24:27.316Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42737404d5f35033387e1",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "fUnH171Q",
+"idShort": 16,
+"name": "Create a flow between the levels",
+"id": "58d90bec527b34a5cfd6e21b",
+"pos": 196607
+},
+"old": {
+"pos": 327679
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:23:51.466Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42727cd8801d007d44e0b",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "fUnH171Q",
+"idShort": 16,
+"name": "Create a flow between the levels",
+"id": "58d90bec527b34a5cfd6e21b",
+"pos": 327679
+},
+"old": {
+"pos": 196607
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:23:35.113Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f426ec404d5f3503338497",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"card": {
+"shortLink": "SzbCfRGk",
+"idShort": 23,
+"name": "Create a pathway to limit the path option for level 3",
+"id": "58f426ec404d5f3503338496"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:22:36.601Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f426d925a92e939718b420",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"card": {
+"shortLink": "k3Q36eN6",
+"idShort": 22,
+"name": "Create a destination point for level 3",
+"id": "58f426d925a92e939718b41f"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:22:17.989Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f426d6967389ae5b430635",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"card": {
+"shortLink": "Lj4AIssm",
+"idShort": 21,
+"name": "Create a destination point for level 2",
+"id": "58f426d6967389ae5b430634"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:22:14.027Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f426ca8d2e247d908ad76d",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"card": {
+"shortLink": "pqYCIt59",
+"idShort": 20,
+"name": "Create a destination point for level 1",
+"id": "58f426ca8d2e247d908ad76c"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:22:02.508Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f426adb842ba5d5d057050",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "xn8kk6uT",
+"idShort": 2,
+"name": "Create unit tests for the functions used",
+"id": "58cc06469a97a1b2a594b614",
+"pos": 16383.75
+},
+"old": {
+"pos": 65535
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:21:33.072Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f426aa90f865666947508d",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "aFQijHtX",
+"idShort": 19,
+"name": "Create a table to display the status of all acceptance tests",
+"id": "58f426a15cc40f7e4b02059a",
+"pos": 49151.25
+},
+"old": {
+"pos": 327679
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:21:30.022Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f426a15cc40f7e4b02059b",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"card": {
+"shortLink": "aFQijHtX",
+"idShort": 19,
+"name": "Create a table to display the status of all acceptance tests",
+"id": "58f426a15cc40f7e4b02059a"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:21:21.553Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4266e05630be7fc1311b7",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"card": {
+"shortLink": "4qao7Hon",
+"idShort": 18,
+"name": "Verify acceptance tests",
+"id": "58f4266e05630be7fc1311b6"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:20:30.123Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4265948bc0ab714e792bb",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"listBefore": {
+"name": "Non-Functional Tasks",
+"id": "58cc05f7000e5f9fd82939a3"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "xn8kk6uT",
+"idShort": 2,
+"name": "Create unit tests for the functions used",
+"id": "58cc06469a97a1b2a594b614",
+"idList": "58cc05e038f9e03630d0e221"
+},
+"old": {
+"idList": "58cc05f7000e5f9fd82939a3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:20:09.941Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4264b698f5769a83c221a",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "YmFb8tcS",
+"idShort": 12,
+"name": "Create a proper for function",
+"id": "58d90af62ab48a01930b5d60",
+"closed": true
+},
+"old": {
+"closed": false
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:19:55.196Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42642f00155b74fbee496",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "thkvFLLm",
+"idShort": 4,
+"name": "Create female avatar",
+"id": "58cc06845edd69fb72e4e678",
+"closed": true
+},
+"old": {
+"closed": false
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:19:46.955Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4263518388b53caa723df",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "uQZhLyuF",
+"idShort": 13,
+"name": "Create proper for function",
+"id": "58d90b052abad308f46aea4d",
+"closed": true
+},
+"old": {
+"closed": false
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:19:33.845Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4262b16e4e94ef443bd4c",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "YmFb8tcS",
+"idShort": 12,
+"name": "Create a proper for function",
+"id": "58d90af62ab48a01930b5d60",
+"pos": 327679
+},
+"old": {
+"pos": 196607
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:19:23.651Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4262b16e4e94ef443bd4b",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"listBefore": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "YmFb8tcS",
+"idShort": 12,
+"name": "Create a proper for function",
+"id": "58d90af62ab48a01930b5d60",
+"idList": "58cc05e038f9e03630d0e221"
+},
+"old": {
+"idList": "58cc05cfcd432a8a035be47d"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:19:23.607Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42625c010ae6407d6de34",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "YmFb8tcS",
+"idShort": 12,
+"id": "58d90af62ab48a01930b5d60",
+"name": "Create a proper for function"
+},
+"old": {
+"name": "Create a proper while function"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:19:17.044Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f426185ad7d2e863d4589a",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "NAXiURtv",
+"idShort": 8,
+"name": "Student should be able to learn how to use the drag and drop feature",
+"id": "58d909456d96dc65b5644f94",
+"pos": 262143
+},
+"old": {
+"pos": 131071
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:19:04.851Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f426185ad7d2e863d45899",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"listBefore": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "NAXiURtv",
+"idShort": 8,
+"name": "Student should be able to learn how to use the drag and drop feature",
+"id": "58d909456d96dc65b5644f94",
+"idList": "58cc05e038f9e03630d0e221"
+},
+"old": {
+"idList": "58cc05cfcd432a8a035be47d"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:19:04.819Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4260ce9c9c4482f706461",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "hbNTUzdX",
+"idShort": 15,
+"id": "58d90bb4834461719a1b9942",
+"name": "Create a option to select avatar"
+},
+"old": {
+"name": "Create a page select for avatar"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:18:52.319Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f425ff9bba13b761a98888",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"listBefore": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "hbNTUzdX",
+"idShort": 15,
+"name": "Create a page select for avatar",
+"id": "58d90bb4834461719a1b9942",
+"idList": "58cc05e038f9e03630d0e221"
+},
+"old": {
+"idList": "58cc05cfcd432a8a035be47d"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:18:39.965Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f425fadec6e84f4038a266",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "lftdTy4k",
+"idShort": 14,
+"name": "Decide what the end goal of each level should be",
+"id": "58d90b38b7b01d01d518e461",
+"pos": 32767.5
+},
+"old": {
+"pos": 65535.5
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:18:34.389Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f425f5be3483381ff02d15",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"listBefore": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "thkvFLLm",
+"idShort": 4,
+"name": "Create female avatar",
+"id": "58cc06845edd69fb72e4e678",
+"idList": "58cc05e038f9e03630d0e221"
+},
+"old": {
+"idList": "58cc05cfcd432a8a035be47d"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:18:29.842Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f425d94d5f13e01063ea88",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"card": {
+"shortLink": "0UkDNiSn",
+"idShort": 17,
+"name": "5. User should be able to move between pages",
+"id": "58f425d94d5f13e01063ea87"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:18:01.550Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e801db4a1b8abbdd63f455",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "HfJWhgu4",
+"idShort": 7,
+"id": "58d908f6684994de0bc12d3b",
+"name": "4. Create level 3"
+},
+"old": {
+"name": "Create level 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T21:17:15.747Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e801d5309a4b8fc21e8d03",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "tBa8VQWg",
+"idShort": 5,
+"id": "58d908e843c3e39afd980104",
+"name": "3. Create level 2"
+},
+"old": {
+"name": "Create level 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T21:17:09.607Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e801d0d965448faeed481f",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "gg61wxiS",
+"idShort": 6,
+"id": "58d908ee431257123f5346fb",
+"name": "2. Create level 1"
+},
+"old": {
+"name": "Create level 1"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T21:17:04.924Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e801ccd73afc8f6099f5b2",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "dpXThZNm",
+"idShort": 3,
+"id": "58cc0676053170f617cfa7ec",
+"name": "1. Student should be abe to select their avatar"
+},
+"old": {
+"name": "Student should be abe to select their avatar"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T21:17:00.202Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d91c6f90740d64f86a9819",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "YmFb8tcS",
+"idShort": 12,
+"name": "Create a proper while function",
+"id": "58d90af62ab48a01930b5d60",
+"pos": 196607
+},
+"old": {
+"pos": 131071
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T14:06:39.331Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d91c6f90740d64f86a9818",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"listBefore": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "YmFb8tcS",
+"idShort": 12,
+"name": "Create a proper while function",
+"id": "58d90af62ab48a01930b5d60",
+"idList": "58cc05cfcd432a8a035be47d"
+},
+"old": {
+"idList": "58cc05e038f9e03630d0e221"
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T14:06:39.300Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90c15a56577c58dbc8a07",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "qOYDGSKV",
+"idShort": 10,
+"name": "Students will use a for loop to be able to set a number of time the character will perform the action consecutively",
+"id": "58d909a48e6a2bbca4495c68",
+"closed": true
+},
+"old": {
+"closed": false
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:56:53.089Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90c120902d671d78d45ff",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "nBQwsqHo",
+"idShort": 9,
+"name": "Student will use a while loop to avoid using the same instruction multiple times",
+"id": "58d909681d67591251e73c1e",
+"closed": true
+},
+"old": {
+"closed": false
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:56:50.708Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90c0d78f0c5339fcd7305",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "nBQwsqHo",
+"idShort": 9,
+"name": "Student will use a while loop to avoid using the same instruction multiple times",
+"id": "58d909681d67591251e73c1e",
+"pos": 327679
+},
+"old": {
+"pos": 196607
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:56:45.625Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90bec527b34a5cfd6e21c",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"card": {
+"shortLink": "fUnH171Q",
+"idShort": 16,
+"name": "Create a flow between the levels",
+"id": "58d90bec527b34a5cfd6e21b"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:56:12.576Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90bb8f43c92eefb12b029",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "hbNTUzdX",
+"idShort": 15,
+"name": "Create a page select for avatar",
+"id": "58d90bb4834461719a1b9942",
+"pos": 98303
+},
+"old": {
+"pos": 327679
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:55:20.631Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90bb4834461719a1b9943",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"card": {
+"shortLink": "hbNTUzdX",
+"idShort": 15,
+"name": "Create a page select for avatar",
+"id": "58d90bb4834461719a1b9942"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:55:16.326Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90b6dea58d0eeec140f3a",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "4Ey3VKdz",
+"idShort": 1,
+"name": "Level functions (while and for) should perform correctly",
+"id": "58cc062fdf2f92f1decdf176",
+"closed": true
+},
+"old": {
+"closed": false
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:54:05.861Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90b67d6d74497cb1e47b0",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "4Ey3VKdz",
+"idShort": 1,
+"name": "Level functions (while and for) should perform correctly",
+"id": "58cc062fdf2f92f1decdf176",
+"pos": 262143
+},
+"old": {
+"pos": 65535
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:53:59.776Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90b67d6d74497cb1e47af",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"listBefore": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "4Ey3VKdz",
+"idShort": 1,
+"name": "Level functions (while and for) should perform correctly",
+"id": "58cc062fdf2f92f1decdf176",
+"idList": "58cc05e038f9e03630d0e221"
+},
+"old": {
+"idList": "58cc05eb2230ae9f764a8f06"
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:53:59.752Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90b4e44ea584e72b7567c",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "gg61wxiS",
+"idShort": 6,
+"name": "Create level 1",
+"id": "58d908ee431257123f5346fb",
+"pos": 98303
+},
+"old": {
+"pos": 196607
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:53:34.554Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90b3c9229fb0d38589ae2",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "lftdTy4k",
+"idShort": 14,
+"name": "Decide what the end goal of each level should be",
+"id": "58d90b38b7b01d01d518e461",
+"pos": 65535.5
+},
+"old": {
+"pos": 327679
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:53:16.752Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90b3c9229fb0d38589ae1",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"listBefore": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "lftdTy4k",
+"idShort": 14,
+"name": "Decide what the end goal of each level should be",
+"id": "58d90b38b7b01d01d518e461",
+"idList": "58cc05e038f9e03630d0e221"
+},
+"old": {
+"idList": "58cc05cfcd432a8a035be47d"
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:53:16.731Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90b38b7b01d01d518e463",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"card": {
+"shortLink": "lftdTy4k",
+"idShort": 14,
+"name": "Decide what the end goal of each level should be",
+"id": "58d90b38b7b01d01d518e461"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:53:12.636Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90b0cee34b957da5a4cf6",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"listBefore": {
+"name": "Non-Functional Tasks",
+"id": "58cc05f7000e5f9fd82939a3"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "uQZhLyuF",
+"idShort": 13,
+"name": "Create proper for function",
+"id": "58d90b052abad308f46aea4d",
+"idList": "58cc05e038f9e03630d0e221"
+},
+"old": {
+"idList": "58cc05f7000e5f9fd82939a3"
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:52:28.870Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90b09ff2567f3818e32de",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+},
+"listBefore": {
+"name": "Non-Functional Tasks",
+"id": "58cc05f7000e5f9fd82939a3"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "YmFb8tcS",
+"idShort": 12,
+"name": "Create a proper while function",
+"id": "58d90af62ab48a01930b5d60",
+"idList": "58cc05e038f9e03630d0e221"
+},
+"old": {
+"idList": "58cc05f7000e5f9fd82939a3"
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:52:25.314Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90b052abad308f46aea4e",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Non-Functional Tasks",
+"id": "58cc05f7000e5f9fd82939a3"
+},
+"card": {
+"shortLink": "uQZhLyuF",
+"idShort": 13,
+"name": "Create proper for function",
+"id": "58d90b052abad308f46aea4d"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:52:21.727Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90af62ab48a01930b5d61",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Non-Functional Tasks",
+"id": "58cc05f7000e5f9fd82939a3"
+},
+"card": {
+"shortLink": "YmFb8tcS",
+"idShort": 12,
+"name": "Create a proper while function",
+"id": "58d90af62ab48a01930b5d60"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:52:06.123Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90acb633bad0f8c853f19",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "4Ey3VKdz",
+"idShort": 1,
+"id": "58cc062fdf2f92f1decdf176",
+"name": "Level functions (while and for) should perform correctly"
+},
+"old": {
+"name": "Every function should perform correctly"
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:51:23.875Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90a07b6e02a145bfb76a7",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"card": {
+"shortLink": "Dvnkm6BZ",
+"idShort": 11,
+"name": "Work on unit testing",
+"id": "58d90a07b6e02a145bfb76a6"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:48:07.017Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d909a48e6a2bbca4495c69",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"card": {
+"shortLink": "qOYDGSKV",
+"idShort": 10,
+"name": "Students will use a for loop to be able to set a number of time the character will perform the action consecutively",
+"id": "58d909a48e6a2bbca4495c68"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:46:28.499Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d909681d67591251e73c1f",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"card": {
+"shortLink": "nBQwsqHo",
+"idShort": 9,
+"name": "Student will use a while loop to avoid using the same instruction multiple times",
+"id": "58d909681d67591251e73c1e"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:45:28.963Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d909456d96dc65b5644f95",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"card": {
+"shortLink": "NAXiURtv",
+"idShort": 8,
+"name": "Student should be able to learn how to use the drag and drop feature",
+"id": "58d909456d96dc65b5644f94"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:44:53.322Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90913b3ffa664d74be6ee",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"card": {
+"shortLink": "gg61wxiS",
+"idShort": 6,
+"id": "58d908ee431257123f5346fb",
+"name": "Create level 1"
+},
+"old": {
+"name": "Create a level 1"
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T12:44:03.340Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d908f6684994de0bc12d3c",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"card": {
+"shortLink": "HfJWhgu4",
+"idShort": 7,
+"name": "Create level 3",
+"id": "58d908f6684994de0bc12d3b"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:43:34.960Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d908ee431257123f5346fc",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"card": {
+"shortLink": "gg61wxiS",
+"idShort": 6,
+"name": "Create a level 1",
+"id": "58d908ee431257123f5346fb"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:43:26.994Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d908e843c3e39afd980105",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"card": {
+"shortLink": "tBa8VQWg",
+"idShort": 5,
+"name": "Create level 2",
+"id": "58d908e843c3e39afd980104"
+}
+},
+"type": "createCard",
+"date": "2017-03-27T12:43:20.814Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc06845edd69fb72e4e679",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+},
+"card": {
+"shortLink": "thkvFLLm",
+"idShort": 4,
+"name": "Create female avatar",
+"id": "58cc06845edd69fb72e4e678"
+}
+},
+"type": "createCard",
+"date": "2017-03-17T15:53:40.405Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc0676053170f617cfa7ed",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+},
+"card": {
+"shortLink": "dpXThZNm",
+"idShort": 3,
+"name": "Student should be abe to select their avatar",
+"id": "58cc0676053170f617cfa7ec"
+}
+},
+"type": "createCard",
+"date": "2017-03-17T15:53:26.471Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc06469a97a1b2a594b615",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Non-Functional Tasks",
+"id": "58cc05f7000e5f9fd82939a3"
+},
+"card": {
+"shortLink": "xn8kk6uT",
+"idShort": 2,
+"name": "Create unit tests for the functions used",
+"id": "58cc06469a97a1b2a594b614"
+}
+},
+"type": "createCard",
+"date": "2017-03-17T15:52:38.014Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc062fdf2f92f1decdf177",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+},
+"card": {
+"shortLink": "4Ey3VKdz",
+"idShort": 1,
+"name": "Every function should perform correctly",
+"id": "58cc062fdf2f92f1decdf176"
+}
+},
+"type": "createCard",
+"date": "2017-03-17T15:52:15.836Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc05f7000e5f9fd82939a4",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Non-Functional Tasks",
+"id": "58cc05f7000e5f9fd82939a3"
+}
+},
+"type": "createList",
+"date": "2017-03-17T15:51:19.617Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc05eb2230ae9f764a8f07",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Non-Functional Stories",
+"id": "58cc05eb2230ae9f764a8f06"
+}
+},
+"type": "createList",
+"date": "2017-03-17T15:51:07.483Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc05e038f9e03630d0e222",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Completed",
+"id": "58cc05e038f9e03630d0e221"
+}
+},
+"type": "createList",
+"date": "2017-03-17T15:50:56.920Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc05cfcd432a8a035be47e",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "Tasks",
+"id": "58cc05cfcd432a8a035be47d"
+}
+},
+"type": "createList",
+"date": "2017-03-17T15:50:39.086Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc05b1b16dc9a094cd2b1d",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+},
+"list": {
+"name": "User Stories",
+"id": "58cc05b1b16dc9a094cd2b1c"
+}
+},
+"type": "createList",
+"date": "2017-03-17T15:50:09.522Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc05a5855e01cb6138003d",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"organization": {
+"name": "SOEN 341",
+"id": "589b88a23651881e75aa42e8"
+},
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+}
+},
+"type": "addToOrganizationBoard",
+"date": "2017-03-17T15:49:57.623Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58cc05a5855e01cb6138003c",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "XpvtrwPl",
+"name": "Sprint 4",
+"id": "58cc05a5855e01cb6138003a"
+}
+},
+"type": "createBoard",
+"date": "2017-03-17T15:49:57.597Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+}
+],
+"cards": [
+{
+"id": "58cc0676053170f617cfa7ec",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T15:23:21.997Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 8\nPoints: 2",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05b1b16dc9a094cd2b1c",
+"idMembersVoted": [],
+"idShort": 3,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81896"
+],
+"name": "1. Student should be abe to select their avatar",
+"pos": 65535,
+"shortLink": "dpXThZNm",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nx0ca6yptzfr9bq19o+10fzg9n45d@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81896",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "green",
+"uses": 3
+}
+],
+"shortUrl": "https://trello.com/c/dpXThZNm",
+"subscribed": false,
+"url": "https://trello.com/c/dpXThZNm/3-1-student-should-be-abe-to-select-their-avatar",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d908ee431257123f5346fb",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:38:51.043Z",
+"desc": "Risk: High Value Low Risk\nPriority: 2\nPoints: 2",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05b1b16dc9a094cd2b1c",
+"idMembersVoted": [],
+"idShort": 6,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81898"
+],
+"name": "2. Student should be able to play a level 1",
+"pos": 98303,
+"shortLink": "gg61wxiS",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzheka9a569e21dyz+0j2cef0i63@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81898",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "yellow",
+"uses": 3
+}
+],
+"shortUrl": "https://trello.com/c/gg61wxiS",
+"subscribed": false,
+"url": "https://trello.com/c/gg61wxiS/6-2-student-should-be-able-to-play-a-level-1",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d908e843c3e39afd980104",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:38:39.631Z",
+"desc": "Risk: High Value Low Risk\nPriority: 3\nPoints: 2",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05b1b16dc9a094cd2b1c",
+"idMembersVoted": [],
+"idShort": 5,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81899"
+],
+"name": "3. Student should be able to play a level 2",
+"pos": 131071,
+"shortLink": "tBa8VQWg",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzhdwxqm1v5dspaf8+0qlzoiyl9y@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81899",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "orange",
+"uses": 4
+}
+],
+"shortUrl": "https://trello.com/c/tBa8VQWg",
+"subscribed": false,
+"url": "https://trello.com/c/tBa8VQWg/5-3-student-should-be-able-to-play-a-level-2",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d908f6684994de0bc12d3b",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:38:20.554Z",
+"desc": "Risk: High Value Low Risk\nPriority: 4\nPoints: 2",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05b1b16dc9a094cd2b1c",
+"idMembersVoted": [],
+"idShort": 7,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81897"
+],
+"name": "4. Student should be able to play a level 3",
+"pos": 262143,
+"shortLink": "HfJWhgu4",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzhffztv9ndvlhmij+2999blgokx@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81897",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "red",
+"uses": 5
+}
+],
+"shortUrl": "https://trello.com/c/HfJWhgu4",
+"subscribed": false,
+"url": "https://trello.com/c/HfJWhgu4/7-4-student-should-be-able-to-play-a-level-3",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f425d94d5f13e01063ea87",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:32:23.321Z",
+"desc": "Risk: High Value Low Risk\nPriority: 5\nPoints: 3",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05b1b16dc9a094cd2b1c",
+"idMembersVoted": [],
+"idShort": 17,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f42683ced82109ff35b4bf"
+],
+"name": "5. User should be able to move between pages",
+"pos": 327679,
+"shortLink": "0UkDNiSn",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33qy7dxn8s7fm5nyf+2puiofmzzy@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f42683ced82109ff35b4bf",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "lime",
+"uses": 3
+}
+],
+"shortUrl": "https://trello.com/c/0UkDNiSn",
+"subscribed": false,
+"url": "https://trello.com/c/0UkDNiSn/17-5-user-should-be-able-to-move-between-pages",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f4319ded63a877caeecaec",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T15:19:42.727Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 7\nPoints: 1",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05b1b16dc9a094cd2b1c",
+"idMembersVoted": [],
+"idShort": 26,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f431d6ced82109ff35cc24"
+],
+"name": "6. Students should have privacy to their progress",
+"pos": 393215,
+"shortLink": "1nnj2bPR",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33zzzoh3c5d5ncq98+2esejmjcr7@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f431d6ced82109ff35cc24",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "pink",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/1nnj2bPR",
+"subscribed": false,
+"url": "https://trello.com/c/1nnj2bPR/26-6-students-should-have-privacy-to-their-progress",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58cc06469a97a1b2a594b614",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:20:16.502Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05cfcd432a8a035be47d",
+"idMembersVoted": [],
+"idShort": 2,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc8189b"
+],
+"name": "Create unit tests for the functions used",
+"pos": 16383.75,
+"shortLink": "xn8kk6uT",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nx0c52dbkij0wybcic+009ngamopi@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc8189b",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "purple",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/xn8kk6uT",
+"subscribed": false,
+"url": "https://trello.com/c/xn8kk6uT/2-create-unit-tests-for-the-functions-used",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d90b38b7b01d01d518e461",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:20:18.756Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05cfcd432a8a035be47d",
+"idMembersVoted": [],
+"idShort": 14,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc8189a"
+],
+"name": "Decide what the end goal of each level should be",
+"pos": 32767.5,
+"shortLink": "lftdTy4k",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzj5zdtz39uicq929+0gevcdfmrd@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc8189a",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "blue",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/lftdTy4k",
+"subscribed": false,
+"url": "https://trello.com/c/lftdTy4k/14-decide-what-the-end-goal-of-each-level-should-be",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f426a15cc40f7e4b02059a",
+"checkItemStates": null,
+"closed": true,
+"dateLastActivity": "2017-04-17T15:18:38.082Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05cfcd432a8a035be47d",
+"idMembersVoted": [],
+"idShort": 19,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f42675ced82109ff35b487"
+],
+"name": "Create a table to display the status of all acceptance tests",
+"pos": 49151.25,
+"shortLink": "aFQijHtX",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33rju8azgh3kn61sq+0pt5u90ixa@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f42675ced82109ff35b487",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "sky",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/aFQijHtX",
+"subscribed": false,
+"url": "https://trello.com/c/aFQijHtX/19-create-a-table-to-display-the-status-of-all-acceptance-tests",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d909a48e6a2bbca4495c68",
+"checkItemStates": null,
+"closed": true,
+"dateLastActivity": "2017-03-27T12:56:53.082Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05cfcd432a8a035be47d",
+"idMembersVoted": [],
+"idShort": 10,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81897"
+],
+"name": "Students will use a for loop to be able to set a number of time the character will perform the action consecutively",
+"pos": 262143,
+"shortLink": "qOYDGSKV",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzhy9yr3v789x6g6g+0z2uwh1u0j@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81897",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "red",
+"uses": 5
+}
+],
+"shortUrl": "https://trello.com/c/qOYDGSKV",
+"subscribed": false,
+"url": "https://trello.com/c/qOYDGSKV/10-students-will-use-a-for-loop-to-be-able-to-set-a-number-of-time-the-character-will-perform-the-action-consecutively",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d909681d67591251e73c1e",
+"checkItemStates": null,
+"closed": true,
+"dateLastActivity": "2017-03-27T12:56:50.704Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05cfcd432a8a035be47d",
+"idMembersVoted": [],
+"idShort": 9,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81899"
+],
+"name": "Student will use a while loop to avoid using the same instruction multiple times",
+"pos": 327679,
+"shortLink": "nBQwsqHo",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzhrqnwfxjk4i8x7i+0rxj075gvc@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81899",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "orange",
+"uses": 4
+}
+],
+"shortUrl": "https://trello.com/c/nBQwsqHo",
+"subscribed": false,
+"url": "https://trello.com/c/nBQwsqHo/9-student-will-use-a-while-loop-to-avoid-using-the-same-instruction-multiple-times",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58cc06845edd69fb72e4e678",
+"checkItemStates": null,
+"closed": true,
+"dateLastActivity": "2017-04-17T02:19:46.947Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 4,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81896"
+],
+"name": "Create female avatar",
+"pos": 65535,
+"shortLink": "thkvFLLm",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nx0cbqtwl7qpoltuuw+0hxbvwbyyn@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81896",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "green",
+"uses": 3
+}
+],
+"shortUrl": "https://trello.com/c/thkvFLLm",
+"subscribed": false,
+"url": "https://trello.com/c/thkvFLLm/4-create-female-avatar",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d90bb4834461719a1b9942",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:20:25.721Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 15,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81896"
+],
+"name": "1.1 Create a option to select avatar",
+"pos": 98303,
+"shortLink": "hbNTUzdX",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzjjdbp5n422ur58i+297fy6iay5@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81896",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "green",
+"uses": 3
+}
+],
+"shortUrl": "https://trello.com/c/hbNTUzdX",
+"subscribed": false,
+"url": "https://trello.com/c/hbNTUzdX/15-1-1-create-a-option-to-select-avatar",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d90b052abad308f46aea4d",
+"checkItemStates": null,
+"closed": true,
+"dateLastActivity": "2017-04-17T02:19:33.823Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 13,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81897"
+],
+"name": "Create proper for function",
+"pos": 196607,
+"shortLink": "uQZhLyuF",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzj0ep10p8kia3zv1+1t2ahpzmna@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81897",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "red",
+"uses": 5
+}
+],
+"shortUrl": "https://trello.com/c/uQZhLyuF",
+"subscribed": false,
+"url": "https://trello.com/c/uQZhLyuF/13-create-proper-for-function",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d909456d96dc65b5644f94",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:20:31.092Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 8,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81898"
+],
+"name": "2.1 Student should be able to learn how to use the drag and drop feature",
+"pos": 262143,
+"shortLink": "NAXiURtv",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzhnzmk58x6cz9tas+1s7jf9vis0@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81898",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "yellow",
+"uses": 3
+}
+],
+"shortUrl": "https://trello.com/c/NAXiURtv",
+"subscribed": false,
+"url": "https://trello.com/c/NAXiURtv/8-2-1-student-should-be-able-to-learn-how-to-use-the-drag-and-drop-feature",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58cc062fdf2f92f1decdf176",
+"checkItemStates": null,
+"closed": true,
+"dateLastActivity": "2017-03-27T12:54:05.855Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 1,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [],
+"name": "Level functions (while and for) should perform correctly",
+"pos": 262143,
+"shortLink": "4Ey3VKdz",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nx0c2lvfhi8c0mirg6+0t6cy0818e@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [],
+"shortUrl": "https://trello.com/c/4Ey3VKdz",
+"subscribed": false,
+"url": "https://trello.com/c/4Ey3VKdz/1-level-functions-while-and-for-should-perform-correctly",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d90af62ab48a01930b5d60",
+"checkItemStates": null,
+"closed": true,
+"dateLastActivity": "2017-04-17T02:19:55.189Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 12,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81899"
+],
+"name": "Create a proper for function",
+"pos": 327679,
+"shortLink": "YmFb8tcS",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyziysarouopjiwqqo+05gsv2oqps@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81899",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "orange",
+"uses": 4
+}
+],
+"shortUrl": "https://trello.com/c/YmFb8tcS",
+"subscribed": false,
+"url": "https://trello.com/c/YmFb8tcS/12-create-a-proper-for-function",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f426ca8d2e247d908ad76c",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:20:36.694Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 20,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81898"
+],
+"name": "2.2 Create a destination point for level 1",
+"pos": 327679,
+"shortLink": "pqYCIt59",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33roaky50nte6g7e4+194ggjxwaj@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81898",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "yellow",
+"uses": 3
+}
+],
+"shortUrl": "https://trello.com/c/pqYCIt59",
+"subscribed": false,
+"url": "https://trello.com/c/pqYCIt59/20-2-2-create-a-destination-point-for-level-1",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f426d6967389ae5b430634",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:20:58.575Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 21,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81899"
+],
+"name": "3.1 Create a destination point for level 2",
+"pos": 393215,
+"shortLink": "Lj4AIssm",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33rplftj9gqm1km5w+2qkbq4lt8w@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81899",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "orange",
+"uses": 4
+}
+],
+"shortUrl": "https://trello.com/c/Lj4AIssm",
+"subscribed": false,
+"url": "https://trello.com/c/Lj4AIssm/21-3-1-create-a-destination-point-for-level-2",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f426d925a92e939718b41f",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:20:51.913Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 22,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81897"
+],
+"name": "4.1 Create a destination point for level 3",
+"pos": 458751,
+"shortLink": "k3Q36eN6",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33rpveirmmw8wp7vj+2jjykhr2cw@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81897",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "red",
+"uses": 5
+}
+],
+"shortUrl": "https://trello.com/c/k3Q36eN6",
+"subscribed": false,
+"url": "https://trello.com/c/k3Q36eN6/22-4-1-create-a-destination-point-for-level-3",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f426ec404d5f3503338496",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:21:07.417Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 23,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc81897"
+],
+"name": "4.2 Create a pathway to limit the path option for level 3",
+"pos": 524287,
+"shortLink": "SzbCfRGk",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33rrxry8flc1pzc0m+1hkxfsufnn@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81897",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "red",
+"uses": 5
+}
+],
+"shortUrl": "https://trello.com/c/SzbCfRGk",
+"subscribed": false,
+"url": "https://trello.com/c/SzbCfRGk/23-4-2-create-a-pathway-to-limit-the-path-option-for-level-3",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f4275b3f0206aed954a7f8",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:21:15.617Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 24,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f42683ced82109ff35b4bf"
+],
+"name": "5.1 Create a back method to return to previous page",
+"pos": 589823,
+"shortLink": "m3yFkSdl",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33s3xvuz9zej1v854+2e7k8illvk@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f42683ced82109ff35b4bf",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "lime",
+"uses": 3
+}
+],
+"shortUrl": "https://trello.com/c/m3yFkSdl",
+"subscribed": false,
+"url": "https://trello.com/c/m3yFkSdl/24-5-1-create-a-back-method-to-return-to-previous-page",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f4277225d0ca76eafe7500",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:21:25.488Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 25,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f42683ced82109ff35b4bf"
+],
+"name": "5.2 Create a exit method to exit TA view or a level being played",
+"pos": 655359,
+"shortLink": "kGnb6gW9",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33s6f1ifs3tn2kxkw+0g9pwtfmb9@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f42683ced82109ff35b4bf",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "lime",
+"uses": 3
+}
+],
+"shortUrl": "https://trello.com/c/kGnb6gW9",
+"subscribed": false,
+"url": "https://trello.com/c/kGnb6gW9/25-5-2-create-a-exit-method-to-exit-ta-view-or-a-level-being-played",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f43226faf0aa91a8199603",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:21:39.608Z",
+"desc": "",
+"descData": null,
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05e038f9e03630d0e221",
+"idMembersVoted": [],
+"idShort": 27,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f431d6ced82109ff35cc24"
+],
+"name": "6. 1 Add password information for student accounts",
+"pos": 720895,
+"shortLink": "1iGO0TlW",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o340et8ejnx8i2737n+2lkj1tuhqa@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f431d6ced82109ff35cc24",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "pink",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/1iGO0TlW",
+"subscribed": false,
+"url": "https://trello.com/c/1iGO0TlW/27-6-1-add-password-information-for-student-accounts",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d90a07b6e02a145bfb76a6",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:32:32.852Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 6\nPoints: 2",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05eb2230ae9f764a8f06",
+"idMembersVoted": [],
+"idShort": 11,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc8189b"
+],
+"name": "Work on unit testing",
+"pos": 131071,
+"shortLink": "Dvnkm6BZ",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzi8zzq41a14jfzxi+2m0ii89tld@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc8189b",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "purple",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/Dvnkm6BZ",
+"subscribed": false,
+"url": "https://trello.com/c/Dvnkm6BZ/11-work-on-unit-testing",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58d90bec527b34a5cfd6e21b",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:32:01.173Z",
+"desc": "Risk: High Value High Risk\nPriority: 1\nPoints: 2",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05eb2230ae9f764a8f06",
+"idMembersVoted": [],
+"idShort": 16,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58cc05a5ced82109ffc8189a"
+],
+"name": "Create a flow between the levels",
+"pos": 196607,
+"shortLink": "fUnH171Q",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2nyzjpeldhaxaxhzd3v+27hf6sqq4o@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc8189a",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "blue",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/fUnH171Q",
+"subscribed": false,
+"url": "https://trello.com/c/fUnH171Q/16-create-a-flow-between-the-levels",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f4266e05630be7fc1311b6",
+"checkItemStates": null,
+"closed": true,
+"dateLastActivity": "2017-04-17T15:18:45.554Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 7\nPoints: 3",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58cc05a5855e01cb6138003a",
+"idList": "58cc05eb2230ae9f764a8f06",
+"idMembersVoted": [],
+"idShort": 18,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f42675ced82109ff35b487"
+],
+"name": "Verify acceptance tests",
+"pos": 262143,
+"shortLink": "4qao7Hon",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33reactzxmhm8u186+08kq19xtk6@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f42675ced82109ff35b487",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "sky",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/4qao7Hon",
+"subscribed": false,
+"url": "https://trello.com/c/4qao7Hon/18-verify-acceptance-tests",
+"attachments": [],
+"pluginData": []
+}
+],
+"labels": [
+{
+"id": "58cc05a5ced82109ffc81897",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "red",
+"uses": 5
+},
+{
+"id": "58cc05a5ced82109ffc81899",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "orange",
+"uses": 4
+},
+{
+"id": "58cc05a5ced82109ffc81896",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "green",
+"uses": 3
+},
+{
+"id": "58cc05a5ced82109ffc81898",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "yellow",
+"uses": 3
+},
+{
+"id": "58f42683ced82109ff35b4bf",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "lime",
+"uses": 3
+},
+{
+"id": "58cc05a5ced82109ffc8189a",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "blue",
+"uses": 2
+},
+{
+"id": "58cc05a5ced82109ffc8189b",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "purple",
+"uses": 2
+},
+{
+"id": "58f42675ced82109ff35b487",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "sky",
+"uses": 2
+},
+{
+"id": "58f431d6ced82109ff35cc24",
+"idBoard": "58cc05a5855e01cb6138003a",
+"name": "",
+"color": "pink",
+"uses": 2
+}
+],
+"lists": [
+{
+"id": "58cc05b1b16dc9a094cd2b1c",
+"name": "User Stories",
+"closed": false,
+"idBoard": "58cc05a5855e01cb6138003a",
+"pos": 65535,
+"subscribed": false
+},
+{
+"id": "58cc05cfcd432a8a035be47d",
+"name": "Tasks",
+"closed": false,
+"idBoard": "58cc05a5855e01cb6138003a",
+"pos": 131071,
+"subscribed": false
+},
+{
+"id": "58cc05e038f9e03630d0e221",
+"name": "Completed",
+"closed": false,
+"idBoard": "58cc05a5855e01cb6138003a",
+"pos": 196607,
+"subscribed": false
+},
+{
+"id": "58cc05eb2230ae9f764a8f06",
+"name": "Non-Functional Stories",
+"closed": false,
+"idBoard": "58cc05a5855e01cb6138003a",
+"pos": 262143,
+"subscribed": false
+},
+{
+"id": "58cc05f7000e5f9fd82939a3",
+"name": "Non-Functional Tasks",
+"closed": false,
+"idBoard": "58cc05a5855e01cb6138003a",
+"pos": 327679,
+"subscribed": false
+}
+],
+"members": [
+{
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"bio": "",
+"bioData": {
+"emoji": {}
+},
+"confirmed": true,
+"fullName": "Christina Nguyen",
+"idPremOrgsAdmin": [],
+"initials": "CN",
+"memberType": "normal",
+"products": [],
+"status": "disconnected",
+"url": "https://trello.com/christinathao",
+"username": "christinathao"
+}
+],
+"checklists": [],
+"pluginData": []
+}
