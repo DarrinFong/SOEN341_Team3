@@ -1,0 +1,1349 @@
+{
+"id": "58f429bc62f23844957de9b8",
+"name": "Sprint 5",
+"desc": "",
+"descData": null,
+"closed": false,
+"idOrganization": "589b88a23651881e75aa42e8",
+"invited": false,
+"pinned": false,
+"starred": false,
+"url": "https://trello.com/b/I2Cs82To/sprint-5",
+"prefs": {
+"permissionLevel": "org",
+"voting": "disabled",
+"comments": "members",
+"invitations": "members",
+"selfJoin": true,
+"cardCovers": true,
+"cardAging": "regular",
+"calendarFeedEnabled": false,
+"background": "blue",
+"backgroundImage": null,
+"backgroundImageScaled": null,
+"backgroundTile": false,
+"backgroundBrightness": "dark",
+"backgroundColor": "#0079BF",
+"canBePublic": true,
+"canBeOrg": true,
+"canBePrivate": true,
+"canInvite": true
+},
+"invitations": [],
+"memberships": [
+{
+"id": "58f429bc62f23844957de9b9",
+"idMember": "589bb4866d45b01b7e16b69b",
+"memberType": "admin",
+"unconfirmed": false,
+"deactivated": false
+}
+],
+"shortLink": "I2Cs82To",
+"subscribed": false,
+"labelNames": {
+"green": "",
+"yellow": "",
+"orange": "",
+"red": "",
+"purple": "",
+"blue": "",
+"sky": "",
+"lime": "",
+"pink": "",
+"black": ""
+},
+"powerUps": [],
+"dateLastActivity": "2017-04-17T17:30:45.765Z",
+"dateLastView": "2017-04-17T18:13:46.532Z",
+"shortUrl": "https://trello.com/b/I2Cs82To",
+"idTags": [],
+"datePluginDisable": null,
+"actions": [
+{
+"id": "58f4fbbe4f9af8021e0155bd",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Tasks",
+"id": "58f429cc7caa8891edc12fe5"
+},
+"card": {
+"shortLink": "JNZG39OE",
+"idShort": 10,
+"name": "Refactor and Fix code",
+"id": "58f4fbbe4f9af8021e0155bc"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T17:30:38.813Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4fba442fb907fa2888d90",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+},
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"card": {
+"shortLink": "Jvd4DhOl",
+"idShort": 9,
+"name": "Fix \"bugs\"",
+"id": "58f4fb97b00e41fe4681c853",
+"desc": "Risk: Low Value Low Risk\nPriority: 3\nPoints: 5"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T17:30:12.105Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4fb97b00e41fe4681c854",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+},
+"card": {
+"shortLink": "Jvd4DhOl",
+"idShort": 9,
+"name": "Fix \"bugs\"",
+"id": "58f4fb97b00e41fe4681c853"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T17:29:59.130Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4fa080b023b5a7c481a8b",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+},
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"card": {
+"shortLink": "3iSUfMBM",
+"idShort": 7,
+"name": "Have the female character replace the male avatar when it has been selected",
+"id": "58f4f9cfebcba0b709f65558",
+"desc": "Risk: Low Value Low Risk\nPriority: 4\nPoints: 5"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T17:23:20.507Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4f9eee27eb3dc5b7e5b5f",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Completed",
+"id": "58f429cff9bb70ab879f64ea"
+},
+"card": {
+"shortLink": "IKbXH4nj",
+"idShort": 8,
+"name": "Delete the male object and replace it for female object",
+"id": "58f4f9eee27eb3dc5b7e5b5e"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T17:22:54.778Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4f9cfebcba0b709f65559",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+},
+"card": {
+"shortLink": "3iSUfMBM",
+"idShort": 7,
+"name": "Have the female character replace the male avatar when it has been selected",
+"id": "58f4f9cfebcba0b709f65558"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T17:22:23.989Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42bb5366e30df86347d13",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+},
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"card": {
+"shortLink": "0T9eYJJ0",
+"idShort": 3,
+"name": "Continuous testing",
+"id": "58f42a1dfb7ac966ba4065f3",
+"desc": "Risk: Low Value Low Risk\nPriority: 3\nPoints: 2"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:43:01.817Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42baafaaf2f526350f3f5",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+},
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"card": {
+"shortLink": "Wgi3lD4w",
+"idShort": 2,
+"name": "Verify all user requirements (user stories) are met",
+"id": "58f42a12bc3eecb6c7b7154c",
+"desc": "Risk: High Value HighRisk\nPriority: 2\nPoints: 3"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:42:50.421Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42b988712938ccdab7c43",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+},
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"card": {
+"shortLink": "6tbbKUi2",
+"idShort": 1,
+"name": "Verify each component works properly",
+"id": "58f429f018b5c3ed98b76620",
+"desc": "Risk: High Value High Risk\nPriority: 1\nPoints: 3"
+},
+"old": {
+"desc": ""
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:42:32.731Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42a788610c0d0610c7830",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58f429cff9bb70ab879f64ea"
+},
+"listBefore": {
+"name": "Tasks",
+"id": "58f429cc7caa8891edc12fe5"
+},
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"card": {
+"shortLink": "ov9Mpngu",
+"idShort": 5,
+"name": "Create Acceptance tests",
+"id": "58f42a393bab523590ee43fa",
+"idList": "58f429cff9bb70ab879f64ea"
+},
+"old": {
+"idList": "58f429cc7caa8891edc12fe5"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:37:44.165Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42a76d17cd4686a9e4799",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Completed",
+"id": "58f429cff9bb70ab879f64ea"
+},
+"listBefore": {
+"name": "Tasks",
+"id": "58f429cc7caa8891edc12fe5"
+},
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"card": {
+"shortLink": "pKVZMneM",
+"idShort": 4,
+"name": "Create Unit Tests",
+"id": "58f42a28ef1ab4222a14f334",
+"idList": "58f429cff9bb70ab879f64ea"
+},
+"old": {
+"idList": "58f429cc7caa8891edc12fe5"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:37:42.723Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42a48e66409e7a0cf8a55",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Tasks",
+"id": "58f429cc7caa8891edc12fe5"
+},
+"card": {
+"shortLink": "SIhBMlee",
+"idShort": 6,
+"name": "Verify Travis CI",
+"id": "58f42a48e66409e7a0cf8a54"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:36:56.220Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42a393bab523590ee43fb",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Tasks",
+"id": "58f429cc7caa8891edc12fe5"
+},
+"card": {
+"shortLink": "ov9Mpngu",
+"idShort": 5,
+"name": "Create Acceptance tests",
+"id": "58f42a393bab523590ee43fa"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:36:41.341Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42a28ef1ab4222a14f335",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Tasks",
+"id": "58f429cc7caa8891edc12fe5"
+},
+"card": {
+"shortLink": "pKVZMneM",
+"idShort": 4,
+"name": "Create Unit Tests",
+"id": "58f42a28ef1ab4222a14f334"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:36:24.064Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42a1dfb7ac966ba4065f4",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+},
+"card": {
+"shortLink": "0T9eYJJ0",
+"idShort": 3,
+"name": "Continuous testing",
+"id": "58f42a1dfb7ac966ba4065f3"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:36:13.311Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42a13bc3eecb6c7b7154d",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+},
+"card": {
+"shortLink": "Wgi3lD4w",
+"idShort": 2,
+"name": "Verify all user requirements (user stories) are met",
+"id": "58f42a12bc3eecb6c7b7154c"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:36:03.007Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f429f018b5c3ed98b76621",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+},
+"card": {
+"shortLink": "6tbbKUi2",
+"idShort": 1,
+"name": "Verify each component works properly",
+"id": "58f429f018b5c3ed98b76620"
+}
+},
+"type": "createCard",
+"date": "2017-04-17T02:35:28.343Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f429cff9bb70ab879f64eb",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Completed",
+"id": "58f429cff9bb70ab879f64ea"
+}
+},
+"type": "createList",
+"date": "2017-04-17T02:34:55.291Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f429cc7caa8891edc12fe6",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Tasks",
+"id": "58f429cc7caa8891edc12fe5"
+}
+},
+"type": "createList",
+"date": "2017-04-17T02:34:52.024Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f429c8d4465c2299042bd2",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+},
+"list": {
+"name": "Non-Functional requirement",
+"id": "58f429c8d4465c2299042bd1"
+}
+},
+"type": "createList",
+"date": "2017-04-17T02:34:48.345Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f429bc62f23844957de9bb",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"organization": {
+"name": "SOEN 341",
+"id": "589b88a23651881e75aa42e8"
+},
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+}
+},
+"type": "addToOrganizationBoard",
+"date": "2017-04-17T02:34:36.718Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f429bc62f23844957de9ba",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"board": {
+"shortLink": "I2Cs82To",
+"name": "Sprint 5",
+"id": "58f429bc62f23844957de9b8"
+}
+},
+"type": "createBoard",
+"date": "2017-04-17T02:34:36.691Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+}
+],
+"cards": [
+{
+"id": "58f429f018b5c3ed98b76620",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:42:32.724Z",
+"desc": "Risk: High Value High Risk\nPriority: 1\nPoints: 3",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58f429bc62f23844957de9b8",
+"idList": "58f429c8d4465c2299042bd1",
+"idMembersVoted": [],
+"idShort": 1,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f429bcced82109ff35bd4c"
+],
+"name": "Verify each component works properly",
+"pos": 65535,
+"shortLink": "6tbbKUi2",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33u3eluriq7d5qo80+1854det7tl@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd4c",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "green",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/6tbbKUi2",
+"subscribed": false,
+"url": "https://trello.com/c/6tbbKUi2/1-verify-each-component-works-properly",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f42a12bc3eecb6c7b7154c",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:42:50.418Z",
+"desc": "Risk: High Value HighRisk\nPriority: 2\nPoints: 3",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58f429bc62f23844957de9b8",
+"idList": "58f429c8d4465c2299042bd1",
+"idMembersVoted": [],
+"idShort": 2,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f429bcced82109ff35bd4d"
+],
+"name": "Verify all user requirements (user stories) are met",
+"pos": 131071,
+"shortLink": "Wgi3lD4w",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33u75gh2f8kobx2do+286w3y4q4o@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd4d",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "yellow",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/Wgi3lD4w",
+"subscribed": false,
+"url": "https://trello.com/c/Wgi3lD4w/2-verify-all-user-requirements-user-stories-are-met",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f42a1dfb7ac966ba4065f3",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:43:01.814Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 3\nPoints: 2",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58f429bc62f23844957de9b8",
+"idList": "58f429c8d4465c2299042bd1",
+"idMembersVoted": [],
+"idShort": 3,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f429bcced82109ff35bd4f"
+],
+"name": "Continuous testing",
+"pos": 196607,
+"shortLink": "0T9eYJJ0",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33u8d8qln8ss0roqb+0duzdzk4rv@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd4f",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "orange",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/0T9eYJJ0",
+"subscribed": false,
+"url": "https://trello.com/c/0T9eYJJ0/3-continuous-testing",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f4f9cfebcba0b709f65558",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T17:23:20.501Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 4\nPoints: 5",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58f429bc62f23844957de9b8",
+"idList": "58f429c8d4465c2299042bd1",
+"idMembersVoted": [],
+"idShort": 7,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f429bcced82109ff35bd4e"
+],
+"name": "Have the female character replace the male avatar when it has been selected",
+"pos": 262143,
+"shortLink": "3iSUfMBM",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o389y6cey0jpyq421k+2ctplvd467@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd4e",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "red",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/3iSUfMBM",
+"subscribed": false,
+"url": "https://trello.com/c/3iSUfMBM/7-have-the-female-character-replace-the-male-avatar-when-it-has-been-selected",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f4fb97b00e41fe4681c853",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T17:30:16.443Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 3\nPoints: 5",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58f429bc62f23844957de9b8",
+"idList": "58f429c8d4465c2299042bd1",
+"idMembersVoted": [],
+"idShort": 9,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f429bcced82109ff35bd50"
+],
+"name": "Fix \"bugs\"",
+"pos": 327679,
+"shortLink": "Jvd4DhOl",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o38bbgnz98u82kgqxf+0nbafo29t9@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd50",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "purple",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/Jvd4DhOl",
+"subscribed": false,
+"url": "https://trello.com/c/Jvd4DhOl/9-fix-bugs",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f42a48e66409e7a0cf8a54",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:37:39.678Z",
+"desc": "",
+"descData": null,
+"idBoard": "58f429bc62f23844957de9b8",
+"idList": "58f429cc7caa8891edc12fe5",
+"idMembersVoted": [],
+"idShort": 6,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f429bcced82109ff35bd4f"
+],
+"name": "Verify Travis CI",
+"pos": 196607,
+"shortLink": "SIhBMlee",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33ud0bmq5uflsbal0+1d6kuzt3p9@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd4f",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "orange",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/SIhBMlee",
+"subscribed": false,
+"url": "https://trello.com/c/SIhBMlee/6-verify-travis-ci",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f4fbbe4f9af8021e0155bc",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T17:30:45.765Z",
+"desc": "",
+"descData": null,
+"idBoard": "58f429bc62f23844957de9b8",
+"idList": "58f429cc7caa8891edc12fe5",
+"idMembersVoted": [],
+"idShort": 10,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f429bcced82109ff35bd50"
+],
+"name": "Refactor and Fix code",
+"pos": 262143,
+"shortLink": "JNZG39OE",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o38bfn10k2oyqf5scc+1rxq49ttej@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd50",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "purple",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/JNZG39OE",
+"subscribed": false,
+"url": "https://trello.com/c/JNZG39OE/10-refactor-and-fix-code",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f42a28ef1ab4222a14f334",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:37:42.719Z",
+"desc": "",
+"descData": null,
+"idBoard": "58f429bc62f23844957de9b8",
+"idList": "58f429cff9bb70ab879f64ea",
+"idMembersVoted": [],
+"idShort": 4,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f429bcced82109ff35bd4c"
+],
+"name": "Create Unit Tests",
+"pos": 65535,
+"shortLink": "pKVZMneM",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33u9jvlzkhywpir78+2fd020cjw4@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd4c",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "green",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/pKVZMneM",
+"subscribed": false,
+"url": "https://trello.com/c/pKVZMneM/4-create-unit-tests",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f42a393bab523590ee43fa",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T02:37:44.158Z",
+"desc": "",
+"descData": null,
+"idBoard": "58f429bc62f23844957de9b8",
+"idList": "58f429cff9bb70ab879f64ea",
+"idMembersVoted": [],
+"idShort": 5,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f429bcced82109ff35bd4d"
+],
+"name": "Create Acceptance tests",
+"pos": 131071,
+"shortLink": "ov9Mpngu",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o33ubbbx7fsn4obh8a+02zpxh29xe@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd4d",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "yellow",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/ov9Mpngu",
+"subscribed": false,
+"url": "https://trello.com/c/ov9Mpngu/5-create-acceptance-tests",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58f4f9eee27eb3dc5b7e5b5e",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T17:22:58.038Z",
+"desc": "",
+"descData": null,
+"idBoard": "58f429bc62f23844957de9b8",
+"idList": "58f429cff9bb70ab879f64ea",
+"idMembersVoted": [],
+"idShort": 8,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58f429bcced82109ff35bd4e"
+],
+"name": "Delete the male object and replace it for female object",
+"pos": 196607,
+"shortLink": "IKbXH4nj",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "christinathao+2npo3u75lo61nebcu57+2o38a1ivyq4pqglpbha+2a9iek8qex@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd4e",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "red",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/IKbXH4nj",
+"subscribed": false,
+"url": "https://trello.com/c/IKbXH4nj/8-delete-the-male-object-and-replace-it-for-female-object",
+"attachments": [],
+"pluginData": []
+}
+],
+"labels": [
+{
+"id": "58f429bcced82109ff35bd4c",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "green",
+"uses": 2
+},
+{
+"id": "58f429bcced82109ff35bd4d",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "yellow",
+"uses": 2
+},
+{
+"id": "58f429bcced82109ff35bd4e",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "red",
+"uses": 2
+},
+{
+"id": "58f429bcced82109ff35bd4f",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "orange",
+"uses": 2
+},
+{
+"id": "58f429bcced82109ff35bd50",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "purple",
+"uses": 2
+},
+{
+"id": "58f429bcced82109ff35bd51",
+"idBoard": "58f429bc62f23844957de9b8",
+"name": "",
+"color": "blue",
+"uses": 0
+}
+],
+"lists": [
+{
+"id": "58f429c8d4465c2299042bd1",
+"name": "Non-Functional requirement",
+"closed": false,
+"idBoard": "58f429bc62f23844957de9b8",
+"pos": 65535,
+"subscribed": false
+},
+{
+"id": "58f429cc7caa8891edc12fe5",
+"name": "Tasks",
+"closed": false,
+"idBoard": "58f429bc62f23844957de9b8",
+"pos": 131071,
+"subscribed": false
+},
+{
+"id": "58f429cff9bb70ab879f64ea",
+"name": "Completed",
+"closed": false,
+"idBoard": "58f429bc62f23844957de9b8",
+"pos": 196607,
+"subscribed": false
+}
+],
+"members": [
+{
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"bio": "",
+"bioData": {
+"emoji": {}
+},
+"confirmed": true,
+"fullName": "Christina Nguyen",
+"idPremOrgsAdmin": [],
+"initials": "CN",
+"memberType": "normal",
+"products": [],
+"status": "disconnected",
+"url": "https://trello.com/christinathao",
+"username": "christinathao"
+}
+],
+"checklists": [],
+"pluginData": []
+}
