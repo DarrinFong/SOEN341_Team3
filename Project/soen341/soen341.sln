@@ -1,13 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{CD652DE6-23DD-7EC0-0ED6-B9C060FD4B50}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soen341", "Assembly-CSharp.csproj", "{CD652DE6-23DD-7EC0-0ED6-B9C060FD4B50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{6BF7BE27-67AC-EF38-250A-2BB271A1DC3C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharpTests2", "..\Assembly-CSharpTests2\Assembly-CSharpTests2.csproj", "{696EEF59-1E30-41B8-8DD6-C38C16B997EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soen341", "Assembly-CSharp-Editor.csproj", "{6BF7BE27-67AC-EF38-250A-2BB271A1DC3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +19,6 @@ Global
 		{6BF7BE27-67AC-EF38-250A-2BB271A1DC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BF7BE27-67AC-EF38-250A-2BB271A1DC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BF7BE27-67AC-EF38-250A-2BB271A1DC3C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{696EEF59-1E30-41B8-8DD6-C38C16B997EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{696EEF59-1E30-41B8-8DD6-C38C16B997EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{696EEF59-1E30-41B8-8DD6-C38C16B997EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{696EEF59-1E30-41B8-8DD6-C38C16B997EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

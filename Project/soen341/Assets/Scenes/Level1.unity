@@ -3880,7 +3880,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 178188, guid: 1b040f08a42e4d4448de1ca92145af1c, type: 2}
       propertyPath: m_Name
-      value: Girl
+      value: FemaleModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 153088, guid: 1b040f08a42e4d4448de1ca92145af1c, type: 2}
+      propertyPath: m_Name
+      value: Female
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b040f08a42e4d4448de1ca92145af1c, type: 2}
@@ -4550,7 +4554,7 @@ GameObject:
   - component: {fileID: 1634631917}
   - component: {fileID: 1634631916}
   m_Layer: 0
-  m_Name: DickButt
+  m_Name: Male
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5286,7 +5290,7 @@ GameObject:
   - component: {fileID: 1956991077}
   - component: {fileID: 1956991078}
   m_Layer: 0
-  m_Name: C_man_1_FBX2013
+  m_Name: MaleModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
