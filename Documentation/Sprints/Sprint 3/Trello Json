@@ -68,12 +68,1421 @@
 "black": ""
 },
 "powerUps": [],
-"dateLastActivity": "2017-03-10T17:19:51.551Z",
-"dateLastView": "2017-03-10T17:22:49.676Z",
+"dateLastActivity": "2017-04-17T15:04:32.184Z",
+"dateLastView": "2017-04-17T18:20:48.774Z",
 "shortUrl": "https://trello.com/b/eYNlVDZw",
 "idTags": [],
 "datePluginDisable": null,
 "actions": [
+{
+"id": "58f4d980c0ed4dae46ad8736",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "fZNzOzyQ",
+"idShort": 6,
+"name": "6. User should be able to move the code blocks",
+"id": "58c1e2536d1abc426ec8dab5",
+"desc": "Risk: Low Value Low Risk\nPriority: 7\nPoints: 3"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:04:32.188Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d9767581d75d97b6d7cf",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58c1e17318d40491ffa285c0"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "S4qF5NWE",
+"idShort": 30,
+"name": "Game pages should be accessible in the game",
+"id": "58c29a33e2c249bb2b094f17",
+"desc": "Risk: Low Value Low Risk\nPriority: 8\nPoints: 1"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: 7\nPoints: 1"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:04:22.847Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d96f5f9e2df8cdf11a61",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58c1e17318d40491ffa285c0"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "1zg4Ynq3",
+"idShort": 28,
+"name": "Test that the new code continuously",
+"id": "58c299ced5a752bb402f1571",
+"desc": "Risk: High Value High Risk\nPriority: 9\nPoints: 5"
+},
+"old": {
+"desc": "Risk: High Value High Risk\nPriority: \nPoints: 5"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:04:15.707Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d9666253969b4fd3e388",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58c1e17318d40491ffa285c0"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "S4qF5NWE",
+"idShort": 30,
+"name": "Game pages should be accessible in the game",
+"id": "58c29a33e2c249bb2b094f17",
+"desc": "Risk: Low Value Low Risk\nPriority: 7\nPoints: 1"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 1"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:04:06.071Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d95ee6a3c6e069241284",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Non-Functional Stories",
+"id": "58c1e17318d40491ffa285c0"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "j9oQhxtR",
+"idShort": 29,
+"name": "Understand the mapping between the different game pages",
+"id": "58c29a045c2c5c6ed088037a",
+"desc": "Risk: Low Value Low Risk\nPriority: 6\nPoints: 2"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:03:58.079Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d9506fd1bc6312b11b20",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "pVHZLG5l",
+"idShort": 3,
+"name": "3. Student should be able to click and select their file",
+"id": "58c1e208688e8242fd5698cc",
+"desc": "Risk: Low Value Low Risk\nPriority: 5\nPoints: 1"
+},
+"old": {
+"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 1"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:03:44.924Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d94a58bc2d76c0cb9b63",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "IHvDtyca",
+"idShort": 2,
+"name": "2. Student should be able to move the avatar only with the movement function block",
+"id": "58c1e1e863f1baf11ca50ec7",
+"desc": "Risk: High Value High Risk\nPriority: 4\nPoints: 5"
+},
+"old": {
+"desc": "Risk: High Value High Risk\nPriority: \nPoints: 5"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:03:38.916Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d94535bc489b389f724b",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "Au3yoeub",
+"idShort": 1,
+"name": "1. Student should have their name and game data saved to be accessed later",
+"id": "58c1e1be079830bb30dfdf65",
+"desc": "Risk: High Value Low Risk\nPriority: 3\nPoints: 2"
+},
+"old": {
+"desc": "Risk: High Value Low Risk\nPriority: \nPoints: 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:03:33.981Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d93951eb7a633f3701fd",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "zSxgUwso",
+"idShort": 5,
+"name": "5. TA should be able to see the individual student progress to compare",
+"id": "58c1e23e79ab72bb245383e5",
+"desc": "Risk: High Value High Risk\nPriority: 2\nPoints: 2"
+},
+"old": {
+"desc": "Risk: High Value High Risk\nPriority: 1\nPoints: 2"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:03:21.210Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d92c7a75e147a9385020",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "rtaAg4lL",
+"idShort": 4,
+"name": "4. TA should be able to see students progress as a whole",
+"id": "58c1e2252d847fc9cc593c96",
+"desc": "Risk: High Value High Risk\nPriority: 1\nPoints: 3"
+},
+"old": {
+"desc": "Risk: High Value High Risk\nPriority: \nPoints: 3"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T15:03:08.014Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d1953e8f66904fa0cff3",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Non-Functional Tasks",
+"id": "58c1e17c6c472351a0f94f40"
+},
+"listBefore": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "t4wuDd0w",
+"idShort": 9,
+"name": "Travis CI",
+"id": "58c1e2a10de714bdf575b234",
+"idList": "58c1e17c6c472351a0f94f40"
+},
+"old": {
+"idList": "58c1e15d3ec6b0af536ff3fd"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:30:45.641Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d18fa1c7ef639016d986",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "47ti0AL1",
+"idShort": 27,
+"id": "58c218a58b6bad19cd6bf59c",
+"name": "9.1 Create separate containers where students can move their code blocks"
+},
+"old": {
+"name": "Create separate containers where students can move their code blocks"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:30:39.735Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d188623c275d1b808548",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "28q9z9TS",
+"idShort": 25,
+"id": "58c1e4cdd31eaf8929593ff0",
+"name": "8.1 Create a level select page"
+},
+"old": {
+"name": "Create a level select page"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:30:32.022Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d17d36cdaeeaa569403d",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "udtxU8PX",
+"idShort": 24,
+"id": "58c1e3fb60ab2289c69f37e7",
+"name": "7.1 For loop with different iterations"
+},
+"old": {
+"name": "For loop with different iterations"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:30:21.719Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d1779e989163a91850c1",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "8BGyFQW3",
+"idShort": 22,
+"id": "58c1e3ea6c472351a0f96a63",
+"name": "6.1 Drag and Drop feature"
+},
+"old": {
+"name": "Drag and Drop feature"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:30:15.903Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d1725ca17c39228db408",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "VufuWVOa",
+"idShort": 21,
+"id": "58c1e3e1d5a752bb40277197",
+"name": "5.1 Display individual user progress"
+},
+"old": {
+"name": "Display individual user progress"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:30:10.093Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d169131a8e4753e8ad38",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "MEX8HpAW",
+"idShort": 20,
+"id": "58c1e3b6a93228cce457932a",
+"name": "4.1 Display the number of students registered and their cumulative statistics"
+},
+"old": {
+"name": "Display the number of students registered and their cumulative statistics"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:30:01.409Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d161c4f71892376cd0cd",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "9W9LEiOl",
+"idShort": 19,
+"id": "58c1e3875a57ad89e3ae748c",
+"name": "3.1 Create a save/load button"
+},
+"old": {
+"name": "Create a save/load button"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:29:53.204Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d15373401377645efcee",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "xyVL9n3D",
+"idShort": 18,
+"id": "58c1e347c429faccacb764df",
+"name": "2.6 Clear Function"
+},
+"old": {
+"name": "Clear Function"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:29:39.591Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d1505f2b9b6294408172",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "KEr3I831",
+"idShort": 17,
+"id": "58c1e342cb2f0de6812f98c5",
+"name": "2.5 Run code Function"
+},
+"old": {
+"name": "Run code Function"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:29:36.901Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d147bb1d88d0cc2a606d",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "2W5q6XDX",
+"idShort": 16,
+"id": "58c1e33bfca2562cbed0fe40",
+"name": "2.4 Move Backward Function"
+},
+"old": {
+"name": "Move Backward Function"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:29:27.700Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d1411ae65b26216da5f7",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "69H5AQjg",
+"idShort": 15,
+"id": "58c1e33444f9f3915c67094a",
+"name": "2.3 Move Forward function"
+},
+"old": {
+"name": "Move Forward function"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:29:21.880Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d13c8373e976df7a1438",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "ohaWWbeB",
+"idShort": 13,
+"id": "58c1e311eb7ca98a5a9f3439",
+"name": "2.2 Move Left function"
+},
+"old": {
+"name": "Move Left function"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:29:16.347Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d137699dbc7ccb22e081",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "A0rqdrQZ",
+"idShort": 14,
+"id": "58c1e32d3dd44face984f7a6",
+"name": "2.1 Move Right function"
+},
+"old": {
+"name": "1.2 Move Right function"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:29:11.430Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d12ee19594678c835998",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "A0rqdrQZ",
+"idShort": 14,
+"id": "58c1e32d3dd44face984f7a6",
+"name": "1.2 Move Right function"
+},
+"old": {
+"name": "Move Right function"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:29:02.500Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4d128c08fd448250188ae",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "epCg0AXl",
+"idShort": 12,
+"id": "58c1e30bdc13b2ccbd7ba774",
+"name": "1.1 Save progress function for completion of level"
+},
+"old": {
+"name": "Save progress function for completion of level"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T14:28:56.290Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f4330a39861a8c61a868c4",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "utZq9q4A",
+"idShort": 26,
+"id": "58c2186f54d97e08c4f771df",
+"name": "9. Students should have a container for their code blocks"
+},
+"old": {
+"name": "8. Students should have a container for their code blocks"
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T03:14:18.527Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42d47758a41c59d63cfd7",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "ohaWWbeB",
+"idShort": 13,
+"name": "Move Left function",
+"id": "58c1e311eb7ca98a5a9f3439",
+"pos": 229375
+},
+"old": {
+"pos": 491519
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:49:43.997Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58f42d42727e357782c114b5",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "ohaWWbeB",
+"idShort": 13,
+"name": "Move Left function",
+"id": "58c1e311eb7ca98a5a9f3439",
+"pos": 491519
+},
+"old": {
+"pos": 712703
+}
+},
+"type": "updateCard",
+"date": "2017-04-17T02:49:38.920Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58ea76eb8c7d8317262f3d00",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "Au3yoeub",
+"idShort": 1,
+"id": "58c1e1be079830bb30dfdf65",
+"name": "1. Student should have their name and game data saved to be accessed later"
+},
+"old": {
+"name": "1. Student should have it's name and game data saved to be accessed later"
+}
+},
+"type": "updateCard",
+"date": "2017-04-09T18:01:15.511Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e7f19c6e5074d3248cab4c",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "utZq9q4A",
+"idShort": 26,
+"id": "58c2186f54d97e08c4f771df",
+"name": "8. Students should have a container for their code blocks"
+},
+"old": {
+"name": "Students should have a container for their code blocks"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T20:07:56.438Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e7f1962d205c5c460c6a78",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "a3MDU0wT",
+"idShort": 8,
+"id": "58c1e2902517254366bc4202",
+"name": "8. Student should be able to select a level they have already completed"
+},
+"old": {
+"name": "Student should be able to select a level they have already completed"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T20:07:50.342Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e7f19267495a27dd7645fb",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "SZX5V2ZJ",
+"idShort": 7,
+"id": "58c1e278530755e6512e213e",
+"name": "7. Students should have an for statement"
+},
+"old": {
+"name": "Students should have an for statement"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T20:07:46.245Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e7f18cd16a3d8ff83a7a13",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "fZNzOzyQ",
+"idShort": 6,
+"id": "58c1e2536d1abc426ec8dab5",
+"name": "6. User should be able to move the code blocks"
+},
+"old": {
+"name": "User should be able to move the code blocks"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T20:07:40.707Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e7f183e2c7557114a02af8",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "zSxgUwso",
+"idShort": 5,
+"id": "58c1e23e79ab72bb245383e5",
+"name": "5. TA should be able to see the individual student progress to compare"
+},
+"old": {
+"name": "TA should be able to see the individual student progress to compare"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T20:07:31.150Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e7f17f2016c3dc93671f0a",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "rtaAg4lL",
+"idShort": 4,
+"id": "58c1e2252d847fc9cc593c96",
+"name": "4. TA should be able to see students progress as a whole"
+},
+"old": {
+"name": "TA should be able to see students progress as a whole"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T20:07:27.169Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e7f179c040ecfef8aad415",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "pVHZLG5l",
+"idShort": 3,
+"id": "58c1e208688e8242fd5698cc",
+"name": "3. Student should be able to click and select their file"
+},
+"old": {
+"name": "Student should be able to click and select their file"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T20:07:21.759Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e7f1756c0ec34ac088ceed",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "IHvDtyca",
+"idShort": 2,
+"id": "58c1e1e863f1baf11ca50ec7",
+"name": "2. Student should be able to move the avatar only with the movement function block"
+},
+"old": {
+"name": "Student should be able to move the avatar only with the movement function block"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T20:07:17.294Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58e7f166054a6e036d7eae56",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "Au3yoeub",
+"idShort": 1,
+"id": "58c1e1be079830bb30dfdf65",
+"name": "1. Student should have it's name and game data saved to be accessed later"
+},
+"old": {
+"name": "Student should have it's name and game data saved to be accessed later"
+}
+},
+"type": "updateCard",
+"date": "2017-04-07T20:07:02.170Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90f12dea4b2bbe317ff31",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "User Stories",
+"id": "58c1e14cc8bc91af32bdc106"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "SZX5V2ZJ",
+"idShort": 7,
+"id": "58c1e278530755e6512e213e",
+"name": "Students should have an for statement"
+},
+"old": {
+"name": "Students should have an if/for statement"
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T13:09:38.694Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90d6c263a186602fe414d",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"list": {
+"name": "Tasks",
+"id": "58c1e157363ce32d479431ae"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "nFiNQJcS",
+"idShort": 23,
+"name": "IF statement",
+"id": "58c1e3f3948a6daf77e69511",
+"closed": true
+},
+"old": {
+"closed": false
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T13:02:36.716Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
+{
+"id": "58d90d696e0174eede8ef630",
+"idMemberCreator": "589bb4866d45b01b7e16b69b",
+"data": {
+"listAfter": {
+"name": "Tasks",
+"id": "58c1e157363ce32d479431ae"
+},
+"listBefore": {
+"name": "Completed",
+"id": "58c1e15d3ec6b0af536ff3fd"
+},
+"board": {
+"shortLink": "eYNlVDZw",
+"name": "Sprint 3",
+"id": "58c1e12de6752148aa6bf4bb"
+},
+"card": {
+"shortLink": "nFiNQJcS",
+"idShort": 23,
+"name": "IF statement",
+"id": "58c1e3f3948a6daf77e69511",
+"idList": "58c1e157363ce32d479431ae"
+},
+"old": {
+"idList": "58c1e15d3ec6b0af536ff3fd"
+}
+},
+"type": "updateCard",
+"date": "2017-03-27T13:02:33.324Z",
+"memberCreator": {
+"id": "589bb4866d45b01b7e16b69b",
+"avatarHash": null,
+"fullName": "Christina Nguyen",
+"initials": "CN",
+"username": "christinathao"
+}
+},
 {
 "id": "58c2e03758caa4cc6ce0e6f2",
 "idMemberCreator": "589ded61e085f3d9cc97510a",
@@ -4240,8 +5649,8 @@
 "id": "58c1e1be079830bb30dfdf65",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T17:17:58.122Z",
-"desc": "Risk: High Value Low Risk\nPriority: \nPoints: 2",
+"dateLastActivity": "2017-04-17T15:03:33.973Z",
+"desc": "Risk: High Value Low Risk\nPriority: 3\nPoints: 2",
 "descData": {
 "emoji": {}
 },
@@ -4254,7 +5663,7 @@
 "idLabels": [
 "58c1e12dced82109ffa9dae7"
 ],
-"name": "Student should have it's name and game data saved to be accessed later",
+"name": "1. Student should have their name and game data saved to be accessed later",
 "pos": 65535,
 "shortLink": "Au3yoeub",
 "badges": {
@@ -4286,7 +5695,7 @@
 ],
 "shortUrl": "https://trello.com/c/Au3yoeub",
 "subscribed": false,
-"url": "https://trello.com/c/Au3yoeub/1-student-should-have-it-s-name-and-game-data-saved-to-be-accessed-later",
+"url": "https://trello.com/c/Au3yoeub/1-1-student-should-have-their-name-and-game-data-saved-to-be-accessed-later",
 "attachments": [],
 "pluginData": []
 },
@@ -4294,8 +5703,8 @@
 "id": "58c1e1e863f1baf11ca50ec7",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T03:03:37.826Z",
-"desc": "Risk: High Value High Risk\nPriority: \nPoints: 5",
+"dateLastActivity": "2017-04-17T15:03:38.903Z",
+"desc": "Risk: High Value High Risk\nPriority: 4\nPoints: 5",
 "descData": {
 "emoji": {}
 },
@@ -4308,7 +5717,7 @@
 "idLabels": [
 "58c1e12dced82109ffa9dae8"
 ],
-"name": "Student should be able to move the avatar only with the movement function block",
+"name": "2. Student should be able to move the avatar only with the movement function block",
 "pos": 131071,
 "shortLink": "IHvDtyca",
 "badges": {
@@ -4340,7 +5749,7 @@
 ],
 "shortUrl": "https://trello.com/c/IHvDtyca",
 "subscribed": false,
-"url": "https://trello.com/c/IHvDtyca/2-student-should-be-able-to-move-the-avatar-only-with-the-movement-function-block",
+"url": "https://trello.com/c/IHvDtyca/2-2-student-should-be-able-to-move-the-avatar-only-with-the-movement-function-block",
 "attachments": [],
 "pluginData": []
 },
@@ -4348,8 +5757,8 @@
 "id": "58c1e208688e8242fd5698cc",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T03:04:05.705Z",
-"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 1",
+"dateLastActivity": "2017-04-17T15:03:44.922Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 5\nPoints: 1",
 "descData": {
 "emoji": {}
 },
@@ -4362,7 +5771,7 @@
 "idLabels": [
 "58c1e12dced82109ffa9dae9"
 ],
-"name": "Student should be able to click and select their file",
+"name": "3. Student should be able to click and select their file",
 "pos": 196607,
 "shortLink": "pVHZLG5l",
 "badges": {
@@ -4394,7 +5803,7 @@
 ],
 "shortUrl": "https://trello.com/c/pVHZLG5l",
 "subscribed": false,
-"url": "https://trello.com/c/pVHZLG5l/3-student-should-be-able-to-click-and-select-their-file",
+"url": "https://trello.com/c/pVHZLG5l/3-3-student-should-be-able-to-click-and-select-their-file",
 "attachments": [],
 "pluginData": []
 },
@@ -4402,8 +5811,8 @@
 "id": "58c1e2252d847fc9cc593c96",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T03:04:42.092Z",
-"desc": "Risk: High Value High Risk\nPriority: \nPoints: 3",
+"dateLastActivity": "2017-04-17T15:03:08.011Z",
+"desc": "Risk: High Value High Risk\nPriority: 1\nPoints: 3",
 "descData": {
 "emoji": {}
 },
@@ -4416,7 +5825,7 @@
 "idLabels": [
 "58c1e12dced82109ffa9daea"
 ],
-"name": "TA should be able to see students progress as a whole",
+"name": "4. TA should be able to see students progress as a whole",
 "pos": 262143,
 "shortLink": "rtaAg4lL",
 "badges": {
@@ -4448,7 +5857,7 @@
 ],
 "shortUrl": "https://trello.com/c/rtaAg4lL",
 "subscribed": false,
-"url": "https://trello.com/c/rtaAg4lL/4-ta-should-be-able-to-see-students-progress-as-a-whole",
+"url": "https://trello.com/c/rtaAg4lL/4-4-ta-should-be-able-to-see-students-progress-as-a-whole",
 "attachments": [],
 "pluginData": []
 },
@@ -4456,8 +5865,8 @@
 "id": "58c1e23e79ab72bb245383e5",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T17:19:51.551Z",
-"desc": "Risk: High Value High Risk\nPriority: 1\nPoints: 2",
+"dateLastActivity": "2017-04-17T15:03:21.203Z",
+"desc": "Risk: High Value High Risk\nPriority: 2\nPoints: 2",
 "descData": {
 "emoji": {}
 },
@@ -4470,7 +5879,7 @@
 "idLabels": [
 "58c1e12dced82109ffa9daeb"
 ],
-"name": "TA should be able to see the individual student progress to compare",
+"name": "5. TA should be able to see the individual student progress to compare",
 "pos": 327679,
 "shortLink": "zSxgUwso",
 "badges": {
@@ -4502,7 +5911,7 @@
 ],
 "shortUrl": "https://trello.com/c/zSxgUwso",
 "subscribed": false,
-"url": "https://trello.com/c/zSxgUwso/5-ta-should-be-able-to-see-the-individual-student-progress-to-compare",
+"url": "https://trello.com/c/zSxgUwso/5-5-ta-should-be-able-to-see-the-individual-student-progress-to-compare",
 "attachments": [],
 "pluginData": []
 },
@@ -4510,8 +5919,8 @@
 "id": "58c1e2536d1abc426ec8dab5",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T03:05:25.595Z",
-"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 3",
+"dateLastActivity": "2017-04-17T15:04:32.184Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 7\nPoints: 3",
 "descData": {
 "emoji": {}
 },
@@ -4524,7 +5933,7 @@
 "idLabels": [
 "58c1e12dced82109ffa9daec"
 ],
-"name": "User should be able to move the code blocks",
+"name": "6. User should be able to move the code blocks",
 "pos": 393215,
 "shortLink": "fZNzOzyQ",
 "badges": {
@@ -4556,7 +5965,7 @@
 ],
 "shortUrl": "https://trello.com/c/fZNzOzyQ",
 "subscribed": false,
-"url": "https://trello.com/c/fZNzOzyQ/6-user-should-be-able-to-move-the-code-blocks",
+"url": "https://trello.com/c/fZNzOzyQ/6-6-user-should-be-able-to-move-the-code-blocks",
 "attachments": [],
 "pluginData": []
 },
@@ -4564,7 +5973,7 @@
 "id": "58c1e278530755e6512e213e",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T17:16:43.757Z",
+"dateLastActivity": "2017-04-07T20:07:46.237Z",
 "desc": "Risk: High Value High Risk\nPriority: \nPoints: 5",
 "descData": {
 "emoji": {}
@@ -4578,7 +5987,7 @@
 "idLabels": [
 "58c1e451ced82109ffa9e26f"
 ],
-"name": "Students should have an if/for statement",
+"name": "7. Students should have an for statement",
 "pos": 458751,
 "shortLink": "SZX5V2ZJ",
 "badges": {
@@ -4610,7 +6019,7 @@
 ],
 "shortUrl": "https://trello.com/c/SZX5V2ZJ",
 "subscribed": false,
-"url": "https://trello.com/c/SZX5V2ZJ/7-students-should-have-an-if-for-statement",
+"url": "https://trello.com/c/SZX5V2ZJ/7-7-students-should-have-an-for-statement",
 "attachments": [],
 "pluginData": []
 },
@@ -4618,7 +6027,7 @@
 "id": "58c1e2902517254366bc4202",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T03:06:05.581Z",
+"dateLastActivity": "2017-04-07T20:07:50.336Z",
 "desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 1",
 "descData": {
 "emoji": {}
@@ -4632,7 +6041,7 @@
 "idLabels": [
 "58c1e4b9ced82109ffa9e36c"
 ],
-"name": "Student should be able to select a level they have already completed",
+"name": "8. Student should be able to select a level they have already completed",
 "pos": 524287,
 "shortLink": "a3MDU0wT",
 "badges": {
@@ -4664,7 +6073,7 @@
 ],
 "shortUrl": "https://trello.com/c/a3MDU0wT",
 "subscribed": false,
-"url": "https://trello.com/c/a3MDU0wT/8-student-should-be-able-to-select-a-level-they-have-already-completed",
+"url": "https://trello.com/c/a3MDU0wT/8-8-student-should-be-able-to-select-a-level-they-have-already-completed",
 "attachments": [],
 "pluginData": []
 },
@@ -4672,7 +6081,7 @@
 "id": "58c2186f54d97e08c4f771df",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T03:09:23.516Z",
+"dateLastActivity": "2017-04-17T03:14:18.521Z",
 "desc": "Risk: High Value Low Risk\nPriority: \nPoints: 2",
 "descData": {
 "emoji": {}
@@ -4686,7 +6095,7 @@
 "idLabels": [
 "58c21877ced82109ffaa53a2"
 ],
-"name": "Students should have a container for their code blocks",
+"name": "9. Students should have a container for their code blocks",
 "pos": 589823,
 "shortLink": "utZq9q4A",
 "badges": {
@@ -4718,669 +6127,21 @@
 ],
 "shortUrl": "https://trello.com/c/utZq9q4A",
 "subscribed": false,
-"url": "https://trello.com/c/utZq9q4A/26-students-should-have-a-container-for-their-code-blocks",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e30bdc13b2ccbd7ba774",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T15:34:58.123Z",
-"desc": "Time: 2h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 12,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9dae7"
-],
-"name": "Save progress function for completion of level",
-"pos": 65535,
-"shortLink": "epCg0AXl",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwf0aptv74c1ljlg+1aur0mh7l9@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9dae7",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "green",
-"uses": 4
-}
-],
-"shortUrl": "https://trello.com/c/epCg0AXl",
-"subscribed": false,
-"url": "https://trello.com/c/epCg0AXl/12-save-progress-function-for-completion-of-level",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e32d3dd44face984f7a6",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T15:34:59.989Z",
-"desc": "Time: 2.5h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 14,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9dae8"
-],
-"name": "Move Right function",
-"pos": 196607,
-"shortLink": "A0rqdrQZ",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwim968wp2izpcpy+2jjmob47om@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9dae8",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "yellow",
-"uses": 7
-}
-],
-"shortUrl": "https://trello.com/c/A0rqdrQZ",
-"subscribed": false,
-"url": "https://trello.com/c/A0rqdrQZ/14-move-right-function",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e33444f9f3915c67094a",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T15:35:01.455Z",
-"desc": "Time 2.5h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 15,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9dae8"
-],
-"name": "Move Forward function",
-"pos": 262143,
-"shortLink": "69H5AQjg",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwjdm4tzfmgzrlmy+196a8xlfjs@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9dae8",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "yellow",
-"uses": 7
-}
-],
-"shortUrl": "https://trello.com/c/69H5AQjg",
-"subscribed": false,
-"url": "https://trello.com/c/69H5AQjg/15-move-forward-function",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e33bfca2562cbed0fe40",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T15:35:48.626Z",
-"desc": "Time 1.5h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 16,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9dae8"
-],
-"name": "Move Backward Function",
-"pos": 327679,
-"shortLink": "2W5q6XDX",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwk7nq6tefqvr96o+036dowt33u@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9dae8",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "yellow",
-"uses": 7
-}
-],
-"shortUrl": "https://trello.com/c/2W5q6XDX",
-"subscribed": false,
-"url": "https://trello.com/c/2W5q6XDX/16-move-backward-function",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e342cb2f0de6812f98c5",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T15:35:02.886Z",
-"desc": "Time: 3h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 17,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9dae8"
-],
-"name": "Run code Function",
-"pos": 393215,
-"shortLink": "KEr3I831",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwky5pbmdxg6lfph+0fddnurw14@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9dae8",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "yellow",
-"uses": 7
-}
-],
-"shortUrl": "https://trello.com/c/KEr3I831",
-"subscribed": false,
-"url": "https://trello.com/c/KEr3I831/17-run-code-function",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e347c429faccacb764df",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T15:35:51.645Z",
-"desc": "Time: 3h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 18,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9dae8"
-],
-"name": "Clear Function",
-"pos": 458751,
-"shortLink": "xyVL9n3D",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwlhilx57x70l7fj+2ij1nx9ovs@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9dae8",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "yellow",
-"uses": 7
-}
-],
-"shortUrl": "https://trello.com/c/xyVL9n3D",
-"subscribed": false,
-"url": "https://trello.com/c/xyVL9n3D/18-clear-function",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e3875a57ad89e3ae748c",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T15:35:04.821Z",
-"desc": "Time: 1.5h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 19,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9dae9"
-],
-"name": "Create a save/load button",
-"pos": 524287,
-"shortLink": "9W9LEiOl",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwsd299sdt7ktymk+1cgtkh3oo0@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9dae9",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "orange",
-"uses": 4
-}
-],
-"shortUrl": "https://trello.com/c/9W9LEiOl",
-"subscribed": false,
-"url": "https://trello.com/c/9W9LEiOl/19-create-a-save-load-button",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e3b6a93228cce457932a",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T17:18:47.837Z",
-"desc": "Time: 1.5h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 20,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9daea"
-],
-"name": "Display the number of students registered and their cumulative statistics",
-"pos": 589823,
-"shortLink": "MEX8HpAW",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwxh8go9wtvfahpm+26ubjjxe0r@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9daea",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "red",
-"uses": 2
-}
-],
-"shortUrl": "https://trello.com/c/MEX8HpAW",
-"subscribed": false,
-"url": "https://trello.com/c/MEX8HpAW/20-display-the-number-of-students-registered-and-their-cumulative-statistics",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e3e1d5a752bb40277197",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T17:19:04.542Z",
-"desc": "Time: 1.5h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 21,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9daeb"
-],
-"name": "Display individual user progress",
-"pos": 655359,
-"shortLink": "VufuWVOa",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgx25b8mkp13ynmvr+08lueldifc@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9daeb",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "purple",
-"uses": 2
-}
-],
-"shortUrl": "https://trello.com/c/VufuWVOa",
-"subscribed": false,
-"url": "https://trello.com/c/VufuWVOa/21-display-individual-user-progress",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e3ea6c472351a0f96a63",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T15:35:38.340Z",
-"desc": "Time: 4h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 22,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9daec"
-],
-"name": "Drag and Drop feature",
-"pos": 671743,
-"shortLink": "8BGyFQW3",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgx32qwbx65rwxysj+0zty1ret32@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9daec",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "blue",
-"uses": 2
-}
-],
-"shortUrl": "https://trello.com/c/8BGyFQW3",
-"subscribed": false,
-"url": "https://trello.com/c/8BGyFQW3/22-drag-and-drop-feature",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e3fb60ab2289c69f37e7",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T17:11:50.720Z",
-"desc": "Time: 2.5h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 24,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e451ced82109ffa9e26f"
-],
-"name": "For loop with different iterations",
-"pos": 688127,
-"shortLink": "udtxU8PX",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgx4wr35gedq3k6av+16phg9npo9@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e451ced82109ffa9e26f",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "sky",
-"uses": 3
-}
-],
-"shortUrl": "https://trello.com/c/udtxU8PX",
-"subscribed": false,
-"url": "https://trello.com/c/udtxU8PX/24-for-loop-with-different-iterations",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e311eb7ca98a5a9f3439",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T17:11:30.252Z",
-"desc": "Time: 2.5h",
-"descData": {
-"emoji": {}
-},
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 13,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c1e12dced82109ffa9dae8"
-],
-"name": "Move Left function",
-"pos": 712703,
-"shortLink": "ohaWWbeB",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": true,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwfnw1vkdf2yabsp+2e6uvvy2vp@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c1e12dced82109ffa9dae8",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "yellow",
-"uses": 7
-}
-],
-"shortUrl": "https://trello.com/c/ohaWWbeB",
-"subscribed": false,
-"url": "https://trello.com/c/ohaWWbeB/13-move-left-function",
+"url": "https://trello.com/c/utZq9q4A/26-9-students-should-have-a-container-for-their-code-blocks",
 "attachments": [],
 "pluginData": []
 },
 {
 "id": "58c1e3f3948a6daf77e69511",
 "checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T17:11:22.652Z",
+"closed": true,
+"dateLastActivity": "2017-03-27T13:02:36.712Z",
 "desc": "Time: 2.5h",
 "descData": {
 "emoji": {}
 },
 "idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
+"idList": "58c1e157363ce32d479431ae",
 "idMembersVoted": [],
 "idShort": 23,
 "idAttachmentCover": null,
@@ -5425,10 +6186,658 @@
 "pluginData": []
 },
 {
+"id": "58c1e30bdc13b2ccbd7ba774",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:28:56.287Z",
+"desc": "Time: 2h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 12,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9dae7"
+],
+"name": "1.1 Save progress function for completion of level",
+"pos": 65535,
+"shortLink": "epCg0AXl",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwf0aptv74c1ljlg+1aur0mh7l9@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9dae7",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "green",
+"uses": 4
+}
+],
+"shortUrl": "https://trello.com/c/epCg0AXl",
+"subscribed": false,
+"url": "https://trello.com/c/epCg0AXl/12-1-1-save-progress-function-for-completion-of-level",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e32d3dd44face984f7a6",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:29:11.427Z",
+"desc": "Time: 2.5h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 14,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9dae8"
+],
+"name": "2.1 Move Right function",
+"pos": 196607,
+"shortLink": "A0rqdrQZ",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwim968wp2izpcpy+2jjmob47om@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9dae8",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "yellow",
+"uses": 7
+}
+],
+"shortUrl": "https://trello.com/c/A0rqdrQZ",
+"subscribed": false,
+"url": "https://trello.com/c/A0rqdrQZ/14-2-1-move-right-function",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e311eb7ca98a5a9f3439",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:29:16.343Z",
+"desc": "Time: 2.5h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 13,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9dae8"
+],
+"name": "2.2 Move Left function",
+"pos": 229375,
+"shortLink": "ohaWWbeB",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwfnw1vkdf2yabsp+2e6uvvy2vp@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9dae8",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "yellow",
+"uses": 7
+}
+],
+"shortUrl": "https://trello.com/c/ohaWWbeB",
+"subscribed": false,
+"url": "https://trello.com/c/ohaWWbeB/13-2-2-move-left-function",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e33444f9f3915c67094a",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:29:21.876Z",
+"desc": "Time 2.5h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 15,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9dae8"
+],
+"name": "2.3 Move Forward function",
+"pos": 262143,
+"shortLink": "69H5AQjg",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwjdm4tzfmgzrlmy+196a8xlfjs@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9dae8",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "yellow",
+"uses": 7
+}
+],
+"shortUrl": "https://trello.com/c/69H5AQjg",
+"subscribed": false,
+"url": "https://trello.com/c/69H5AQjg/15-2-3-move-forward-function",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e33bfca2562cbed0fe40",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:29:27.694Z",
+"desc": "Time 1.5h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 16,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9dae8"
+],
+"name": "2.4 Move Backward Function",
+"pos": 327679,
+"shortLink": "2W5q6XDX",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwk7nq6tefqvr96o+036dowt33u@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9dae8",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "yellow",
+"uses": 7
+}
+],
+"shortUrl": "https://trello.com/c/2W5q6XDX",
+"subscribed": false,
+"url": "https://trello.com/c/2W5q6XDX/16-2-4-move-backward-function",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e342cb2f0de6812f98c5",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:29:36.894Z",
+"desc": "Time: 3h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 17,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9dae8"
+],
+"name": "2.5 Run code Function",
+"pos": 393215,
+"shortLink": "KEr3I831",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwky5pbmdxg6lfph+0fddnurw14@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9dae8",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "yellow",
+"uses": 7
+}
+],
+"shortUrl": "https://trello.com/c/KEr3I831",
+"subscribed": false,
+"url": "https://trello.com/c/KEr3I831/17-2-5-run-code-function",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e347c429faccacb764df",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:29:39.585Z",
+"desc": "Time: 3h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 18,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9dae8"
+],
+"name": "2.6 Clear Function",
+"pos": 458751,
+"shortLink": "xyVL9n3D",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwlhilx57x70l7fj+2ij1nx9ovs@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9dae8",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "yellow",
+"uses": 7
+}
+],
+"shortUrl": "https://trello.com/c/xyVL9n3D",
+"subscribed": false,
+"url": "https://trello.com/c/xyVL9n3D/18-2-6-clear-function",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e3875a57ad89e3ae748c",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:29:53.197Z",
+"desc": "Time: 1.5h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 19,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9dae9"
+],
+"name": "3.1 Create a save/load button",
+"pos": 524287,
+"shortLink": "9W9LEiOl",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwsd299sdt7ktymk+1cgtkh3oo0@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9dae9",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "orange",
+"uses": 4
+}
+],
+"shortUrl": "https://trello.com/c/9W9LEiOl",
+"subscribed": false,
+"url": "https://trello.com/c/9W9LEiOl/19-3-1-create-a-save-load-button",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e3b6a93228cce457932a",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:30:01.406Z",
+"desc": "Time: 1.5h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 20,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9daea"
+],
+"name": "4.1 Display the number of students registered and their cumulative statistics",
+"pos": 589823,
+"shortLink": "MEX8HpAW",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgwxh8go9wtvfahpm+26ubjjxe0r@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9daea",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "red",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/MEX8HpAW",
+"subscribed": false,
+"url": "https://trello.com/c/MEX8HpAW/20-4-1-display-the-number-of-students-registered-and-their-cumulative-statistics",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e3e1d5a752bb40277197",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:30:10.085Z",
+"desc": "Time: 1.5h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 21,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9daeb"
+],
+"name": "5.1 Display individual user progress",
+"pos": 655359,
+"shortLink": "VufuWVOa",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgx25b8mkp13ynmvr+08lueldifc@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9daeb",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "purple",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/VufuWVOa",
+"subscribed": false,
+"url": "https://trello.com/c/VufuWVOa/21-5-1-display-individual-user-progress",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e3ea6c472351a0f96a63",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:30:15.892Z",
+"desc": "Time: 4h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 22,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e12dced82109ffa9daec"
+],
+"name": "6.1 Drag and Drop feature",
+"pos": 671743,
+"shortLink": "8BGyFQW3",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgx32qwbx65rwxysj+0zty1ret32@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e12dced82109ffa9daec",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "blue",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/8BGyFQW3",
+"subscribed": false,
+"url": "https://trello.com/c/8BGyFQW3/22-6-1-drag-and-drop-feature",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e3fb60ab2289c69f37e7",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:30:21.713Z",
+"desc": "Time: 2.5h",
+"descData": {
+"emoji": {}
+},
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e15d3ec6b0af536ff3fd",
+"idMembersVoted": [],
+"idShort": 24,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c1e451ced82109ffa9e26f"
+],
+"name": "7.1 For loop with different iterations",
+"pos": 688127,
+"shortLink": "udtxU8PX",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": true,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgx4wr35gedq3k6av+16phg9npo9@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c1e451ced82109ffa9e26f",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "sky",
+"uses": 3
+}
+],
+"shortUrl": "https://trello.com/c/udtxU8PX",
+"subscribed": false,
+"url": "https://trello.com/c/udtxU8PX/24-7-1-for-loop-with-different-iterations",
+"attachments": [],
+"pluginData": []
+},
+{
 "id": "58c1e4cdd31eaf8929593ff0",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T15:35:31.684Z",
+"dateLastActivity": "2017-04-17T14:30:32.011Z",
 "desc": "Time: 2h",
 "descData": {
 "emoji": {}
@@ -5442,7 +6851,7 @@
 "idLabels": [
 "58c1e4b9ced82109ffa9e36c"
 ],
-"name": "Create a level select page",
+"name": "8.1 Create a level select page",
 "pos": 786431,
 "shortLink": "28q9z9TS",
 "badges": {
@@ -5474,7 +6883,7 @@
 ],
 "shortUrl": "https://trello.com/c/28q9z9TS",
 "subscribed": false,
-"url": "https://trello.com/c/28q9z9TS/25-create-a-level-select-page",
+"url": "https://trello.com/c/28q9z9TS/25-8-1-create-a-level-select-page",
 "attachments": [],
 "pluginData": []
 },
@@ -5482,7 +6891,7 @@
 "id": "58c218a58b6bad19cd6bf59c",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T15:35:41.922Z",
+"dateLastActivity": "2017-04-17T14:30:39.728Z",
 "desc": "Time: 5h",
 "descData": {
 "emoji": {}
@@ -5496,7 +6905,7 @@
 "idLabels": [
 "58c21877ced82109ffaa53a2"
 ],
-"name": "Create separate containers where students can move their code blocks",
+"name": "9.1 Create separate containers where students can move their code blocks",
 "pos": 983039,
 "shortLink": "47ti0AL1",
 "badges": {
@@ -5528,59 +6937,7 @@
 ],
 "shortUrl": "https://trello.com/c/47ti0AL1",
 "subscribed": false,
-"url": "https://trello.com/c/47ti0AL1/27-create-separate-containers-where-students-can-move-their-code-blocks",
-"attachments": [],
-"pluginData": []
-},
-{
-"id": "58c1e2a10de714bdf575b234",
-"checkItemStates": null,
-"closed": false,
-"dateLastActivity": "2017-03-10T15:36:08.547Z",
-"desc": "",
-"descData": null,
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"idList": "58c1e15d3ec6b0af536ff3fd",
-"idMembersVoted": [],
-"idShort": 9,
-"idAttachmentCover": null,
-"manualCoverAttachment": false,
-"idLabels": [
-"58c29a40ced82109ffabc883"
-],
-"name": "Travis CI",
-"pos": 999423,
-"shortLink": "t4wuDd0w",
-"badges": {
-"votes": 0,
-"viewingMemberVoted": false,
-"subscribed": false,
-"fogbugz": "",
-"checkItems": 0,
-"checkItemsChecked": 0,
-"comments": 0,
-"attachments": 0,
-"description": false,
-"due": null,
-"dueComplete": false
-},
-"dueComplete": false,
-"due": null,
-"email": "loichuss+2nq05gieagbvn2fu5du+2nvgw3ghz4jmlb26fjo+18hdibkcnz@boards.trello.com",
-"idChecklists": [],
-"idMembers": [],
-"labels": [
-{
-"id": "58c29a40ced82109ffabc883",
-"idBoard": "58c1e12de6752148aa6bf4bb",
-"name": "",
-"color": "black",
-"uses": 2
-}
-],
-"shortUrl": "https://trello.com/c/t4wuDd0w",
-"subscribed": false,
-"url": "https://trello.com/c/t4wuDd0w/9-travis-ci",
+"url": "https://trello.com/c/47ti0AL1/27-9-1-create-separate-containers-where-students-can-move-their-code-blocks",
 "attachments": [],
 "pluginData": []
 },
@@ -5696,8 +7053,8 @@
 "id": "58c299ced5a752bb402f1571",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T12:25:39.377Z",
-"desc": "Risk: High Value High Risk\nPriority: \nPoints: 5",
+"dateLastActivity": "2017-04-17T15:04:15.704Z",
+"desc": "Risk: High Value High Risk\nPriority: 9\nPoints: 5",
 "descData": {
 "emoji": {}
 },
@@ -5750,8 +7107,8 @@
 "id": "58c29a045c2c5c6ed088037a",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T12:25:55.260Z",
-"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 2",
+"dateLastActivity": "2017-04-17T15:03:58.076Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 6\nPoints: 2",
 "descData": {
 "emoji": {}
 },
@@ -5804,8 +7161,8 @@
 "id": "58c29a33e2c249bb2b094f17",
 "checkItemStates": null,
 "closed": false,
-"dateLastActivity": "2017-03-10T12:26:30.390Z",
-"desc": "Risk: Low Value Low Risk\nPriority: \nPoints: 1",
+"dateLastActivity": "2017-04-17T15:04:22.842Z",
+"desc": "Risk: Low Value Low Risk\nPriority: 8\nPoints: 1",
 "descData": {
 "emoji": {}
 },
@@ -5851,6 +7208,58 @@
 "shortUrl": "https://trello.com/c/S4qF5NWE",
 "subscribed": false,
 "url": "https://trello.com/c/S4qF5NWE/30-game-pages-should-be-accessible-in-the-game",
+"attachments": [],
+"pluginData": []
+},
+{
+"id": "58c1e2a10de714bdf575b234",
+"checkItemStates": null,
+"closed": false,
+"dateLastActivity": "2017-04-17T14:30:45.619Z",
+"desc": "",
+"descData": null,
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"idList": "58c1e17c6c472351a0f94f40",
+"idMembersVoted": [],
+"idShort": 9,
+"idAttachmentCover": null,
+"manualCoverAttachment": false,
+"idLabels": [
+"58c29a40ced82109ffabc883"
+],
+"name": "Travis CI",
+"pos": 999423,
+"shortLink": "t4wuDd0w",
+"badges": {
+"votes": 0,
+"viewingMemberVoted": false,
+"subscribed": false,
+"fogbugz": "",
+"checkItems": 0,
+"checkItemsChecked": 0,
+"comments": 0,
+"attachments": 0,
+"description": false,
+"due": null,
+"dueComplete": false
+},
+"dueComplete": false,
+"due": null,
+"email": "loichuss+2nq05gieagbvn2fu5du+2nvgw3ghz4jmlb26fjo+18hdibkcnz@boards.trello.com",
+"idChecklists": [],
+"idMembers": [],
+"labels": [
+{
+"id": "58c29a40ced82109ffabc883",
+"idBoard": "58c1e12de6752148aa6bf4bb",
+"name": "",
+"color": "black",
+"uses": 2
+}
+],
+"shortUrl": "https://trello.com/c/t4wuDd0w",
+"subscribed": false,
+"url": "https://trello.com/c/t4wuDd0w/9-travis-ci",
 "attachments": [],
 "pluginData": []
 }
