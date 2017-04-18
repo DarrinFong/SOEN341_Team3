@@ -25,13 +25,6 @@ public class CharacterActions : MonoBehaviour {
 		femaleAvatar.GetComponent<Renderer>().enabled = !male;
         Physics.IgnoreCollision(GameObject.Find("Male").GetComponent<SphereCollider>(), GameObject.Find("Female").GetComponent<SphereCollider>());
     }
-
-    public void setMale(bool male)
-    {
-        this.male = male;
-		maleAvatar.GetComponent<Renderer>().enabled = male;
-		femaleAvatar.GetComponent<Renderer>().enabled = !male;
-    }
     
     public void right()
     {
