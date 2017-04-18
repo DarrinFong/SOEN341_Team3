@@ -73,7 +73,6 @@
      <Compile Include="Assets\Scenes\Scripts\TAView.cs" />
      <Compile Include="Assets\Scenes\Scripts\TogglePanelClose.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
-     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControlGirl.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponent.cs" />
